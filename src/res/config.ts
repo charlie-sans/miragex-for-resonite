@@ -17,10 +17,10 @@ const {
   CV_OWNER_ID,
 } = process.env;
 
-const appCode = APP_CODE ?? "UniPocket";
-const rawFallbackUrl = MIRAGE_URL ?? `http://localhost:${MIRAGE_PORT ?? 3000}/`;
+const appCode = "Cat_Viewer";
+const rawFallbackUrl = MIRAGE_URL ?? `http://localhost:${MIRAGE_PORT ?? 3001}/`;
 const fallbackHost =
-  rawFallbackUrl.split("/")[2] ?? `localhost:${MIRAGE_PORT ?? 3000}/`;
+  rawFallbackUrl.split("/")[2] ?? `localhost:${MIRAGE_PORT ?? 3001}/`;
 const fallbackUseSSL = rawFallbackUrl.startsWith("https");
 
 console.log(fallbackHost, fallbackUseSSL);
