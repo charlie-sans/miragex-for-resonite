@@ -25,8 +25,8 @@ const {
 export const config: Config = {
   appCode: APP_CODE ?? "SampleMirageXApp",
   mirage: {
-    url: MIRAGE_URL ?? "http://localhost:3001",
-    port: MIRAGE_PORT ?? "3001",
+    url: MIRAGE_URL ?? "http://localhost:3000",
+    port: MIRAGE_PORT ?? "3000",
     serverId: MIRAGE_SERVER_ID ?? "xxx",
   },
   auth: {

@@ -34,7 +34,7 @@ OrderOffset:
 Components:
   ID: "?"
   Data:
-    - Type: FrooxEngine.DynamicVariableSpace
+    - Type: "[FrooxEngine]FrooxEngine.DynamicVariableSpace"
       Data:
         ID: "?"
         persistent-ID: "?"
@@ -87,7 +87,8 @@ Children:
     Components:
       ID: "?"
       Data:
-        - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+        - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+            ne.Slot>"
           Data:
             ID: "?"
             persistent-ID: "?"
@@ -143,7 +144,7 @@ Children:
     Components:
       ID: "?"
       Data:
-        - Type: FrooxEngine.DynamicVariableSpace
+        - Type: "[FrooxEngine]FrooxEngine.DynamicVariableSpace"
           Data:
             ID: "?"
             persistent-ID: "?"
@@ -196,7 +197,8 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -215,7 +217,8 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -234,7 +237,8 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -290,7 +294,7 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.DynamicField`1[System.Single]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<float>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -305,11 +309,11 @@ Children:
                   Data: Props.paddingTop
                 TargetField:
                   ID: "?"
-                  Data: ID:GridLayout:Components:FrooxEngine.UIX.GridLayout:PaddingTop:0
+                  Data: ID:GridLayout:Components:[FrooxEngine]FrooxEngine.UIX.GridLayout:PaddingTop:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.Single]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<float>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -324,11 +328,11 @@ Children:
                   Data: Props.paddingRight
                 TargetField:
                   ID: "?"
-                  Data: ID:GridLayout:Components:FrooxEngine.UIX.GridLayout:PaddingRight:0
+                  Data: ID:GridLayout:Components:[FrooxEngine]FrooxEngine.UIX.GridLayout:PaddingRight:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.Single]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<float>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -343,11 +347,11 @@ Children:
                   Data: Props.paddingBottom
                 TargetField:
                   ID: "?"
-                  Data: ID:GridLayout:Components:FrooxEngine.UIX.GridLayout:PaddingBottom:0
+                  Data: ID:GridLayout:Components:[FrooxEngine]FrooxEngine.UIX.GridLayout:PaddingBottom:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.Single]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<float>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -362,11 +366,11 @@ Children:
                   Data: Props.paddingLeft
                 TargetField:
                   ID: "?"
-                  Data: ID:GridLayout:Components:FrooxEngine.UIX.GridLayout:PaddingLeft:0
+                  Data: ID:GridLayout:Components:[FrooxEngine]FrooxEngine.UIX.GridLayout:PaddingLeft:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[Elements.Core.float2]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<float2>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -381,11 +385,11 @@ Children:
                   Data: Props.cellSize
                 TargetField:
                   ID: "?"
-                  Data: ID:GridLayout:Components:FrooxEngine.UIX.GridLayout:CellSize:0
+                  Data: ID:GridLayout:Components:[FrooxEngine]FrooxEngine.UIX.GridLayout:CellSize:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[Elements.Core.float2]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<float2>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -400,11 +404,12 @@ Children:
                   Data: Props.spacing
                 TargetField:
                   ID: "?"
-                  Data: ID:GridLayout:Components:FrooxEngine.UIX.GridLayout:Spacing:0
+                  Data: ID:GridLayout:Components:[FrooxEngine]FrooxEngine.UIX.GridLayout:Spacing:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[FrooxEngine.UIX.LayoutHorizontalAlignment]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<[FrooxEngine]FrooxEngine.UIX.Layou\
+                tHorizontalAlignment>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -419,11 +424,12 @@ Children:
                   Data: Props.horizontalAlignment
                 TargetField:
                   ID: "?"
-                  Data: ID:GridLayout:Components:FrooxEngine.UIX.GridLayout:HorizontalAlign:0
+                  Data: ID:GridLayout:Components:[FrooxEngine]FrooxEngine.UIX.GridLayout:HorizontalAlign:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[FrooxEngine.UIX.LayoutVerticalAlignment]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<[FrooxEngine]FrooxEngine.UIX.Layou\
+                tVerticalAlignment>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -438,11 +444,11 @@ Children:
                   Data: Props.verticalAlignment
                 TargetField:
                   ID: "?"
-                  Data: ID:GridLayout:Components:FrooxEngine.UIX.GridLayout:VerticalAlign:0
+                  Data: ID:GridLayout:Components:[FrooxEngine]FrooxEngine.UIX.GridLayout:VerticalAlign:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.Boolean]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<bool>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -457,11 +463,11 @@ Children:
                   Data: Props.expandWidthToFit
                 TargetField:
                   ID: "?"
-                  Data: ID:GridLayout:Components:FrooxEngine.UIX.GridLayout:ExpandWidthToFit:0
+                  Data: ID:GridLayout:Components:[FrooxEngine]FrooxEngine.UIX.GridLayout:ExpandWidthToFit:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.Boolean]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<bool>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -476,11 +482,11 @@ Children:
                   Data: Props.preserveAspectOnExpand
                 TargetField:
                   ID: "?"
-                  Data: ID:GridLayout:Components:FrooxEngine.UIX.GridLayout:PreserveAspectOnExpand:0
+                  Data: ID:GridLayout:Components:[FrooxEngine]FrooxEngine.UIX.GridLayout:PreserveAspectOnExpand:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.Boolean]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<bool>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -495,7 +501,7 @@ Children:
                   Data: Props.alignLastRowIndividually
                 TargetField:
                   ID: "?"
-                  Data: ID:GridLayout:Components:FrooxEngine.UIX.GridLayout:AlignLastRowIndividually:0
+                  Data: ID:GridLayout:Components:[FrooxEngine]FrooxEngine.UIX.GridLayout:AlignLastRowIndividually:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
@@ -536,7 +542,7 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.UIX.GridLayout
+            - Type: "[FrooxEngine]FrooxEngine.UIX.GridLayout"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -547,43 +553,43 @@ Children:
                   ID: "?"
                   Data: true
                 PaddingTop:
-                  ID: ID:GridLayout:Components:FrooxEngine.UIX.GridLayout:PaddingTop:0
+                  ID: ID:GridLayout:Components:[FrooxEngine]FrooxEngine.UIX.GridLayout:PaddingTop:0
                   Data: 0
                 PaddingRight:
-                  ID: ID:GridLayout:Components:FrooxEngine.UIX.GridLayout:PaddingRight:0
+                  ID: ID:GridLayout:Components:[FrooxEngine]FrooxEngine.UIX.GridLayout:PaddingRight:0
                   Data: 0
                 PaddingBottom:
-                  ID: ID:GridLayout:Components:FrooxEngine.UIX.GridLayout:PaddingBottom:0
+                  ID: ID:GridLayout:Components:[FrooxEngine]FrooxEngine.UIX.GridLayout:PaddingBottom:0
                   Data: 0
                 PaddingLeft:
-                  ID: ID:GridLayout:Components:FrooxEngine.UIX.GridLayout:PaddingLeft:0
+                  ID: ID:GridLayout:Components:[FrooxEngine]FrooxEngine.UIX.GridLayout:PaddingLeft:0
                   Data: 0
                 CellSize:
-                  ID: ID:GridLayout:Components:FrooxEngine.UIX.GridLayout:CellSize:0
+                  ID: ID:GridLayout:Components:[FrooxEngine]FrooxEngine.UIX.GridLayout:CellSize:0
                   Data:
                     - 33333.333333333336
                     - 33333.333333333336
                 Spacing:
-                  ID: ID:GridLayout:Components:FrooxEngine.UIX.GridLayout:Spacing:0
+                  ID: ID:GridLayout:Components:[FrooxEngine]FrooxEngine.UIX.GridLayout:Spacing:0
                   Data:
                     - 0
                     - 0
                 HorizontalAlign:
-                  ID: ID:GridLayout:Components:FrooxEngine.UIX.GridLayout:HorizontalAlign:0
+                  ID: ID:GridLayout:Components:[FrooxEngine]FrooxEngine.UIX.GridLayout:HorizontalAlign:0
                   Data: Left
                 VerticalAlign:
-                  ID: ID:GridLayout:Components:FrooxEngine.UIX.GridLayout:VerticalAlign:0
+                  ID: ID:GridLayout:Components:[FrooxEngine]FrooxEngine.UIX.GridLayout:VerticalAlign:0
                   Data: Top
                 ExpandWidthToFit:
-                  ID: ID:GridLayout:Components:FrooxEngine.UIX.GridLayout:ExpandWidthToFit:0
+                  ID: ID:GridLayout:Components:[FrooxEngine]FrooxEngine.UIX.GridLayout:ExpandWidthToFit:0
                   Data: false
                 PreserveAspectOnExpand:
-                  ID: ID:GridLayout:Components:FrooxEngine.UIX.GridLayout:PreserveAspectOnExpand:0
+                  ID: ID:GridLayout:Components:[FrooxEngine]FrooxEngine.UIX.GridLayout:PreserveAspectOnExpand:0
                   Data: true
                 AlignLastRowIndividually:
-                  ID: ID:GridLayout:Components:FrooxEngine.UIX.GridLayout:AlignLastRowIndividually:0
+                  ID: ID:GridLayout:Components:[FrooxEngine]FrooxEngine.UIX.GridLayout:AlignLastRowIndividually:0
                   Data: false
-            - Type: FrooxEngine.UIX.RectTransform
+            - Type: "[FrooxEngine]FrooxEngine.UIX.RectTransform"
               Data:
                 ID: "?"
                 persistent-ID: "?"

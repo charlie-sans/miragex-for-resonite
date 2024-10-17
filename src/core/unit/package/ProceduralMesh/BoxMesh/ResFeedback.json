@@ -1,0 +1,3982 @@
+{
+  "Object": {
+    "ID": "18d46a79-d08b-44bd-ab7d-3f9e3ee6cfc5",
+    "Components": {
+      "ID": "8644be38-d055-431a-9e81-c7a66cb23097",
+      "Data": [
+        {
+          "Type": 1,
+          "Data": {
+            "ID": "1b436289-5a95-456b-8981-a4618386cf56",
+            "persistent-ID": "072171c8-1fb4-4b35-8a5d-52bab433375e",
+            "UpdateOrder": {
+              "ID": "438fc63c-622e-4f14-b059-063d66a215ce",
+              "Data": 0
+            },
+            "Enabled": {
+              "ID": "e5cf32e5-ccdc-4b76-9aa4-04df8dbe1547",
+              "Data": true
+            },
+            "SpaceName": {
+              "ID": "ce268419-788b-4517-981b-39eabd683257",
+              "Data": ""
+            },
+            "OnlyDirectBinding": {
+              "ID": "6bd0dccb-4bda-4bfc-bcad-f50d4fcbc6bf",
+              "Data": false
+            }
+          }
+        }
+      ]
+    },
+    "Name": {
+      "ID": "80ffa72a-1df2-461d-a8b5-8b3848db8344",
+      "Data": "ProceduralMesh/BoxMesh"
+    },
+    "Tag": {
+      "ID": "59930bf9-f419-40c7-a862-ace548088424",
+      "Data": ""
+    },
+    "Active": {
+      "ID": "cd021769-46c8-4193-b1f6-8a61c0660080",
+      "Data": true
+    },
+    "Persistent-ID": "0b8592c3-8dde-4f60-a9d5-09221dec553e",
+    "Position": {
+      "ID": "0b166889-e983-48cd-8568-38f868b7bd5c",
+      "Data": [0, 0, 0]
+    },
+    "Rotation": {
+      "ID": "2bc6f12d-0e81-4c73-b46c-1d4246d5cac4",
+      "Data": [0, 0, 0, 1]
+    },
+    "Scale": {
+      "ID": "fe0293d4-c78e-456d-bec0-3c8fb7ba2f27",
+      "Data": [1, 1, 1]
+    },
+    "OrderOffset": {
+      "ID": "3992e842-40d9-4a1b-aa66-953f1c871301",
+      "Data": 0
+    },
+    "ParentReference": "77c29d85-6447-4107-b608-68727359e7ee",
+    "Children": [
+      {
+        "ID": "90386a30-77ce-4a81-8213-50ab257a688f",
+        "Components": {
+          "ID": "c270a7fa-d8e7-4f2e-9c40-ab1957537911",
+          "Data": [
+            {
+              "Type": 4,
+              "Data": {
+                "ID": "53152c09-d9a1-404a-a08d-90659bc63b11",
+                "persistent-ID": "92182c40-ca1e-4bde-b91c-c2c513459f40",
+                "UpdateOrder": {
+                  "ID": "a2254e90-ffec-4e2d-baeb-477067fa6c65",
+                  "Data": 0
+                },
+                "Enabled": {
+                  "ID": "a59b2c27-0d9b-4bac-8deb-2bf5f53078a8",
+                  "Data": true
+                },
+                "VariableName": {
+                  "ID": "3d88d273-a32a-44a7-afd6-3775d3ac3bca",
+                  "Data": "Static.Ref"
+                },
+                "Reference": {
+                  "ID": "0ae44597-f5d6-4b3a-ae3b-2b506428f08e",
+                  "Data": "cc87c0b3-2a1d-4728-8486-c52c6eacc11a"
+                },
+                "OverrideOnLink": {
+                  "ID": "2e3b0af4-36bd-46cf-a4ff-483fe93c2bc2",
+                  "Data": false
+                }
+              }
+            }
+          ]
+        },
+        "Name": {
+          "ID": "44165902-aab4-4a64-b302-b723a1208500",
+          "Data": "DV"
+        },
+        "Tag": {
+          "ID": "c99317bc-e202-4b97-93b7-424c4c010006",
+          "Data": ""
+        },
+        "Active": {
+          "ID": "dcc566fa-123e-47a9-b4a1-a00f9401f60d",
+          "Data": true
+        },
+        "Persistent-ID": "7a0a603b-51c8-4e18-8796-bd3aad85c22a",
+        "Position": {
+          "ID": "e185c42c-bc05-44d0-a504-ebde6df6311f",
+          "Data": [0, 0, 0]
+        },
+        "Rotation": {
+          "ID": "a15aa0a6-5ab8-4cc1-93db-6c50d023c173",
+          "Data": [0, 0, 0, 1]
+        },
+        "Scale": {
+          "ID": "378376db-90c4-4ade-9e52-f20721cbc7ff",
+          "Data": [1, 1, 1]
+        },
+        "OrderOffset": {
+          "ID": "890fab7d-1f39-414f-b769-d21b5078c983",
+          "Data": 0
+        },
+        "ParentReference": "236fe535-e56b-45f9-bc98-64a3cadd5c94",
+        "Children": []
+      },
+      {
+        "ID": "cc87c0b3-2a1d-4728-8486-c52c6eacc11a",
+        "Components": {
+          "ID": "f38e4533-6d54-4e54-8db9-e06901ac1570",
+          "Data": [
+            {
+              "Type": 1,
+              "Data": {
+                "ID": "5147d319-dd82-443e-87d0-ffac834a5151",
+                "persistent-ID": "4c9f265b-22a4-41de-8cdc-e05c4d6e1c9c",
+                "UpdateOrder": {
+                  "ID": "48a72c3b-d906-46ec-a960-8f196acf49c1",
+                  "Data": 0
+                },
+                "Enabled": {
+                  "ID": "9c9564d6-bd90-46e2-9c8b-37825cb3b3fe",
+                  "Data": true
+                },
+                "SpaceName": {
+                  "ID": "f7929ca2-53c5-4de2-91b2-e3c23a821155",
+                  "Data": ""
+                },
+                "OnlyDirectBinding": {
+                  "ID": "d0bf9328-8aa6-4416-b8ab-f71756c9193c",
+                  "Data": false
+                }
+              }
+            }
+          ]
+        },
+        "Name": {
+          "ID": "e760fb51-dbe9-4d22-ad61-4c4f83a823e6",
+          "Data": "Ref"
+        },
+        "Tag": {
+          "ID": "dbc6cf8f-7839-47be-a4ef-7a013874f5bc",
+          "Data": ""
+        },
+        "Active": {
+          "ID": "e9b494e2-1d8f-4cca-abb2-f60418ce4135",
+          "Data": true
+        },
+        "Persistent-ID": "6303b738-ba1b-46d1-a3b1-56e89ed147df",
+        "Position": {
+          "ID": "c3f0e3e7-5c0c-45cf-9cbf-6b354b728f53",
+          "Data": [0, 0, 0]
+        },
+        "Rotation": {
+          "ID": "038691d0-c140-49ee-bfd9-18f3bf77d4ee",
+          "Data": [0, 0, 0, 1]
+        },
+        "Scale": {
+          "ID": "3c3cd79c-9839-4a50-981d-73d3bb9e7b0b",
+          "Data": [1, 1, 1]
+        },
+        "OrderOffset": {
+          "ID": "fb484699-65d5-4fac-873f-bfbd2cd011de",
+          "Data": 0
+        },
+        "ParentReference": "8b7aa422-4ed5-46b6-bb7b-eeee88868382",
+        "Children": [
+          {
+            "ID": "2aca60c3-ffa7-4778-898f-55d5db09a2ae",
+            "Components": {
+              "ID": "1ac5a148-3f54-4632-906a-6f83cfe67b91",
+              "Data": [
+                {
+                  "Type": 4,
+                  "Data": {
+                    "ID": "c6f66ffe-dbac-41b1-9990-42f944a63f63",
+                    "persistent-ID": "6ddf4259-c7b2-40ca-85f5-a682ff60c828",
+                    "UpdateOrder": {
+                      "ID": "ca5b1793-dfeb-4a5d-bbef-cc628d52c619",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "3afffa05-3744-42b2-a7ee-73f4580fc484",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "3fda6e3f-3f8d-4c61-b603-1fb09d71c99b",
+                      "Data": "Static.Root"
+                    },
+                    "Reference": {
+                      "ID": "7bb00633-90b4-476a-a69d-c109183e6ed4",
+                      "Data": "cc87c0b3-2a1d-4728-8486-c52c6eacc11a"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "d1072955-d7f3-4439-8a26-9d7f61a3b178",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": 4,
+                  "Data": {
+                    "ID": "859f9b61-e19e-446d-9d1d-514eafc23a79",
+                    "persistent-ID": "6453f1b9-f753-42f1-be34-b8092d0a8bfa",
+                    "UpdateOrder": {
+                      "ID": "66b652b1-395f-479b-bb60-56392f48b405",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "4a4d7a98-db6f-4e88-a2dd-1a9875fae9d8",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "0a6c6c36-aea4-476e-a22f-8930d7eec34b",
+                      "Data": "Static.Main"
+                    },
+                    "Reference": {
+                      "ID": "abb8389d-330d-41ba-8c6f-2e472947f77f",
+                      "Data": "71473051-94d3-4def-86c6-d9415bd0b540"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "fa5cf2c5-847b-4ae3-a4c9-9f50944a6f6b",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": 4,
+                  "Data": {
+                    "ID": "9e7c54a8-f38c-47e9-a756-a08913fff3a7",
+                    "persistent-ID": "b8b78952-7856-4c29-920b-7de370689e92",
+                    "UpdateOrder": {
+                      "ID": "ca303cda-71f1-47a1-8929-d34c4fb7c3b3",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "c02ffb84-4587-414e-8d65-f3fccbd27616",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "59eda0aa-31d0-45ae-bafb-c61968834c2e",
+                      "Data": "Static.ChildrenParent"
+                    },
+                    "Reference": {
+                      "ID": "c0ac748d-4d52-4766-b169-40cd2c909002",
+                      "Data": "71473051-94d3-4def-86c6-d9415bd0b540"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "95971982-9a9f-4d78-90f8-2b3ab3f3e078",
+                      "Data": false
+                    }
+                  }
+                }
+              ]
+            },
+            "Name": {
+              "ID": "7f7047f3-de4e-4754-a848-f95be494aa2e",
+              "Data": "DV/Static"
+            },
+            "Tag": {
+              "ID": "a4b84efd-59a4-4ce0-a9f2-81d6d24f2735",
+              "Data": ""
+            },
+            "Active": {
+              "ID": "6a5fe59e-6efa-4ef0-a75d-6a06e9f87749",
+              "Data": true
+            },
+            "Persistent-ID": "a02dfd85-208e-4a46-8b5f-f7f3d243be9a",
+            "Position": {
+              "ID": "8533b4a0-c532-4c12-883a-aed989c180ed",
+              "Data": [0, 0, 0]
+            },
+            "Rotation": {
+              "ID": "6c69ad4d-d8c4-409b-9d02-46acfb1778db",
+              "Data": [0, 0, 0, 1]
+            },
+            "Scale": {
+              "ID": "369c5716-4e9c-4eba-b789-4b8776d27dcd",
+              "Data": [1, 1, 1]
+            },
+            "OrderOffset": {
+              "ID": "82832c00-e640-4a85-8348-b6da4bf3cb9a",
+              "Data": 0
+            },
+            "ParentReference": "26ccf69b-1d53-4d43-8746-21349eb26725",
+            "Children": []
+          },
+          {
+            "ID": "e6b41bf9-4173-4db2-8c76-32ebd91ef0b6",
+            "Components": {
+              "ID": "cd597f22-df0a-437f-8349-835e572a4bb5",
+              "Data": [
+                {
+                  "Type": 222,
+                  "Data": {
+                    "ID": "9fa67fe2-c267-4180-b78f-bfa00a51c04c",
+                    "persistent-ID": "81e27f2e-b2a3-461e-a82e-41bfc3caceff",
+                    "UpdateOrder": {
+                      "ID": "a1d7586c-95c5-4c05-a938-c3c884bea803",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "f18cdf9b-8e9b-415e-8c84-be729c75f7a8",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "5f6af582-66e9-4736-8182-a2c837338b79",
+                      "Data": "Props.position"
+                    },
+                    "TargetField": {
+                      "ID": "98a280ce-08fc-4822-96e9-00f8827faa90",
+                      "Data": "2615d318-20a4-4de9-88f8-212a264420ef"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "192d90e7-4759-47ef-8934-381879c654fa",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": 223,
+                  "Data": {
+                    "ID": "0284db7c-2008-41cc-91bd-89eb25d9487a",
+                    "persistent-ID": "5bff98e7-39f6-4ad7-bdc0-5b832afbe36c",
+                    "UpdateOrder": {
+                      "ID": "ffea3b87-59e4-4521-88b3-e1c91f24039d",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "5c0b3fb2-9c51-4e6a-9d0b-5569f9569fef",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "6ebd6e7f-806e-4642-b1e4-14ec452c6666",
+                      "Data": "Props.rotation"
+                    },
+                    "TargetField": {
+                      "ID": "bd13d830-7897-4d3f-9029-0294a577cedf",
+                      "Data": "f2f7bcb1-3075-4b4e-a886-8f577fb61a28"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "05c38951-21a9-4878-b5af-4897359779bb",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": 222,
+                  "Data": {
+                    "ID": "2282ca3c-b6fd-4027-8433-10afb98ef1cd",
+                    "persistent-ID": "54378f99-c8f4-45e4-8337-2bab419bbc29",
+                    "UpdateOrder": {
+                      "ID": "27e64096-b066-4e47-a41e-13fc19abedeb",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "2150fe9f-21b3-4467-bdad-2e93c0007f51",
+                      "Data": true
+                    },
+                    "VariableName": {
+                      "ID": "44fe9313-e2cd-4aa1-be36-ab6ca9646893",
+                      "Data": "Props.scale"
+                    },
+                    "TargetField": {
+                      "ID": "b7249c80-e1cc-439e-8393-3e6258615337",
+                      "Data": "7fa3f2a4-c80b-4335-b3dc-d64827d1af72"
+                    },
+                    "OverrideOnLink": {
+                      "ID": "10c8c46f-cb7b-423f-9d4e-42e996639b10",
+                      "Data": false
+                    }
+                  }
+                }
+              ]
+            },
+            "Name": {
+              "ID": "42a6fb14-35b2-45f7-96dc-aa082a829c47",
+              "Data": "DV/Props"
+            },
+            "Tag": {
+              "ID": "997c86b9-55bd-4841-8d65-a2edd4eec766",
+              "Data": ""
+            },
+            "Active": {
+              "ID": "d1cb54c6-5e6e-4696-af5a-2be60b9a3675",
+              "Data": true
+            },
+            "Persistent-ID": "29c9273c-7191-4a00-b9b7-b4e7afffd7ca",
+            "Position": {
+              "ID": "0454e044-2021-445f-8c87-c755dadc2b1c",
+              "Data": [0, 0, 0]
+            },
+            "Rotation": {
+              "ID": "bc84abe1-ad89-41f8-9b82-81bdc61104ed",
+              "Data": [0, 0, 0, 1]
+            },
+            "Scale": {
+              "ID": "c33c95d6-70c0-42de-b90d-e3c782f76289",
+              "Data": [1, 1, 1]
+            },
+            "OrderOffset": {
+              "ID": "d4e6c3ed-3305-4df2-90a9-bcbd5a762140",
+              "Data": 0
+            },
+            "ParentReference": "273e0ec3-6e31-4be2-ad20-65940258bc49",
+            "Children": []
+          },
+          {
+            "ID": "71473051-94d3-4def-86c6-d9415bd0b540",
+            "Components": {
+              "ID": "815b5c67-88e8-4380-a063-ffd5d46dc27a",
+              "Data": [
+                {
+                  "Type": 271,
+                  "Data": {
+                    "ID": "a7bc837a-2b50-40db-903c-65b179d3da28",
+                    "persistent-ID": "08aa0a72-ca10-4027-9f5f-bcc1aa8a6c7c",
+                    "UpdateOrder": {
+                      "ID": "5ac76ea0-b24a-4e6b-a1ec-a8e5941b35d0",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "4555994a-a307-4448-931f-49d6861a73c0",
+                      "Data": true
+                    },
+                    "Mesh": {
+                      "ID": "f4458e78-b283-4d80-b270-abafcffe115d",
+                      "Data": "d7e1b4e9-8526-41d2-b5fd-357f0fe55783"
+                    },
+                    "Materials": {
+                      "ID": "3df5fc8c-a3a3-41ce-8f9a-610948ade391",
+                      "Data": [
+                        {
+                          "ID": "8728cbf2-4422-485a-9a57-9ac9a76f45fb",
+                          "Data": "6e08ab73-23c7-45f2-9666-2bacb8af8c06"
+                        }
+                      ]
+                    },
+                    "MaterialPropertyBlocks": {
+                      "ID": "f2f3526c-64a9-4951-8f77-0c5a858b873f",
+                      "Data": []
+                    },
+                    "ShadowCastMode": {
+                      "ID": "581644fe-b660-43a4-99c8-182cdecd498c",
+                      "Data": "On"
+                    },
+                    "MotionVectorMode": {
+                      "ID": "4ac66899-c76c-4020-a299-3e553ed5c550",
+                      "Data": "Object"
+                    },
+                    "SortingOrder": {
+                      "ID": "a6247002-1443-4c9f-beae-a5c990c6a04a",
+                      "Data": 0
+                    }
+                  }
+                },
+                {
+                  "Type": 274,
+                  "Data": {
+                    "ID": "d7e1b4e9-8526-41d2-b5fd-357f0fe55783",
+                    "persistent-ID": "eda01414-9bb7-433b-8867-d689c276de8b",
+                    "UpdateOrder": {
+                      "ID": "12648f36-a2b7-420c-bf74-92f831550c6c",
+                      "Data": 0
+                    },
+                    "Enabled": {
+                      "ID": "9e29d730-4f8b-4eef-97ad-791b99aa4710",
+                      "Data": true
+                    },
+                    "HighPriorityIntegration": {
+                      "ID": "5e388cf8-0e72-4186-afb5-5fba5bd8acff",
+                      "Data": false
+                    },
+                    "OverrideBoundingBox": {
+                      "ID": "294827cf-7cf1-4158-901f-6d5ce0579a98",
+                      "Data": false
+                    },
+                    "OverridenBoundingBox": {
+                      "ID": "3147d85c-c7b5-4994-b54d-e9622210a026",
+                      "Data": {
+                        "Min": [0, 0, 0],
+                        "Max": [0, 0, 0]
+                      }
+                    },
+                    "Profile": {
+                      "ID": "8ef8794a-be01-47b1-b9e6-ec2d250ff589",
+                      "Data": "Linear"
+                    },
+                    "Size": {
+                      "ID": "aa88ed12-67c7-456e-bd41-609497199a09",
+                      "Data": [1, 1, 1]
+                    },
+                    "UVScale": {
+                      "ID": "d2cb9ec3-efdb-4b74-8ab1-c8dd5f2d0411",
+                      "Data": [1, 1, 1]
+                    },
+                    "ScaleUVWithSize": {
+                      "ID": "df010677-dbc3-4a82-95cf-4d3dba6c66e3",
+                      "Data": false
+                    }
+                  }
+                },
+                {
+                  "Type": 273,
+                  "Data": {
+                    "ID": "405157ea-9c56-4ceb-b811-743b7972c93a",
+                    "persistent-ID": "45ef2094-7467-4fcd-b004-78072602579e",
+                    "UpdateOrder": {
+                      "ID": "7b05da85-4a1a-41aa-99b0-8561e41de990",
+                      "Data": 1000000
+                    },
+                    "Enabled": {
+                      "ID": "9be63de1-bc0b-4318-8c20-06799ae96b80",
+                      "Data": true
+                    },
+                    "Offset": {
+                      "ID": "3deb7200-a165-49a2-b0d7-e937000f4d85",
+                      "Data": [0, 0, 0]
+                    },
+                    "Type": {
+                      "ID": "d898141e-462c-411b-8344-4aa6a7da037d",
+                      "Data": "NoCollision"
+                    },
+                    "Mass": {
+                      "ID": "ea2c7f2b-ef3c-4c64-b243-c9e0e2ccd52d",
+                      "Data": 1
+                    },
+                    "CharacterCollider": {
+                      "ID": "33deed1f-3089-43cc-987d-31ad963dd940",
+                      "Data": false
+                    },
+                    "IgnoreRaycasts": {
+                      "ID": "dc9b1a7b-491f-4f5a-837e-6fda7cc066e2",
+                      "Data": false
+                    },
+                    "Mesh": {
+                      "ID": "7825ddcc-0b0c-4676-b2a4-a0639bf5f905",
+                      "Data": null
+                    },
+                    "Sidedness": {
+                      "ID": "633d584a-01e6-447f-a6a9-6ecc2b80a5ad",
+                      "Data": "DualSided"
+                    },
+                    "ActualSpeculativeMargin": {
+                      "ID": "a1d03602-0a21-463d-a864-bd508fbb67bf",
+                      "Data": null
+                    }
+                  }
+                }
+              ]
+            },
+            "Name": {
+              "ID": "ac04dd85-ccf2-454e-b7b8-3ffa2d7a07a6",
+              "Data": "BOXMESHTHINGINTHATIFUCKINGHATE"
+            },
+            "Tag": {
+              "ID": "3c763b46-9607-4eea-a470-015288552d7b",
+              "Data": null
+            },
+            "Active": {
+              "ID": "9518b935-8dfa-4223-b498-a083e6c6bcac",
+              "Data": true
+            },
+            "Persistent-ID": "beb054b6-3e1d-41e3-bf1e-ee1a5a24185f",
+            "Position": {
+              "ID": "2615d318-20a4-4de9-88f8-212a264420ef",
+              "Data": [0, 0, 0]
+            },
+            "Rotation": {
+              "ID": "f2f7bcb1-3075-4b4e-a886-8f577fb61a28",
+              "Data": [0, 0, 0, 1]
+            },
+            "Scale": {
+              "ID": "7fa3f2a4-c80b-4335-b3dc-d64827d1af72",
+              "Data": [1, 1, 1]
+            },
+            "OrderOffset": {
+              "ID": "c99aea18-7eb3-481c-a0cc-33b74be6693a",
+              "Data": 0
+            },
+            "ParentReference": "c05a9e7b-513e-497b-a595-77d52c4b3ed8",
+            "Children": []
+          }
+        ]
+      }
+    ]
+  },
+  "Assets": [
+    {
+      "Type": 233,
+      "Data": {
+        "ID": "dda58477-200a-4060-90f7-63f34cccd336",
+        "persistent": {
+          "ID": "ab1b3e27-e1a6-400f-8b82-95c5ce0cbfa7",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "0b5b5b22-5961-4a8f-9161-1ccd8bd2eed9",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "acd37cb8-b612-4f71-a6ad-3520f89c5076",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "b05ff583-f434-41ff-848a-eeeb3b6ee290",
+          "Data": false
+        },
+        "MainFont": {
+          "ID": "6cf941ce-cd24-4d5b-aadf-eb50334e224b",
+          "Data": "09cb0c77-77e2-4d36-bdd2-e9354ccf5075"
+        },
+        "FallbackFonts": {
+          "ID": "3ba08f46-75b4-4df5-a061-adaab1348a50",
+          "Data": [
+            {
+              "ID": "3696bd39-c6fc-4dd5-a4fb-72503c630dab",
+              "Data": "770bd5c0-6de9-4282-83c5-79da903c3047"
+            },
+            {
+              "ID": "8de9dbbe-f3b5-42dc-97fb-3a307a6e669f",
+              "Data": "b175c491-3576-4d7b-832c-7b2403bf56bc"
+            },
+            {
+              "ID": "1f04f9d0-0085-4d24-b849-f9c95310c7ee",
+              "Data": "a5397d00-b690-4bdd-ad3d-4ca847661a11"
+            },
+            {
+              "ID": "09dce316-eed4-4ec9-abac-41cf7a4d2171",
+              "Data": "ce169aa5-44a1-4fdf-a46a-6b2c373a9a62"
+            },
+            {
+              "ID": "60704130-2eea-4fdd-8fe2-4f947c248ba7",
+              "Data": "ba8535fc-8ec6-41f1-9d71-4e71777523c1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Type": 235,
+      "Data": {
+        "ID": "09cb0c77-77e2-4d36-bdd2-e9354ccf5075",
+        "persistent": {
+          "ID": "e62fb334-515a-4389-a1b8-fccd5da922fd",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "a05b3f97-e1a7-46a3-b481-34955444aeb4",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "3971d7f4-f18f-41dc-8005-9d1776d03aaa",
+          "Data": true
+        },
+        "URL": {
+          "ID": "92acaba9-314e-4c4c-be94-d613d99d3069",
+          "Data": "@resdb:///529360eec9dfd688614993dbd7515bc61f7651ebae6c53dd005f6247f98b30c5"
+        },
+        "Padding": {
+          "ID": "971de77e-3e1b-4f9e-9b68-581a37c946ca",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "352f9370-a21c-4dba-b7d0-cdcf63787bd2",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "5584d606-e313-4de8-ab89-fffcc2e34833",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "746809f3-87a7-4ff8-916d-048651c23580",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "caf5d6af-a675-4b1f-b0d9-a6b352689820",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "a32a6abd-52ff-481d-981e-c451cda3782c",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 235,
+      "Data": {
+        "ID": "770bd5c0-6de9-4282-83c5-79da903c3047",
+        "persistent": {
+          "ID": "77ebae81-65b4-4cd4-9602-e5d7e2b86334",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "cb2e574a-62e9-4870-860b-a4c20991367c",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "ed3d4250-422a-46e3-915c-77cca392453e",
+          "Data": true
+        },
+        "URL": {
+          "ID": "f95d2a42-1831-42e5-8f4c-8b30c6682ab9",
+          "Data": "@resdb:///c801b8d2522fb554678f17f4597158b1af3f9be3abd6ce35d5a3112a81e2bf39"
+        },
+        "Padding": {
+          "ID": "b245a073-e56c-471b-85d9-3da253ab0943",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "ea2b447a-c69b-4ed4-ba1a-47535902229c",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "fa285bf6-169c-407c-80f0-9c7d4ead1d0c",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "0b4f876d-0d37-49df-9520-396a8402572f",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "cf0559e6-756d-4ce9-85ec-43bcd13041a3",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "a34d7ae6-79cc-45f3-85b8-ee47e7290190",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 235,
+      "Data": {
+        "ID": "b175c491-3576-4d7b-832c-7b2403bf56bc",
+        "persistent": {
+          "ID": "4826abe6-7a0b-4d68-a3f3-1204dd3b13a8",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "aa74793d-af55-478e-ae40-8bab53a4bd79",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "d40c1223-d781-4d02-a2fd-81aebd8d0a4f",
+          "Data": true
+        },
+        "URL": {
+          "ID": "36a9d13a-b226-4e56-b0a5-9c1e2618976c",
+          "Data": "@resdb:///4cac521169034ddd416c6deffe2eb16234863761837df677a910697ec5babd25"
+        },
+        "Padding": {
+          "ID": "a3d6ef9d-d1cc-457c-94ad-7bd87bde8482",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "7c1a7a8a-ccfe-41f4-8647-4bcffcfffa46",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "fc74371a-2204-4dd8-a3a6-b39c8629f92a",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "8c971099-6b72-462d-a7ba-373cc2deb6a7",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "fe4c5960-f77e-4074-8fe2-a77e48cc413c",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "02effdde-f9d3-4564-9f87-f6a7401646f7",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 235,
+      "Data": {
+        "ID": "a5397d00-b690-4bdd-ad3d-4ca847661a11",
+        "persistent": {
+          "ID": "c1a94710-d35d-446f-9b80-12c50c92c6a1",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "5c2c6162-995c-43d0-bd08-edb6fb302b7d",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "24e57924-b720-40c1-8dab-506c19d15193",
+          "Data": true
+        },
+        "URL": {
+          "ID": "7c14247d-c069-467f-ac5f-49c9a6a67b00",
+          "Data": "@resdb:///23e7ad7cb0a5a4cf75e07c9e0848b1eb06bba15e8fa9b8cb0579fc823c532927"
+        },
+        "Padding": {
+          "ID": "d2639160-c376-49ae-bfa5-7748f089d1da",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "8c9b0714-7b69-400a-8f6a-b1e190e2e11a",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "6799cadc-7ca4-424b-a533-50ef902e027b",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "98b68886-6781-4a16-87f6-f580b4356f2d",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "fc81396a-4fa7-4558-b7bf-50a2bd0cfe2c",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "20becea1-b32e-430e-819a-1860af811e20",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 235,
+      "Data": {
+        "ID": "ce169aa5-44a1-4fdf-a46a-6b2c373a9a62",
+        "persistent": {
+          "ID": "03f6b09e-115d-4b8c-8f16-565309402e00",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "1b7b7052-29e4-42d8-be60-be9d473c914b",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "5dd5c1ea-9ee5-4f67-9c05-73820c6d5ea3",
+          "Data": true
+        },
+        "URL": {
+          "ID": "c48b969e-e939-4627-8a9d-1e90ec0ceedf",
+          "Data": "@resdb:///415dc6290378574135b64c808dc640c1df7531973290c4970c51fdeb849cb0c5"
+        },
+        "Padding": {
+          "ID": "ccbb9c8b-08be-42fd-9f04-09ebab97e7c3",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "020e42cd-2ec9-428d-afee-1ca6edabab0f",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "1841fdc4-227d-489b-8571-35e53c9fbecf",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "02d1b5a3-fdad-4e81-9126-76e998974541",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "210f0e03-900e-47d1-9387-9338e396d179",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "9c2187f5-107e-4c79-9ee3-ab832e943d9f",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 235,
+      "Data": {
+        "ID": "ba8535fc-8ec6-41f1-9d71-4e71777523c1",
+        "persistent": {
+          "ID": "79eff10d-39d3-4c7d-9c3f-a73d075798a9",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "f5208d77-9cff-4ec8-b5d3-de8490e8e0c4",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "de1fb76a-6831-45d7-a4c8-ef746a4151ae",
+          "Data": true
+        },
+        "URL": {
+          "ID": "327980bb-097e-4f61-ac4f-f00bac58f2f2",
+          "Data": "@resdb:///bcda0bcc22bab28ea4fedae800bfbf9ec76d71cc3b9f851779a35b7e438a839d"
+        },
+        "Padding": {
+          "ID": "416544cd-5b13-49a1-abae-99946e971dc8",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "0b358039-94d9-4b2a-9d1b-a169f786e771",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "b448a4a5-0958-4b49-a82b-915196931de4",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "2d1a4ab3-fc1b-4019-baf5-a3e23bba0aa4",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "11b2d223-5550-432a-97ea-7c4a6e20676e",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "d405dc82-1658-4a48-98f4-7ec40a1b0b43",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 245,
+      "Data": {
+        "ID": "1358c106-2ef0-4c20-9c3c-80fd078310da",
+        "persistent": {
+          "ID": "b6019817-cbb4-48ae-80cb-e28bdff5fdb0",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "a5ee574f-ad1e-4a46-b5ae-e1ed81ce6978",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "b5b07d0d-4218-4d86-bcbc-8b3c5b34d65a",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "3c90d705-a07c-4676-8edc-3ca2a984fd27",
+          "Data": false
+        },
+        "_shader-ID": "ece1a295-4a47-4c2a-8ce7-30e78c3d94e1",
+        "FontAtlas": {
+          "ID": "832d6ed4-c72d-4338-81e1-48ee0482f1a9",
+          "Data": null
+        },
+        "TintColor": {
+          "ID": "04eaaf3d-6144-4947-9753-8807b8655ccd",
+          "Data": [1, 1, 1, 1, "sRGB"]
+        },
+        "OutlineColor": {
+          "ID": "fef830ba-9064-47e6-b900-6565ce69ca7d",
+          "Data": [0, 0, 0, 1, "sRGB"]
+        },
+        "BackgroundColor": {
+          "ID": "7249a065-4d1d-4b29-9cb5-97c6a074832b",
+          "Data": [0, 0, 0, 1, "sRGB"]
+        },
+        "AutoBackgroundColor": {
+          "ID": "11ededb4-66b5-4e64-815d-c650d565c0eb",
+          "Data": true
+        },
+        "GlyphRenderMethod": {
+          "ID": "696836a3-f128-4f58-90ca-67657a35d7be",
+          "Data": "MSDF"
+        },
+        "PixelRange": {
+          "ID": "8dd5c6f5-5e81-45da-9598-eb8f6ef982d2",
+          "Data": 4
+        },
+        "FaceDilate": {
+          "ID": "b0f3b951-8aba-4a5b-873e-0004f28798aa",
+          "Data": 0
+        },
+        "OutlineThickness": {
+          "ID": "962d40fb-e835-46a0-a929-eebd2c4f6c57",
+          "Data": 0
+        },
+        "FaceSoftness": {
+          "ID": "45744d0d-704f-4ef9-8128-7c6e5f7233f3",
+          "Data": 0
+        },
+        "BlendMode": {
+          "ID": "279787f5-e45c-43b6-a8f0-db1b2f67a928",
+          "Data": "Alpha"
+        },
+        "Sidedness": {
+          "ID": "8ff32750-5536-40c1-871f-0f21fa76dc93",
+          "Data": "Front"
+        },
+        "ZWrite": {
+          "ID": "3affaee7-44cc-45f8-b145-87142a8782b6",
+          "Data": "Auto"
+        },
+        "ZTest": {
+          "ID": "45f82ad3-017c-45b4-ae88-8aa8485fd920",
+          "Data": "LessOrEqual"
+        },
+        "OffsetFactor": {
+          "ID": "e3ea06ab-4101-4c5e-823c-895010a4f7b3",
+          "Data": 0
+        },
+        "OffsetUnits": {
+          "ID": "5927f939-dbee-4163-9288-a1918122bc15",
+          "Data": 0
+        },
+        "RenderQueue": {
+          "ID": "ba3c8954-1d85-452d-9511-8f4d429ac53a",
+          "Data": -1
+        },
+        "Overlay": {
+          "ID": "b416aea6-6f83-4508-97da-acd52a9cf021",
+          "Data": false
+        },
+        "OverlayTint": {
+          "ID": "77b725a0-a882-4807-b5b4-7d782e91c51b",
+          "Data": [1, 1, 1, 0.7300000190734863, "sRGB"]
+        },
+        "Rect": {
+          "ID": "bf5708c0-9fc3-4355-bbad-e7ffbeca791b",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          }
+        },
+        "RectClip": {
+          "ID": "e33e6859-1555-483b-9edd-a18aa9a28c5e",
+          "Data": false
+        },
+        "ColorMask": {
+          "ID": "ee0f6795-a8fe-4224-a9c2-8aa9ee9cad74",
+          "Data": "RGBA"
+        },
+        "StencilComparison": {
+          "ID": "a8eb3bda-f79c-4939-8ea1-c39f27a898bb",
+          "Data": "Always"
+        },
+        "StencilOperation": {
+          "ID": "f07bae02-1acb-420c-a491-383d583d270f",
+          "Data": "Keep"
+        },
+        "StencilID": {
+          "ID": "ce3f45db-fd77-4678-8421-0f766d43d629",
+          "Data": 0
+        },
+        "StencilWriteMask": {
+          "ID": "4be2e788-9fe2-425e-be2d-7e6b4f89b854",
+          "Data": 255
+        },
+        "StencilReadMask": {
+          "ID": "f503b38b-1218-4bc0-9651-9be718184d44",
+          "Data": 255
+        }
+      }
+    },
+    {
+      "Type": 240,
+      "Data": {
+        "ID": "f4a9c305-3770-446f-b1cd-a1bd19eca5fb",
+        "persistent": {
+          "ID": "3e344338-d226-47b1-9b59-6594b0c3f45a",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "5928f108-b6eb-443a-8430-e1e0083bf605",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "2ba6ca6d-9399-4b73-9edd-fb6fe4b736ba",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "1b4dd2c6-f304-4a69-abf5-bfed20070172",
+          "Data": false
+        },
+        "Texture": {
+          "ID": "625d819a-0dfe-4155-b5ba-3b0dda1bc759",
+          "Data": "d4f80b4f-8af7-4bff-b3eb-fd17f8b3061c"
+        },
+        "Rect": {
+          "ID": "4378e6e4-d7b8-44c9-9ac3-5b9ce8c82ade",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 1,
+            "Height": 1
+          }
+        },
+        "Borders": {
+          "ID": "8e5c3e54-5d29-4e46-ba33-7b48c5477edc",
+          "Data": [0, 0, 0, 0]
+        },
+        "Scale": {
+          "ID": "d6f70093-5f0f-4e63-937e-eec18915b89b",
+          "Data": 1
+        },
+        "FixedSize": {
+          "ID": "99734c19-b6a0-4e7f-8ab3-24be05e6b81f",
+          "Data": 8
+        }
+      }
+    },
+    {
+      "Type": 241,
+      "Data": {
+        "ID": "d4f80b4f-8af7-4bff-b3eb-fd17f8b3061c",
+        "persistent": {
+          "ID": "6d2b5f94-b82c-4105-b73f-3de416c96189",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "fe7ae1f9-646e-4d80-8310-ac869c75009e",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "57847b2b-5eda-4300-a181-b8327eff0ce3",
+          "Data": true
+        },
+        "URL": {
+          "ID": "907a4e9d-0feb-4ab5-9272-08efc50fd218",
+          "Data": "@resdb:///1ba924cca06b4a16a1656d15db015a7ed248579729dd9a73ab9548c842fb1193.png"
+        },
+        "FilterMode": {
+          "ID": "2587f7df-f22f-4427-adba-4cbaa40f710f",
+          "Data": null
+        },
+        "AnisotropicLevel": {
+          "ID": "dd7d978d-7124-4f65-bb51-a6beedc9cd3e",
+          "Data": null
+        },
+        "Uncompressed": {
+          "ID": "aaf029ee-4182-4d76-986d-9be20c52dbe2",
+          "Data": false
+        },
+        "DirectLoad": {
+          "ID": "58a70534-7b61-4d2b-9f03-a7c11c09f9e3",
+          "Data": false
+        },
+        "ForceExactVariant": {
+          "ID": "3d79de2e-412a-43bd-b1fd-421edfa6c207",
+          "Data": false
+        },
+        "PreferredFormat": {
+          "ID": "fc9f0911-6cec-4631-9a7e-1d70fc8021f4",
+          "Data": null
+        },
+        "PreferredProfile": {
+          "ID": "da2258ef-7c64-47ff-b8f7-d392b85173df",
+          "Data": "sRGB"
+        },
+        "MipMapBias": {
+          "ID": "45e5d332-260e-41a5-94c2-b7aec3688f37",
+          "Data": 0
+        },
+        "IsNormalMap": {
+          "ID": "2d42a442-b4b8-45fd-8c38-a25aea0126fb",
+          "Data": false
+        },
+        "WrapModeU": {
+          "ID": "fce02ca7-3a76-4bd3-8d5e-919a1321252d",
+          "Data": "Clamp"
+        },
+        "WrapModeV": {
+          "ID": "8d5d0f2c-73c1-4d73-84f8-bee6b570179f",
+          "Data": "Clamp"
+        },
+        "PowerOfTwoAlignThreshold": {
+          "ID": "d0785b44-6bba-4901-bae4-175d2d7aa7e4",
+          "Data": 0.05000000074505806
+        },
+        "CrunchCompressed": {
+          "ID": "fcade980-88da-4a48-935c-0e2a96738eef",
+          "Data": true
+        },
+        "MinSize": {
+          "ID": "b4344558-99f2-42d4-9238-f377477346c1",
+          "Data": null
+        },
+        "MaxSize": {
+          "ID": "9c1226ba-b01d-4c1d-87d9-dda91605f9ca",
+          "Data": null
+        },
+        "MipMaps": {
+          "ID": "52b74b0b-54ae-4882-bb20-251028ae101e",
+          "Data": false
+        },
+        "KeepOriginalMipMaps": {
+          "ID": "2d4b3bcb-c052-4d32-8c92-672582fba69c",
+          "Data": false
+        },
+        "MipMapFilter": {
+          "ID": "3de3c9bf-b19f-4b6c-8232-a73109eb64bf",
+          "Data": "Box"
+        },
+        "Readable": {
+          "ID": "d93e6706-7bbb-43ad-a3e0-779ee2883051",
+          "Data": false
+        }
+      }
+    },
+    {
+      "Type": 246,
+      "Data": {
+        "ID": "e22290c0-6a19-4378-aa08-cee0e01558be",
+        "persistent": {
+          "ID": "b986aa77-82eb-4b74-b193-4db57428949a",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "d60507ec-3244-49c1-85dd-86170f6c99ee",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "3b6af52e-7f46-44e9-9f60-033e18739d92",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "3dd0c8e1-2ed1-4f1a-abe9-7866f2e7608e",
+          "Data": false
+        },
+        "Rect": {
+          "ID": "b76c599d-cac0-4664-b191-681d77f96d3d",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          }
+        },
+        "RectClip": {
+          "ID": "d3e445f3-a93f-4515-a6cc-8a69dfcd64fb",
+          "Data": false
+        },
+        "ColorMask": {
+          "ID": "3f6b1cfd-0ad5-4ed1-a409-480194053e52",
+          "Data": "RGBA"
+        },
+        "StencilComparison": {
+          "ID": "02334484-8f1a-4668-ac58-08f5b7705f75",
+          "Data": "Always"
+        },
+        "StencilOperation": {
+          "ID": "c33111a2-fe59-4ca7-8da9-476ec5dd0a04",
+          "Data": "Keep"
+        },
+        "StencilID": {
+          "ID": "1361f56a-5f80-4a92-9c2a-9e8dd57a8314",
+          "Data": 0
+        },
+        "StencilWriteMask": {
+          "ID": "cd432cb9-0bba-4297-84d4-311610bb7f7b",
+          "Data": 255
+        },
+        "StencilReadMask": {
+          "ID": "20ae2f76-cb22-46c4-ac40-896c1d7c1f88",
+          "Data": 255
+        },
+        "RenderQueue": {
+          "ID": "342c586a-b969-45b5-a20d-56cefc7b5d7a",
+          "Data": -1
+        },
+        "_shader-ID": "b611ba56-b4fc-49c0-84a5-2ea104cb4c96",
+        "Texture": {
+          "ID": "fd271baf-99bc-4c24-b4a6-3361356b9157",
+          "Data": null
+        },
+        "TextureScale": {
+          "ID": "3ed67cf8-9674-4d22-bc98-c747c1662ec4",
+          "Data": [1, 1]
+        },
+        "TextureOffset": {
+          "ID": "967c3d40-1f00-46c3-8bae-e513e79eb0d9",
+          "Data": [0, 0]
+        },
+        "Tint": {
+          "ID": "01b19f97-9d68-4ead-b658-87325009ab7b",
+          "Data": [1, 1, 1, 1, "sRGBAlpha"]
+        },
+        "Overlay": {
+          "ID": "273d871d-b2c0-4345-b8bd-6dcc01ed0123",
+          "Data": false
+        },
+        "OverlayTint": {
+          "ID": "a112ec75-0da8-48d6-82ee-b185f732f8fe",
+          "Data": [1, 1, 1, 0.5, "sRGBAlpha"]
+        },
+        "AlphaCutoff": {
+          "ID": "5cd1a57d-9208-4215-9485-9d91fd951c01",
+          "Data": 0.5
+        },
+        "AlphaClip": {
+          "ID": "ca76513d-12ab-4186-8855-fe31bdbb6238",
+          "Data": true
+        },
+        "TextureMode": {
+          "ID": "991be47d-459f-49e7-a43a-770f21f92de9",
+          "Data": "DirectColor"
+        },
+        "MaskTexture": {
+          "ID": "25a1a0b0-305a-46f5-ab6d-92bfc9de09e4",
+          "Data": null
+        },
+        "MaskScale": {
+          "ID": "2f613e77-1964-4205-becc-8934e254aac8",
+          "Data": [1, 1]
+        },
+        "MaskOffset": {
+          "ID": "21205e19-f865-4026-ba82-6d79febc086c",
+          "Data": [0, 0]
+        },
+        "MaskMode": {
+          "ID": "3b157524-11f9-4c8b-a34c-b44c929cef6f",
+          "Data": "MultiplyAlpha"
+        },
+        "BlendMode": {
+          "ID": "633cb95b-2d85-4c0e-bc64-64843a1d1c5d",
+          "Data": "Alpha"
+        },
+        "Sidedness": {
+          "ID": "4f9f5f6c-1b27-4a96-94ec-7ff2a2d3f893",
+          "Data": "Double"
+        },
+        "ZWrite": {
+          "ID": "98f62ecc-7080-4154-8e35-2c0ede4e3d89",
+          "Data": "On"
+        },
+        "ZTest": {
+          "ID": "210bd7fc-0f6b-4159-8db9-8d491d4ddfb4",
+          "Data": "LessOrEqual"
+        },
+        "OffsetFactor": {
+          "ID": "692bc6c2-eeb3-49a4-95dd-8f01c24d506b",
+          "Data": 0.30000001192092896
+        },
+        "OffsetUnits": {
+          "ID": "930f17e1-07fe-4783-8819-abed70b0a5ff",
+          "Data": 80
+        }
+      }
+    },
+    {
+      "Type": 240,
+      "Data": {
+        "ID": "419d3b54-51b4-486d-a06b-485a1d0441fc",
+        "persistent": {
+          "ID": "f224cdc4-8815-4598-95cb-eada19d290d7",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "fd774e0e-be93-4926-a0df-cb0f199f4fb7",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "f7fd7ccb-9e56-4ef5-8a60-6cc076bd8d34",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "0fabd8aa-3852-4614-8f85-e89c975c30e2",
+          "Data": false
+        },
+        "Texture": {
+          "ID": "5688dfb3-cedc-4504-b379-97c652d4d41a",
+          "Data": "da2fbea1-8231-4c90-87d2-b65b3d7e981b"
+        },
+        "Rect": {
+          "ID": "0051d55a-28f3-49e4-ac1c-7fc9b971e752",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 1,
+            "Height": 1
+          }
+        },
+        "Borders": {
+          "ID": "b880fcf3-2ed0-4e20-a77b-78ca6f562667",
+          "Data": [0, 0, 0, 0]
+        },
+        "Scale": {
+          "ID": "31b19c07-e928-4e30-8691-e2713f73aade",
+          "Data": 1
+        },
+        "FixedSize": {
+          "ID": "c6260250-5ca5-4478-9833-f3975947637c",
+          "Data": 8
+        }
+      }
+    },
+    {
+      "Type": 241,
+      "Data": {
+        "ID": "da2fbea1-8231-4c90-87d2-b65b3d7e981b",
+        "persistent": {
+          "ID": "9f9e882f-9ed1-4614-b6c5-8949a83a70ce",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "48c1db26-d38a-468e-b9b6-7c7655f5df2e",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "9f8d033d-732c-4368-b525-d66cf1fc5960",
+          "Data": true
+        },
+        "URL": {
+          "ID": "58f84c2e-138d-4ce8-bc85-43f995ec7a1c",
+          "Data": "@resdb:///6db4879f08e9405359d7c9b8031dc2056e27773c380777b7b877260c51b8f370.png"
+        },
+        "FilterMode": {
+          "ID": "a685673c-9eb0-4819-8bb3-e91c21a6a3d2",
+          "Data": null
+        },
+        "AnisotropicLevel": {
+          "ID": "58e33f21-972e-4b21-aa90-dc69d5f6b7ae",
+          "Data": null
+        },
+        "Uncompressed": {
+          "ID": "9b2cb193-9322-4447-950c-1f97e0a53b54",
+          "Data": false
+        },
+        "DirectLoad": {
+          "ID": "139645b9-4651-488d-b5aa-b70152deb400",
+          "Data": false
+        },
+        "ForceExactVariant": {
+          "ID": "9d38747d-5a9b-452f-adcb-5a888d0e2bc5",
+          "Data": false
+        },
+        "PreferredFormat": {
+          "ID": "2906be7b-82b4-4951-847e-0068d8261b35",
+          "Data": null
+        },
+        "PreferredProfile": {
+          "ID": "287daa66-7eee-4896-9de6-de0b9e090194",
+          "Data": "sRGB"
+        },
+        "MipMapBias": {
+          "ID": "641bf792-852c-4859-8842-6187a0ee751f",
+          "Data": 0
+        },
+        "IsNormalMap": {
+          "ID": "5207cad4-9af0-408a-af73-a3037e5e3e80",
+          "Data": false
+        },
+        "WrapModeU": {
+          "ID": "53441fc3-095a-482b-a202-924c777d9a56",
+          "Data": "Clamp"
+        },
+        "WrapModeV": {
+          "ID": "edd3277d-fa13-4cd5-9daa-09b8617d2df4",
+          "Data": "Clamp"
+        },
+        "PowerOfTwoAlignThreshold": {
+          "ID": "dfa62167-a11a-43d0-9fa3-9ffd88a9b9ad",
+          "Data": 0.05000000074505806
+        },
+        "CrunchCompressed": {
+          "ID": "a0aea3de-6dc9-402c-aa12-ff43894b3be2",
+          "Data": true
+        },
+        "MinSize": {
+          "ID": "169005a3-b171-4f00-94de-cbf71fb301f7",
+          "Data": null
+        },
+        "MaxSize": {
+          "ID": "1447ab87-6815-4ec9-a0e7-216914411456",
+          "Data": null
+        },
+        "MipMaps": {
+          "ID": "7a75d508-e0b6-4a2c-b67b-33a06318c144",
+          "Data": false
+        },
+        "KeepOriginalMipMaps": {
+          "ID": "67080ac7-efa6-4765-b517-4333f91cfeef",
+          "Data": false
+        },
+        "MipMapFilter": {
+          "ID": "9f0057dc-b338-4f16-b75c-68e45e047642",
+          "Data": "Box"
+        },
+        "Readable": {
+          "ID": "310cb9bc-7ad6-4bdc-ac42-106bd351292a",
+          "Data": false
+        }
+      }
+    },
+    {
+      "Type": 246,
+      "Data": {
+        "ID": "3d4465f1-d76b-49d4-8e4d-1c571f40d648",
+        "persistent": {
+          "ID": "fa8c919b-2022-4eec-9d1a-c0911ee98cc4",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "814cbee5-beca-4c08-9b60-53e239b09a92",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "cc485376-95c2-41cb-99e4-ce30b607eb96",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "d4417138-d446-418d-97c2-db5a2a2bd4a2",
+          "Data": false
+        },
+        "Rect": {
+          "ID": "9c995727-8863-4276-9ae9-08ff5a68cc6a",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          }
+        },
+        "RectClip": {
+          "ID": "82fb4193-af51-47a6-b96c-ba901506b0cc",
+          "Data": false
+        },
+        "ColorMask": {
+          "ID": "25548069-c53d-4df0-b505-72edc5895f5f",
+          "Data": "RGBA"
+        },
+        "StencilComparison": {
+          "ID": "7bc9a0c5-6fdc-44d1-9200-7c515e77bd3c",
+          "Data": "Always"
+        },
+        "StencilOperation": {
+          "ID": "39e0c770-6c8d-4a6d-83a5-f2bbf19c7870",
+          "Data": "Keep"
+        },
+        "StencilID": {
+          "ID": "6da91f75-0d7a-4ec7-a439-3ad2ca44e755",
+          "Data": 0
+        },
+        "StencilWriteMask": {
+          "ID": "36703b57-1108-44cd-9928-3b34d15cc0a3",
+          "Data": 255
+        },
+        "StencilReadMask": {
+          "ID": "1422db9c-6a05-4aca-877c-e4e39b0e8934",
+          "Data": 255
+        },
+        "RenderQueue": {
+          "ID": "ac0a63dd-4510-406a-ac95-da84767b326a",
+          "Data": -1
+        },
+        "_shader-ID": "dc1cf9d3-d175-4c83-af68-a8f84ba0b644",
+        "Texture": {
+          "ID": "5d022e9e-8035-43dd-ba02-6a4e9278ae84",
+          "Data": null
+        },
+        "TextureScale": {
+          "ID": "f21edf8c-87c9-49ed-b146-3ad0dd612adb",
+          "Data": [1, 1]
+        },
+        "TextureOffset": {
+          "ID": "ef75103f-84fc-4402-89e7-8250aca214ba",
+          "Data": [0, 0]
+        },
+        "Tint": {
+          "ID": "a7aaff7c-38d4-4e74-8280-bd889939a65e",
+          "Data": [1, 1, 1, 1, "sRGBAlpha"]
+        },
+        "Overlay": {
+          "ID": "689e1747-9834-4d6f-92c8-793f555f38ef",
+          "Data": false
+        },
+        "OverlayTint": {
+          "ID": "7af71e0e-968a-4903-9022-99c8f1993b38",
+          "Data": [1, 1, 1, 0.5, "sRGBAlpha"]
+        },
+        "AlphaCutoff": {
+          "ID": "1d875a18-570a-4e61-a6ea-723f84b4850a",
+          "Data": 0.49966752529144287
+        },
+        "AlphaClip": {
+          "ID": "c640c975-056f-455e-af2f-e590a38abc49",
+          "Data": false
+        },
+        "TextureMode": {
+          "ID": "d9ccb63d-ce49-44d3-acfd-9cf3b653b91b",
+          "Data": "DirectColor"
+        },
+        "MaskTexture": {
+          "ID": "278c5ec4-eace-44d2-8817-c016342ab7a4",
+          "Data": null
+        },
+        "MaskScale": {
+          "ID": "be1e0de6-a7be-4d9a-b119-62d444a499a4",
+          "Data": [1, 1]
+        },
+        "MaskOffset": {
+          "ID": "984ede14-ce02-4165-98de-422d6394f735",
+          "Data": [0, 0]
+        },
+        "MaskMode": {
+          "ID": "f4d1840d-f07b-4f41-9cc4-8c5c2de65bb2",
+          "Data": "MultiplyAlpha"
+        },
+        "BlendMode": {
+          "ID": "45a19f6f-c840-45f4-8fe4-0a519a5379af",
+          "Data": "Alpha"
+        },
+        "Sidedness": {
+          "ID": "eda1e8fc-5741-472a-81cb-3f1fc5655697",
+          "Data": "Double"
+        },
+        "ZWrite": {
+          "ID": "b0d4d307-2be9-414d-b03c-4aa06b12019b",
+          "Data": "Off"
+        },
+        "ZTest": {
+          "ID": "97a756b4-0b9d-4b8d-8021-b142ae2e81bb",
+          "Data": "LessOrEqual"
+        },
+        "OffsetFactor": {
+          "ID": "8f7d5b1c-7a21-47d8-a0f6-fdf585617510",
+          "Data": 0.4000000059604645
+        },
+        "OffsetUnits": {
+          "ID": "0c1b4df2-9b68-4084-b16b-32f8a66a0465",
+          "Data": 100
+        }
+      }
+    },
+    {
+      "Type": 240,
+      "Data": {
+        "ID": "445e338f-2fff-45d2-bdf2-d72998f26bf1",
+        "persistent": {
+          "ID": "8e566f1d-ab1d-47ec-9f7c-73c984d149e6",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "cc68ed0e-c8dc-4a8b-836a-f8d4af103e98",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "d16e64dd-8e12-4d49-89d4-ba083d1e4958",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "d9c711f8-27ff-4597-8ac8-1ae4c66c9a6d",
+          "Data": false
+        },
+        "Texture": {
+          "ID": "2f95c45b-7d5b-4278-9b0e-00e0b3afbdbb",
+          "Data": "1c4557b8-d357-431a-9fe8-0a3e1d6c1b8e"
+        },
+        "Rect": {
+          "ID": "3503ab69-5d64-4a77-a47c-7eefa5b6f0bb",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 1,
+            "Height": 1
+          }
+        },
+        "Borders": {
+          "ID": "456337b9-b5b5-4eab-834a-0de9b2179567",
+          "Data": [0, 0, 0, 0]
+        },
+        "Scale": {
+          "ID": "ed412ed8-87bc-47c4-8573-d89427dc3b4a",
+          "Data": 1
+        },
+        "FixedSize": {
+          "ID": "eed83f64-d1cd-436a-a49a-e7030f69361a",
+          "Data": 8
+        }
+      }
+    },
+    {
+      "Type": 241,
+      "Data": {
+        "ID": "1c4557b8-d357-431a-9fe8-0a3e1d6c1b8e",
+        "persistent": {
+          "ID": "fa65d055-a6e4-4ec0-ae18-ae320d519a5f",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "68ddfa21-0f9a-4a03-9b8d-3578e964ff2c",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "1142e6f7-5120-45c3-8ac5-e18d40e96950",
+          "Data": true
+        },
+        "URL": {
+          "ID": "bf19fde6-f436-41e3-b328-5df13d1877df",
+          "Data": "@resdb:///1cf7a6b5762d6f0e00136e0302345948b03ac99a13a7f71f9ec8433dd90f8d59.png"
+        },
+        "FilterMode": {
+          "ID": "959a6d84-ec02-4672-980e-205755b5dc37",
+          "Data": null
+        },
+        "AnisotropicLevel": {
+          "ID": "a69e4caf-74bb-43a7-984d-8c30208b0359",
+          "Data": null
+        },
+        "Uncompressed": {
+          "ID": "21b9b174-8536-467e-97c1-57e24cffbfab",
+          "Data": false
+        },
+        "DirectLoad": {
+          "ID": "a0c62c36-c303-4fc1-bf08-bf78aa895765",
+          "Data": false
+        },
+        "ForceExactVariant": {
+          "ID": "f59e7030-8322-48f8-9f62-623fe5870a48",
+          "Data": false
+        },
+        "PreferredFormat": {
+          "ID": "fb680eea-e126-4da2-8d74-da878ff755a7",
+          "Data": null
+        },
+        "PreferredProfile": {
+          "ID": "e62f8462-ac08-4761-8571-1fd937342f59",
+          "Data": "sRGB"
+        },
+        "MipMapBias": {
+          "ID": "8eef62ae-a1ea-4ed2-87be-dd8b64f9c3fe",
+          "Data": 0
+        },
+        "IsNormalMap": {
+          "ID": "24434640-0fd4-4410-8c57-596c8246a4ca",
+          "Data": false
+        },
+        "WrapModeU": {
+          "ID": "0fc271ea-ed76-48bd-b18c-65f61ae316cb",
+          "Data": "Clamp"
+        },
+        "WrapModeV": {
+          "ID": "e809f78f-beed-44e5-bd5b-b99943d1c432",
+          "Data": "Clamp"
+        },
+        "PowerOfTwoAlignThreshold": {
+          "ID": "ec00182d-9e97-43b8-a25f-60f8c5f243de",
+          "Data": 0.05000000074505806
+        },
+        "CrunchCompressed": {
+          "ID": "7ce8d444-3ee5-4c2f-86b6-48e42280d191",
+          "Data": true
+        },
+        "MinSize": {
+          "ID": "d318d37e-875f-416d-9a7e-298defceb968",
+          "Data": null
+        },
+        "MaxSize": {
+          "ID": "1ac3198e-32e1-4b7a-bfd0-cbb4b7652551",
+          "Data": null
+        },
+        "MipMaps": {
+          "ID": "fabe18ef-821e-4ab4-a98a-88514e801ffc",
+          "Data": false
+        },
+        "KeepOriginalMipMaps": {
+          "ID": "b34ef659-5287-46e5-a3d4-50f52d9cbfac",
+          "Data": false
+        },
+        "MipMapFilter": {
+          "ID": "f454f8ad-b207-4bbb-abaa-c61627dc6682",
+          "Data": "Box"
+        },
+        "Readable": {
+          "ID": "d33faf98-3738-4875-a44d-18455ab8fa69",
+          "Data": false
+        }
+      }
+    },
+    {
+      "Type": 246,
+      "Data": {
+        "ID": "e73b87a3-b23b-4c60-be8b-1946151fb502",
+        "persistent": {
+          "ID": "86b517b8-b0f4-45b9-bda4-3d56d10d8185",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "d412485b-48e8-4220-883e-746c3df75a0c",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "81967dc5-4477-4d3f-9b24-af908efeb6c2",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "1aa398f7-7efe-4dc3-b79b-1989c078c456",
+          "Data": false
+        },
+        "Rect": {
+          "ID": "7b8d4457-e860-4b85-8024-e49f1abfb6cb",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          }
+        },
+        "RectClip": {
+          "ID": "162373be-14d5-46fe-94a2-da8e02220537",
+          "Data": false
+        },
+        "ColorMask": {
+          "ID": "47a4f17f-331b-405c-b559-aecb304d8edd",
+          "Data": "RGBA"
+        },
+        "StencilComparison": {
+          "ID": "8dc11595-4bdc-4138-b31e-c60ba4bb79ab",
+          "Data": "Always"
+        },
+        "StencilOperation": {
+          "ID": "dccae944-19a5-4412-a7d2-9e850b453f98",
+          "Data": "Keep"
+        },
+        "StencilID": {
+          "ID": "11b4c4c8-3e52-4164-86b9-c956c1823827",
+          "Data": 0
+        },
+        "StencilWriteMask": {
+          "ID": "c9a69c3a-0a5d-4037-98c5-1726071f9518",
+          "Data": 255
+        },
+        "StencilReadMask": {
+          "ID": "afc515db-9511-48f3-92f8-c8ca6f1990ad",
+          "Data": 255
+        },
+        "RenderQueue": {
+          "ID": "853bbfdd-9670-4e57-98fe-2be20b85b931",
+          "Data": -1
+        },
+        "_shader-ID": "649b7236-5605-46ac-9127-cef48587ad92",
+        "Texture": {
+          "ID": "7272e7e8-bfdf-48e3-a558-63bccb6ce459",
+          "Data": null
+        },
+        "TextureScale": {
+          "ID": "0e34ea01-11af-4a81-99a6-6c977162406d",
+          "Data": [1, 1]
+        },
+        "TextureOffset": {
+          "ID": "dd267a9b-baab-4723-8d0f-3a0cfa5e909b",
+          "Data": [0, 0]
+        },
+        "Tint": {
+          "ID": "20a65351-009a-4ae7-85f2-12b0320ef25b",
+          "Data": [1, 1, 1, 1, "sRGBAlpha"]
+        },
+        "Overlay": {
+          "ID": "65e2d7b9-7b43-45ad-9ff7-62611a54c8d3",
+          "Data": false
+        },
+        "OverlayTint": {
+          "ID": "905d87be-b1f9-4142-a077-b2060224af5f",
+          "Data": [1, 1, 1, 0.5, "sRGBAlpha"]
+        },
+        "AlphaCutoff": {
+          "ID": "3493cdaa-25b2-4bf7-b959-76a22cc8ba60",
+          "Data": 0.5
+        },
+        "AlphaClip": {
+          "ID": "63df8c86-864b-4928-bfd5-6406a5cfe8b2",
+          "Data": true
+        },
+        "TextureMode": {
+          "ID": "38407ae1-973c-43bc-9e6b-712179cabd8b",
+          "Data": "DirectColor"
+        },
+        "MaskTexture": {
+          "ID": "e981e7a9-2cbe-4909-ab95-170081bf187d",
+          "Data": null
+        },
+        "MaskScale": {
+          "ID": "1391333f-7e4a-46a8-8cbb-624938300c57",
+          "Data": [1, 1]
+        },
+        "MaskOffset": {
+          "ID": "8ad3ef5f-a363-4de5-af93-de1da814273f",
+          "Data": [0, 0]
+        },
+        "MaskMode": {
+          "ID": "bfe45e4b-7e43-4f57-be69-7c3ce07e4003",
+          "Data": "MultiplyAlpha"
+        },
+        "BlendMode": {
+          "ID": "c8fe88b4-a827-4590-a63b-006c24381a0a",
+          "Data": "Alpha"
+        },
+        "Sidedness": {
+          "ID": "811bdc54-b9a2-42d8-8b9f-d6e9209bdda8",
+          "Data": "Double"
+        },
+        "ZWrite": {
+          "ID": "fe9c2f63-9cd3-4e5d-a65e-9de97ea06b32",
+          "Data": "On"
+        },
+        "ZTest": {
+          "ID": "6d7e7fc0-4dfb-4b16-98d8-b0b697a27551",
+          "Data": "LessOrEqual"
+        },
+        "OffsetFactor": {
+          "ID": "addd0d2d-0a61-423f-adfc-22ecc2da5276",
+          "Data": 0.10000000149011612
+        },
+        "OffsetUnits": {
+          "ID": "990fb2e6-d7bd-4d59-bee3-c1b5ea2e65c1",
+          "Data": 10
+        }
+      }
+    },
+    {
+      "Type": 240,
+      "Data": {
+        "ID": "76e0d45c-1332-4311-89a4-9e2c828ae050",
+        "persistent": {
+          "ID": "34d86e34-9601-4607-b778-a4fae53c5bfe",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "09364f9f-f68e-4084-836e-33870ef42d4b",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "95c0bd94-ab81-4896-b6b9-279a72627585",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "0edbc6a0-9a27-42a6-a79e-493e71cfcd63",
+          "Data": false
+        },
+        "Texture": {
+          "ID": "d442a94c-9191-4780-9fb5-b3e1f8b7f954",
+          "Data": "abddd33d-b4b3-41d4-ba88-eb02be1b7304"
+        },
+        "Rect": {
+          "ID": "35460722-92ae-462e-a7d1-82c590469104",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 1,
+            "Height": 1
+          }
+        },
+        "Borders": {
+          "ID": "3b5b1823-49ff-40e5-81ed-5cc47c4094b4",
+          "Data": [0, 0, 0, 0]
+        },
+        "Scale": {
+          "ID": "83000864-7095-4914-aa4e-01f9aa014ef0",
+          "Data": 1
+        },
+        "FixedSize": {
+          "ID": "f157b71e-10da-4afc-a4ca-f16cfa479fb1",
+          "Data": 8
+        }
+      }
+    },
+    {
+      "Type": 241,
+      "Data": {
+        "ID": "abddd33d-b4b3-41d4-ba88-eb02be1b7304",
+        "persistent": {
+          "ID": "6cad1333-afd8-45d2-ad91-0c81f1f4b381",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "067d7265-7dff-4277-a10c-590a3aa8a60a",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "cc100df8-288c-4a42-964e-ce02f7fa2332",
+          "Data": true
+        },
+        "URL": {
+          "ID": "936a557e-35fd-4f11-908e-878112e0f8d0",
+          "Data": "@resdb:///553bd47ebcbcb94f769d3840c6290ad8f8466250ba52fdda96095fc191d16401.png"
+        },
+        "FilterMode": {
+          "ID": "4f751e94-c82c-4fbc-b878-66bca4ad1ca4",
+          "Data": null
+        },
+        "AnisotropicLevel": {
+          "ID": "066fbb4b-3f54-4254-976a-71d1a885e5e2",
+          "Data": null
+        },
+        "Uncompressed": {
+          "ID": "070052be-2b2d-4b81-b956-1b16870663ca",
+          "Data": false
+        },
+        "DirectLoad": {
+          "ID": "3167f908-a8ba-4475-a8e5-f7675d1a9e16",
+          "Data": false
+        },
+        "ForceExactVariant": {
+          "ID": "cf16396e-ef94-4af4-b295-757dd057b7fa",
+          "Data": false
+        },
+        "PreferredFormat": {
+          "ID": "b036b837-4175-4497-bcad-6321016aa695",
+          "Data": null
+        },
+        "PreferredProfile": {
+          "ID": "e1fb1c9b-bd64-425d-88c2-5d61ca6fefeb",
+          "Data": "sRGB"
+        },
+        "MipMapBias": {
+          "ID": "9aceaa0d-9302-4b0c-9c0f-de0aae89a638",
+          "Data": 0
+        },
+        "IsNormalMap": {
+          "ID": "af0cdb6f-2829-481e-b0c3-333eb165bca6",
+          "Data": false
+        },
+        "WrapModeU": {
+          "ID": "be450e3c-3469-4ac7-9821-b709fce7175a",
+          "Data": "Clamp"
+        },
+        "WrapModeV": {
+          "ID": "a326a956-c548-46dd-8400-78cfb815dceb",
+          "Data": "Clamp"
+        },
+        "PowerOfTwoAlignThreshold": {
+          "ID": "5db9f83f-94d2-4a32-b7b9-b119b1b88277",
+          "Data": 0.05000000074505806
+        },
+        "CrunchCompressed": {
+          "ID": "2f0cf5bd-ee7b-43dd-9472-1ce46a4b1212",
+          "Data": true
+        },
+        "MinSize": {
+          "ID": "9ab980ce-fbb3-45f5-ac01-235ff72d3353",
+          "Data": null
+        },
+        "MaxSize": {
+          "ID": "c219b8f2-37ec-4a39-aa1a-370d31af14b0",
+          "Data": null
+        },
+        "MipMaps": {
+          "ID": "f594228f-3b10-439f-802a-990b6d669669",
+          "Data": false
+        },
+        "KeepOriginalMipMaps": {
+          "ID": "614669e9-fa59-4792-bae2-f4d5277c89f5",
+          "Data": false
+        },
+        "MipMapFilter": {
+          "ID": "241d4339-82fe-4e0a-b26e-e9dfe9565fb6",
+          "Data": "Box"
+        },
+        "Readable": {
+          "ID": "4bf840d2-a8a0-4095-a85c-48c7ad47a567",
+          "Data": false
+        }
+      }
+    },
+    {
+      "Type": 246,
+      "Data": {
+        "ID": "5ec94495-f59a-4bf4-a177-ad3fa77a751f",
+        "persistent": {
+          "ID": "b0577e77-47ef-4131-90c8-2137ce13d399",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "e6fbedcc-3013-4b5e-9b2e-6a021677ab4a",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "77c78e05-df3d-4727-87ce-84d7d4af3705",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "b681ca94-a7c3-47f3-95ee-089500e19065",
+          "Data": false
+        },
+        "Rect": {
+          "ID": "405e3ee9-b47e-4dc9-ba23-932776366d46",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          }
+        },
+        "RectClip": {
+          "ID": "75543126-71b7-48a1-b0ed-acb314ce9c48",
+          "Data": false
+        },
+        "ColorMask": {
+          "ID": "bebae324-e294-4af8-94a6-28f19961e366",
+          "Data": "RGBA"
+        },
+        "StencilComparison": {
+          "ID": "ba86ec3b-6d11-4eb8-98e6-4f5aa3310fb4",
+          "Data": "Always"
+        },
+        "StencilOperation": {
+          "ID": "58d3fb4a-5c8c-4c71-8d86-2b08fd7f435f",
+          "Data": "Keep"
+        },
+        "StencilID": {
+          "ID": "761b7964-b2ce-4057-94c4-3988448c87cd",
+          "Data": 0
+        },
+        "StencilWriteMask": {
+          "ID": "662a45a1-04f3-468b-b6f9-e55a3220932c",
+          "Data": 255
+        },
+        "StencilReadMask": {
+          "ID": "41aee32d-d7dc-4395-8666-785367833c11",
+          "Data": 255
+        },
+        "RenderQueue": {
+          "ID": "d99dd396-6fde-4c82-9dec-73204136b96f",
+          "Data": -1
+        },
+        "_shader-ID": "b5a15e65-75ce-4250-81c0-2dc08ee1d9c2",
+        "Texture": {
+          "ID": "06f8015c-4c6f-4e05-a676-c715d25e1b48",
+          "Data": null
+        },
+        "TextureScale": {
+          "ID": "b2a73b1e-88ba-475c-95d3-6804dcee46dd",
+          "Data": [1, 1]
+        },
+        "TextureOffset": {
+          "ID": "73d0c968-3fa6-497f-8964-659ac0738eae",
+          "Data": [0, 0]
+        },
+        "Tint": {
+          "ID": "1e728a4e-ed94-47ff-b77c-e20df65c28b9",
+          "Data": [1, 1, 1, 1, "sRGBAlpha"]
+        },
+        "Overlay": {
+          "ID": "7174cc19-9898-4814-9ffc-099a67099f23",
+          "Data": false
+        },
+        "OverlayTint": {
+          "ID": "f296cbfa-3452-49a0-a0cc-fb07c0f81dd7",
+          "Data": [1, 1, 1, 0.5, "sRGBAlpha"]
+        },
+        "AlphaCutoff": {
+          "ID": "67feaea6-d80b-4b53-9385-a3203a9b6b75",
+          "Data": 0.5
+        },
+        "AlphaClip": {
+          "ID": "6df115c1-a58f-4a43-8e73-deb11e7efffb",
+          "Data": false
+        },
+        "TextureMode": {
+          "ID": "56868ffb-ee45-44d3-96ed-094b1fbce610",
+          "Data": "DirectColor"
+        },
+        "MaskTexture": {
+          "ID": "ec70fdda-e4df-4b38-a138-28c58b2e3a08",
+          "Data": null
+        },
+        "MaskScale": {
+          "ID": "d9d97f0e-b7d3-4a82-98b9-3599514053c9",
+          "Data": [1, 1]
+        },
+        "MaskOffset": {
+          "ID": "30b938b7-2eb1-4729-9302-3b6aefc3685c",
+          "Data": [0, 0]
+        },
+        "MaskMode": {
+          "ID": "2f9c4429-76a5-43dc-a1e4-0046e216045e",
+          "Data": "MultiplyAlpha"
+        },
+        "BlendMode": {
+          "ID": "e42f0ff9-e819-4142-9268-e1410cbf9349",
+          "Data": "Alpha"
+        },
+        "Sidedness": {
+          "ID": "e9bd28c9-eb34-4cbe-94e1-95624aca886d",
+          "Data": "Double"
+        },
+        "ZWrite": {
+          "ID": "4062104f-bc7a-49c6-b891-d9f7b36d3341",
+          "Data": "On"
+        },
+        "ZTest": {
+          "ID": "52a1f5cc-a233-4b98-8f1b-9bf673940c46",
+          "Data": "LessOrEqual"
+        },
+        "OffsetFactor": {
+          "ID": "0f7f99da-4254-4822-8108-6dfcff92dafc",
+          "Data": 0.20000000298023224
+        },
+        "OffsetUnits": {
+          "ID": "41051ced-6159-4845-a738-81d92b3457f3",
+          "Data": 20
+        }
+      }
+    },
+    {
+      "Type": 245,
+      "Data": {
+        "ID": "b4c436f1-0af8-4051-8123-1d41bfc35dd8",
+        "persistent": {
+          "ID": "8cbe5f22-c43b-44a3-b408-b8f8d4888a5c",
+          "Data": false
+        },
+        "UpdateOrder": {
+          "ID": "079089de-4cbd-4930-a58a-6ddc6fd1cc0f",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "fdad04ec-3658-4ed6-b146-8c22f00ae3b5",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "d664ede8-e438-45de-a061-55750001bdce",
+          "Data": false
+        },
+        "_shader-ID": "3babd642-3c24-40ed-9c54-87eda2a621f8",
+        "FontAtlas": {
+          "ID": "554800c6-0408-4ddc-8f34-6455c8e5312c",
+          "Data": null
+        },
+        "TintColor": {
+          "ID": "0911eeab-8643-46bc-aa78-8a07a2d0a905",
+          "Data": [1, 1, 1, 1, "sRGBAlpha"]
+        },
+        "OutlineColor": {
+          "ID": "fc923ea1-7a00-4d71-b586-654ce1e27743",
+          "Data": [0, 0, 0, 1, "sRGBAlpha"]
+        },
+        "BackgroundColor": {
+          "ID": "f1de2c5a-2248-47ed-9915-3385c8cb9f2d",
+          "Data": [0, 0, 0, 1, "sRGBAlpha"]
+        },
+        "AutoBackgroundColor": {
+          "ID": "7d03e15a-f0a9-4e45-ade9-9df9b6cc67ed",
+          "Data": true
+        },
+        "GlyphRenderMethod": {
+          "ID": "adef975d-6d0e-4ea5-b5a9-977614cd958a",
+          "Data": "MSDF"
+        },
+        "PixelRange": {
+          "ID": "6a0d1e98-edb0-45f5-9f00-f82af4216ebe",
+          "Data": 4
+        },
+        "FaceDilate": {
+          "ID": "5e62c341-7551-4619-a6ba-648441691401",
+          "Data": 0
+        },
+        "OutlineThickness": {
+          "ID": "6d6df4ef-aebf-44d8-9a88-1d0617cd433f",
+          "Data": 0
+        },
+        "FaceSoftness": {
+          "ID": "53ed1b72-b8f6-4657-95eb-ad742a09aac9",
+          "Data": 0
+        },
+        "BlendMode": {
+          "ID": "5ebb65a5-5617-4b86-b1b3-fdb8258bb023",
+          "Data": "Alpha"
+        },
+        "Sidedness": {
+          "ID": "2fd510d9-b23c-46b6-9435-45ca0064083a",
+          "Data": "Double"
+        },
+        "ZWrite": {
+          "ID": "1ef79ae0-db74-4c7c-b507-0d6aa2fcd6fa",
+          "Data": "Auto"
+        },
+        "ZTest": {
+          "ID": "e7b6d942-65e6-4583-afa7-9f56ec7bcc3f",
+          "Data": "LessOrEqual"
+        },
+        "OffsetFactor": {
+          "ID": "18cb0fd2-68ee-4976-8b20-89ba09ea3421",
+          "Data": 0
+        },
+        "OffsetUnits": {
+          "ID": "32906439-9c60-4e84-a970-b9e05c6c2e8b",
+          "Data": 0
+        },
+        "RenderQueue": {
+          "ID": "8d8cc63e-3dbf-4176-ad22-ae7362400dea",
+          "Data": -1
+        },
+        "Overlay": {
+          "ID": "d7d0817c-c178-4781-acaf-f16f521c3af9",
+          "Data": false
+        },
+        "OverlayTint": {
+          "ID": "9feadb50-84b2-4231-85e5-dae81e28d244",
+          "Data": [1, 1, 1, 0.5, "sRGBAlpha"]
+        },
+        "Rect": {
+          "ID": "2dc84084-5471-477c-abfe-6bac758622f6",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          }
+        },
+        "RectClip": {
+          "ID": "3b78161b-eab2-4e4a-ab5a-98dca583aefe",
+          "Data": false
+        },
+        "ColorMask": {
+          "ID": "ac0cbc95-7710-40f8-9448-31fce8ff438c",
+          "Data": "RGBA"
+        },
+        "StencilComparison": {
+          "ID": "857b592d-a6a8-48e8-bec0-9c5dbf7430c2",
+          "Data": "Always"
+        },
+        "StencilOperation": {
+          "ID": "f55700c5-91d5-434e-8fa7-665570aded01",
+          "Data": "Keep"
+        },
+        "StencilID": {
+          "ID": "70ba54ac-f1f6-40f7-8592-bf897cb0220e",
+          "Data": 0
+        },
+        "StencilWriteMask": {
+          "ID": "54d21e34-0a27-45de-8850-7803143d2dc5",
+          "Data": 255
+        },
+        "StencilReadMask": {
+          "ID": "cfc31c1c-4f5c-4561-b6b6-e029d7d60da7",
+          "Data": 255
+        }
+      }
+    },
+    {
+      "Type": 233,
+      "Data": {
+        "ID": "3b43309e-5a8f-4fde-bd29-d3b3ca6b04c2",
+        "persistent": {
+          "ID": "0f4a4fed-649e-4a69-87e1-f5e94c32d707",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "24c08d63-26fe-4453-9909-2e3727da34fa",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "60ce0ba4-2407-48d7-8042-f21977ae4b3f",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "498c53b4-db7c-41af-99fd-91e4e8902fac",
+          "Data": false
+        },
+        "MainFont": {
+          "ID": "499c85bf-3421-49c1-8845-9d49a8e2d360",
+          "Data": "b21e43f8-98b0-416b-8c73-509cf6451efb"
+        },
+        "FallbackFonts": {
+          "ID": "ae8cd9b2-08b4-48ca-90dc-d5e1ba149f26",
+          "Data": [
+            {
+              "ID": "9a88f974-5be7-4343-8a48-0323bf8c7027",
+              "Data": "831213da-ae52-4aff-87dd-64da9051b7d4"
+            },
+            {
+              "ID": "e1857590-ee03-4d4e-9201-67d4e078ea41",
+              "Data": "7776b87f-e4cd-4c3f-9bcb-7fa70a9b8b54"
+            },
+            {
+              "ID": "550a0b2f-8019-4b0b-935b-f64090db965c",
+              "Data": "ec0b47a4-38e5-43f7-9f4e-d3dd488bbbd5"
+            },
+            {
+              "ID": "a54a61c8-69d2-4802-a499-3549b98aec49",
+              "Data": "31103734-6474-4b04-9ee1-c86adb7f0c81"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Type": 235,
+      "Data": {
+        "ID": "b21e43f8-98b0-416b-8c73-509cf6451efb",
+        "persistent": {
+          "ID": "a5f3fc4e-b7cb-4fbd-922a-6d29781ac646",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "0a1211de-d1ab-4934-9393-c0c91126f9e2",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "2d5bab51-66f2-415b-a865-771444576fe3",
+          "Data": true
+        },
+        "URL": {
+          "ID": "fcad203a-2c77-4d3c-aea4-a1f565330a98",
+          "Data": "@resdb:///c801b8d2522fb554678f17f4597158b1af3f9be3abd6ce35d5a3112a81e2bf39"
+        },
+        "Padding": {
+          "ID": "14d4f8e4-fd57-4acb-92ee-0e05ef9278f3",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "568ff783-a059-42c3-bada-0601813261ea",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "ac717fcd-3df8-48ca-b248-e5ccca77fddf",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "39288ec0-1ab9-4a38-874d-42fe7d335f6f",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "d0060474-03aa-433e-b8d8-6649ee2a1f1d",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "265b1b1b-27f0-4cd8-8135-2e54acc6d4dd",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 235,
+      "Data": {
+        "ID": "831213da-ae52-4aff-87dd-64da9051b7d4",
+        "persistent": {
+          "ID": "41e734a2-79f4-4a50-8100-4a8b51b9b181",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "278cb509-45ee-44e4-9d86-3066f7abb1c1",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "5c73463e-2011-49bd-aec4-041cd902e4c3",
+          "Data": true
+        },
+        "URL": {
+          "ID": "9aad800f-5df1-4fd9-b8c8-53a69b4d5cbd",
+          "Data": "@resdb:///4cac521169034ddd416c6deffe2eb16234863761837df677a910697ec5babd25"
+        },
+        "Padding": {
+          "ID": "35cefd85-00f3-47cd-939d-d02ca07b8eed",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "b7493a48-fc9b-4e9d-8e91-ded946368eb4",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "1c0f7c42-e16a-4a91-bd17-95f4aeaced6c",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "f55e0ed6-ab4f-408e-b750-61e765a0d337",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "246e54ed-0a3c-47fe-9c16-52ded76136ab",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "ade4ead2-c13b-4d18-987b-ee930b127117",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 235,
+      "Data": {
+        "ID": "7776b87f-e4cd-4c3f-9bcb-7fa70a9b8b54",
+        "persistent": {
+          "ID": "d5a95c50-aa69-41ca-a485-982645e7e76b",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "127e08f0-6415-4889-b135-fa4085112ebf",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "3a698f17-8e50-4698-8771-ec739cdf8e1e",
+          "Data": true
+        },
+        "URL": {
+          "ID": "10495c5f-c6b6-4dbf-94b4-184e468934b1",
+          "Data": "@resdb:///23e7ad7cb0a5a4cf75e07c9e0848b1eb06bba15e8fa9b8cb0579fc823c532927"
+        },
+        "Padding": {
+          "ID": "5f0ed3e5-e3d7-48e1-9234-535b20a036f2",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "5242c378-1778-4c4b-b09b-54bcf71e94cb",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "ffa2454b-c7c6-4387-aaad-1d8994f51785",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "5b88c12a-ecfc-4859-a24b-31f40b25a9e4",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "5f58c64a-6d19-4cc5-b3e6-e1aee24c3f80",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "4ef0b581-38a0-48a1-ae1b-1f142038fd46",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 235,
+      "Data": {
+        "ID": "ec0b47a4-38e5-43f7-9f4e-d3dd488bbbd5",
+        "persistent": {
+          "ID": "db1f2c05-1bc1-435b-8614-ba5cc25aceb7",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "41ed26d2-c473-4f6a-a555-815278528685",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "170fe4c7-4c80-41a7-b7e8-ae524756da9b",
+          "Data": true
+        },
+        "URL": {
+          "ID": "1f149c53-fb9a-4554-b1b1-1d87b360254c",
+          "Data": "@resdb:///415dc6290378574135b64c808dc640c1df7531973290c4970c51fdeb849cb0c5"
+        },
+        "Padding": {
+          "ID": "edfa921d-488a-4abc-81fe-3a440d4be8a2",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "e59ef21a-1d8c-4517-9326-9929d3c9edfa",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "d894f4bc-34aa-4312-8129-5a04a3d5f2d4",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "50384d90-cdf9-468b-82b8-54d744da43f8",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "c89c4caa-f430-4188-bd43-2f08141d06b9",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "66b0462f-a962-43ce-b237-fc3f05ab1732",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 235,
+      "Data": {
+        "ID": "31103734-6474-4b04-9ee1-c86adb7f0c81",
+        "persistent": {
+          "ID": "27b467bc-7f9c-48e5-8a65-b329ca243a40",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "6f044ab3-3f9a-4ea7-be91-0bd73f3e7e3a",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "fd5eb054-6bca-4911-b718-2241ab067146",
+          "Data": true
+        },
+        "URL": {
+          "ID": "936aedfb-1281-49df-a49b-134c9830777e",
+          "Data": "@resdb:///bcda0bcc22bab28ea4fedae800bfbf9ec76d71cc3b9f851779a35b7e438a839d"
+        },
+        "Padding": {
+          "ID": "58171ff9-85e7-4416-8ae5-82d2cc38109f",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "02fe5bf2-6c91-4d6f-9287-e791e4e14bf3",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "57a6b579-4ab1-4d13-8461-b9038cb06254",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "e5d7e70d-8c7f-4a8b-903e-2bcf0714dd51",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "88b2ea38-0755-4490-acd7-a90c9f0ba585",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "56cea0cd-dd54-468f-bf38-84f3d199c14e",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 245,
+      "Data": {
+        "ID": "eba62ce5-cc03-4ed7-bb12-1bdf284bfe60",
+        "persistent": {
+          "ID": "b6c37303-4631-40d9-8bc1-a0d9f3df33f8",
+          "Data": false
+        },
+        "UpdateOrder": {
+          "ID": "c059ec80-d55b-4c59-9b74-83a4ca5d73ea",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "e1f10314-70fe-4680-b056-ff9990dabce7",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "1bacd8a2-7bf1-41c9-bba4-379a9e5290d5",
+          "Data": false
+        },
+        "_shader-ID": "8192dbca-122a-487d-b51b-8c603aacbdd5",
+        "FontAtlas": {
+          "ID": "f91b9098-f9db-4c5b-a733-dc81050b470c",
+          "Data": null
+        },
+        "TintColor": {
+          "ID": "55bc8753-ab6d-4cbd-8de7-f7dae0ed0179",
+          "Data": [1, 1, 1, 1, "sRGBAlpha"]
+        },
+        "OutlineColor": {
+          "ID": "01437e5b-3840-4405-b5ac-c940743676e8",
+          "Data": [0, 0, 0, 1, "sRGBAlpha"]
+        },
+        "BackgroundColor": {
+          "ID": "ae565147-0a54-4f37-9a44-b2424e690a43",
+          "Data": [0, 0, 0, 1, "sRGBAlpha"]
+        },
+        "AutoBackgroundColor": {
+          "ID": "050afb91-e885-4d53-88e1-34684949d512",
+          "Data": true
+        },
+        "GlyphRenderMethod": {
+          "ID": "b3c37dfe-c64a-4d44-b344-c4cbe3155bf3",
+          "Data": "MSDF"
+        },
+        "PixelRange": {
+          "ID": "0b9b7e33-990e-47de-b4b6-8b35da485a98",
+          "Data": 4
+        },
+        "FaceDilate": {
+          "ID": "2787312e-588f-49c9-812f-53953bb3bb43",
+          "Data": 0
+        },
+        "OutlineThickness": {
+          "ID": "59c99ba7-dec2-4a15-8f7e-393ffc607770",
+          "Data": 0
+        },
+        "FaceSoftness": {
+          "ID": "b0879fb4-b027-4071-893a-a97a2e22a16f",
+          "Data": 0
+        },
+        "BlendMode": {
+          "ID": "a97d71f6-ba74-446a-b436-9b072905d212",
+          "Data": "Alpha"
+        },
+        "Sidedness": {
+          "ID": "eb248550-d78c-4f72-912a-16d7cdb5f878",
+          "Data": "Double"
+        },
+        "ZWrite": {
+          "ID": "95ac9b07-6775-4555-a836-d3e9919ab73d",
+          "Data": "Auto"
+        },
+        "ZTest": {
+          "ID": "fad91922-63e4-4277-98b8-4698b1228475",
+          "Data": "LessOrEqual"
+        },
+        "OffsetFactor": {
+          "ID": "f4180ebf-b6ff-498d-bee9-075019a897c1",
+          "Data": 0
+        },
+        "OffsetUnits": {
+          "ID": "67f575f2-e0c5-4480-b8fe-80e70a937e23",
+          "Data": 0
+        },
+        "RenderQueue": {
+          "ID": "d107657a-ef83-45b7-84bc-5946f28e3e41",
+          "Data": -1
+        },
+        "Overlay": {
+          "ID": "76533040-7d99-4f65-a714-b68ec679f27b",
+          "Data": false
+        },
+        "OverlayTint": {
+          "ID": "7d9a8859-ae89-4568-ab15-a34babb7a6fb",
+          "Data": [1, 1, 1, 0.5, "sRGBAlpha"]
+        },
+        "Rect": {
+          "ID": "49742eaf-eeb8-4b41-8d84-937ea91e0cc1",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          }
+        },
+        "RectClip": {
+          "ID": "ebd3fc34-0f9f-42e9-a55f-901f88554cc1",
+          "Data": false
+        },
+        "ColorMask": {
+          "ID": "92ed410c-12c2-454a-b8e4-2a030ec9f584",
+          "Data": "RGBA"
+        },
+        "StencilComparison": {
+          "ID": "57f42e21-be83-4b26-8b76-a888bf690bf7",
+          "Data": "Always"
+        },
+        "StencilOperation": {
+          "ID": "4d10a228-62e8-4e66-b9e6-11163ef50d7a",
+          "Data": "Keep"
+        },
+        "StencilID": {
+          "ID": "f46e76af-e400-449d-bd1f-e8b56d8ff8ff",
+          "Data": 0
+        },
+        "StencilWriteMask": {
+          "ID": "87db6424-800f-440b-afb3-df8cc4df55af",
+          "Data": 255
+        },
+        "StencilReadMask": {
+          "ID": "7e1ffe2c-61a2-4c7e-9678-8860518392db",
+          "Data": 255
+        }
+      }
+    },
+    {
+      "Type": 233,
+      "Data": {
+        "ID": "53a8412b-f765-463d-82c9-23cb5b83679a",
+        "persistent": {
+          "ID": "3e4adb84-1909-48b4-b2aa-7c1b008ed750",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "5280ed63-ca2f-4735-ae2e-e13de6bf2fbc",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "91820b95-d2f6-45ee-9291-ef63bd7e6e54",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "192bcdaa-c8f3-48c4-b8bc-bba3bfdedfe6",
+          "Data": false
+        },
+        "MainFont": {
+          "ID": "37fcd0b9-afb6-4a6e-976d-004d91b70763",
+          "Data": "3ef19a7f-820e-4d50-a6fe-0d01d4226e6a"
+        },
+        "FallbackFonts": {
+          "ID": "8ede3f0b-efd1-4f9f-bac6-ae2131a46b42",
+          "Data": [
+            {
+              "ID": "b4157400-9321-4607-9e50-867ebfbc8e4e",
+              "Data": "26ae6a03-760b-4306-96ed-d943f52680a3"
+            },
+            {
+              "ID": "de416672-7813-4ee5-a214-135f1fcc10bf",
+              "Data": "cd5ce0c6-aa84-4350-bf3c-9e9e0eba5830"
+            },
+            {
+              "ID": "6b98e267-da5b-41d6-a0f4-7486c624c21b",
+              "Data": "fb7e8926-a6dc-4732-8e09-95901cc1f39b"
+            },
+            {
+              "ID": "65d33bfe-7290-4f7c-9306-f37cc159f069",
+              "Data": "b1cbfe08-ba52-49f2-bc19-dc7a71d96849"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Type": 235,
+      "Data": {
+        "ID": "3ef19a7f-820e-4d50-a6fe-0d01d4226e6a",
+        "persistent": {
+          "ID": "23fcf522-eec4-4663-adb8-f2e05d92ba67",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "1f6a4824-33dd-444e-acde-9d36abf127fb",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "3844ad8f-c88c-4be9-84f9-58f9b8e03cac",
+          "Data": true
+        },
+        "URL": {
+          "ID": "79ff9b5d-e741-46cf-ab16-b9df7e51b086",
+          "Data": "@resdb:///c801b8d2522fb554678f17f4597158b1af3f9be3abd6ce35d5a3112a81e2bf39"
+        },
+        "Padding": {
+          "ID": "245abd64-7844-44a0-8498-f473651808cf",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "9cb812cb-794d-4e6c-8fcf-50d460ec950d",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "9f634485-c6a0-4a0d-9027-7ffbd695e227",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "77e5e6ab-1eb4-4308-9a8c-6caa748763c9",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "cbc3e434-6e0c-4510-86cb-ff4d2c75d81b",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "2d615754-b883-44ec-98e0-f88d69c1e8d7",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 235,
+      "Data": {
+        "ID": "26ae6a03-760b-4306-96ed-d943f52680a3",
+        "persistent": {
+          "ID": "550fa361-aa31-4e27-9a65-83fdb7f719f4",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "fe70d31e-4dc0-4b67-803f-895c79e214f4",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "12a0b7fb-d67f-4d94-b12e-e1d9af7c3503",
+          "Data": true
+        },
+        "URL": {
+          "ID": "ec6ede17-48e6-4c73-826d-2f6a98667f86",
+          "Data": "@resdb:///4cac521169034ddd416c6deffe2eb16234863761837df677a910697ec5babd25"
+        },
+        "Padding": {
+          "ID": "cac366f1-6f09-45d9-9129-f48a56430a59",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "06d17e26-e60e-4655-a1d3-f7cb614e6dad",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "9eee3694-f90d-4cad-8f9f-eeb8f2738121",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "a94b6aeb-5a8b-4cd4-9832-7240cf041777",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "5dd6e211-f9e4-4c81-a582-d1cccd59228c",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "b9ff5c94-0bfe-4ad6-b5e5-6fb2823eef5c",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 235,
+      "Data": {
+        "ID": "cd5ce0c6-aa84-4350-bf3c-9e9e0eba5830",
+        "persistent": {
+          "ID": "4dd6b784-3c15-42b0-aa6b-9bb71434aab0",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "6a0ba3dd-d1d0-475f-91d1-6da8c37de1c3",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "bedf9ee4-ade6-4aff-94c6-372dc5b494e2",
+          "Data": true
+        },
+        "URL": {
+          "ID": "828d5b09-5158-4860-bea9-b7b76c59e1b8",
+          "Data": "@resdb:///23e7ad7cb0a5a4cf75e07c9e0848b1eb06bba15e8fa9b8cb0579fc823c532927"
+        },
+        "Padding": {
+          "ID": "6df47954-f7b8-4c74-97b5-96adc54dbaa5",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "284807b9-0efb-4a6d-9a56-d129c78f5b3b",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "90169430-ca89-4f11-947a-8692ba38d5cd",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "0e7e442c-9dc4-415b-96d9-65f9564c39ad",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "55dc5f4a-cb23-439d-af55-96889baefb32",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "bd984eb5-486c-4b99-956e-b2f7220b5c7d",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 235,
+      "Data": {
+        "ID": "fb7e8926-a6dc-4732-8e09-95901cc1f39b",
+        "persistent": {
+          "ID": "67e75131-7e73-45e7-b5f5-aea8c86ce049",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "c8d8272c-fd4d-4a20-be11-a4e2eee499fd",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "c30d6f47-2b36-463f-a95e-51153e700302",
+          "Data": true
+        },
+        "URL": {
+          "ID": "7b507649-69bb-4d4f-a8ee-27a183abab92",
+          "Data": "@resdb:///415dc6290378574135b64c808dc640c1df7531973290c4970c51fdeb849cb0c5"
+        },
+        "Padding": {
+          "ID": "50acdea3-5771-498f-8aed-15a6ab348dc1",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "f61b0308-e433-48cd-b45c-765b6d5e34c4",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "9d331fae-ca93-4dc2-890e-e2eb2ef3b8ac",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "b7fa6624-8bda-4e45-a2ab-f54a36ca093f",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "42dbd8d5-5ca8-428a-a04f-ee5958495457",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "1619a660-3da6-4c54-bbcf-307a17bc4dad",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 235,
+      "Data": {
+        "ID": "b1cbfe08-ba52-49f2-bc19-dc7a71d96849",
+        "persistent": {
+          "ID": "97cb86ef-df5f-494b-8203-91d95deb19a2",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "ad747629-1ea8-40ec-b324-8cd8ae5d53e7",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "2c42a8a2-31ea-4205-bcdd-44d84e8ae616",
+          "Data": true
+        },
+        "URL": {
+          "ID": "18c34bc8-a465-497f-8651-bddfe22b8ee6",
+          "Data": "@resdb:///bcda0bcc22bab28ea4fedae800bfbf9ec76d71cc3b9f851779a35b7e438a839d"
+        },
+        "Padding": {
+          "ID": "5d2f9b05-f4bd-4ce0-8170-086522c5c9ae",
+          "Data": 1
+        },
+        "PixelRange": {
+          "ID": "95dc48bc-ffa6-40af-90a8-fc5fb94c7e0d",
+          "Data": 4
+        },
+        "GlyphEmSize": {
+          "ID": "f6f3e34c-c6bf-40a4-b4e2-0f3eec11c18d",
+          "Data": 32
+        },
+        "MipMaps": {
+          "ID": "d685ef75-30ba-4637-bc7c-f9f84cbadbb0",
+          "Data": true
+        },
+        "MipMapFiltering": {
+          "ID": "5ed52576-16a9-4ddb-bc7f-41c1e06ebf6c",
+          "Data": "Box"
+        },
+        "LODBias": {
+          "ID": "0d85f019-dac9-4ee3-9c99-c51d0b43e6ea",
+          "Data": -1
+        }
+      }
+    },
+    {
+      "Type": 245,
+      "Data": {
+        "ID": "2b3fd6db-6a93-4a68-b419-32df7b658e27",
+        "persistent": {
+          "ID": "e7ae4669-e110-45ab-895f-1325faf79080",
+          "Data": false
+        },
+        "UpdateOrder": {
+          "ID": "5ba8bfe0-56c3-405c-91bb-6435e76a905f",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "bf4513f7-a9de-488c-bef4-53013607c320",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "32e99efb-126f-4296-aa55-0e07378ee1eb",
+          "Data": false
+        },
+        "_shader-ID": "758d60f9-7dda-446f-889e-65c631152e10",
+        "FontAtlas": {
+          "ID": "48abc828-42e9-4827-bb01-87304d367791",
+          "Data": null
+        },
+        "TintColor": {
+          "ID": "19823a2e-2b7f-4dab-af93-c44132fdda6e",
+          "Data": [1, 1, 1, 1, "sRGBAlpha"]
+        },
+        "OutlineColor": {
+          "ID": "4117eec8-17f2-4371-84c4-17cccaad63b9",
+          "Data": [0, 0, 0, 1, "sRGBAlpha"]
+        },
+        "BackgroundColor": {
+          "ID": "967f8f86-c3b2-4cc8-8ddf-f4e4aa40581c",
+          "Data": [0, 0, 0, 1, "sRGBAlpha"]
+        },
+        "AutoBackgroundColor": {
+          "ID": "f419e464-58b7-40b1-83d4-857932276a24",
+          "Data": true
+        },
+        "GlyphRenderMethod": {
+          "ID": "ee56fd9c-02c7-4815-a19e-c8c3e929b123",
+          "Data": "MSDF"
+        },
+        "PixelRange": {
+          "ID": "2560ff53-83c9-4441-8d8c-442990780e31",
+          "Data": 4
+        },
+        "FaceDilate": {
+          "ID": "44aa79bf-4eae-4b26-a8ad-10280cb34f21",
+          "Data": 0
+        },
+        "OutlineThickness": {
+          "ID": "ea2cdb39-5db7-4317-b97d-ded6c6e09610",
+          "Data": 0
+        },
+        "FaceSoftness": {
+          "ID": "f5d40fca-0869-417b-b944-d5e199cbcbe4",
+          "Data": 0
+        },
+        "BlendMode": {
+          "ID": "3e801426-9cf0-4a06-8a65-5234eb636812",
+          "Data": "Alpha"
+        },
+        "Sidedness": {
+          "ID": "859f16b2-f9a5-456f-9104-5df1306ed487",
+          "Data": "Double"
+        },
+        "ZWrite": {
+          "ID": "f415f149-d61f-40c9-914e-9bb0e7f09c1d",
+          "Data": "Auto"
+        },
+        "ZTest": {
+          "ID": "21a1afa1-3b15-4bc4-8001-c5a1cfa57b11",
+          "Data": "LessOrEqual"
+        },
+        "OffsetFactor": {
+          "ID": "c99eda11-4c86-41b0-aecc-8a4974b0c31e",
+          "Data": 0
+        },
+        "OffsetUnits": {
+          "ID": "752809cc-300e-46dd-a514-82e43f4876bb",
+          "Data": 0
+        },
+        "RenderQueue": {
+          "ID": "0aef3053-7b73-4abe-a8dc-5d99a4985571",
+          "Data": -1
+        },
+        "Overlay": {
+          "ID": "cff9502d-74a6-49b6-adfb-4dec1d02e43f",
+          "Data": false
+        },
+        "OverlayTint": {
+          "ID": "8bfbbf44-d092-4344-867c-85c7c55fce82",
+          "Data": [1, 1, 1, 0.5, "sRGBAlpha"]
+        },
+        "Rect": {
+          "ID": "2d2b9116-d194-480c-893c-a68e11f29d26",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          }
+        },
+        "RectClip": {
+          "ID": "13e3499c-e141-4b47-a92b-4a8a2f63954c",
+          "Data": false
+        },
+        "ColorMask": {
+          "ID": "35580d92-42cf-484e-b23c-1eda448b57a3",
+          "Data": "RGBA"
+        },
+        "StencilComparison": {
+          "ID": "773f2ba1-3c85-4312-bf36-372e7e820408",
+          "Data": "Always"
+        },
+        "StencilOperation": {
+          "ID": "cf95635e-3c36-4687-9241-5878f7edde10",
+          "Data": "Keep"
+        },
+        "StencilID": {
+          "ID": "4142786c-f83e-4f52-82d9-30d6dcea0156",
+          "Data": 0
+        },
+        "StencilWriteMask": {
+          "ID": "a9ac6699-46ed-4dd8-9de8-5e0d9c467fbf",
+          "Data": 255
+        },
+        "StencilReadMask": {
+          "ID": "c157f48c-1d5b-4878-a11e-8cd0e7de70f9",
+          "Data": 255
+        }
+      }
+    },
+    {
+      "Type": 352,
+      "Data": {
+        "ID": "6e08ab73-23c7-45f2-9666-2bacb8af8c06",
+        "persistent": {
+          "ID": "c1182d04-449b-4aef-b2a8-9a060fd0c211",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "32771989-92c8-44ba-9067-0fa6e21ec3d2",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "1727d57e-48c9-4d8c-9c0d-c53bc949f445",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "782f7fc4-49a1-41a4-8e27-ba05c62d3308",
+          "Data": false
+        },
+        "TextureScale": {
+          "ID": "c18d9c00-5c12-4a9c-ad8c-d616cab850ce",
+          "Data": [1, 1]
+        },
+        "TextureOffset": {
+          "ID": "e341c9f2-7a68-4a1d-a170-112590a7741a",
+          "Data": [0, 0]
+        },
+        "AlbedoColor": {
+          "ID": "bc85a935-431a-401a-831b-57f2bfe19895",
+          "Data": [0.5, 0.5, 0.5, 1, "sRGBAlpha"]
+        },
+        "AlbedoTexture": {
+          "ID": "05b047be-f042-4f7b-aca3-f3a55c452592",
+          "Data": "df411b15-ba96-4261-b6e8-fce72909e68a"
+        },
+        "EmissiveColor": {
+          "ID": "444db90a-f411-4cbf-85b4-d7253d000cb1",
+          "Data": [0.5, 0.5, 0.5, 1, "sRGBAlpha"]
+        },
+        "EmissiveMap": {
+          "ID": "4ba499d2-e396-4246-ba47-5a916d509c0d",
+          "Data": "df411b15-ba96-4261-b6e8-fce72909e68a"
+        },
+        "NormalMap": {
+          "ID": "0dfdfe33-2aa0-4f03-a5a0-ae9ca46a3bf2",
+          "Data": null
+        },
+        "NormalScale": {
+          "ID": "756f0a77-a6d6-4a86-9002-835a9704519d",
+          "Data": 1
+        },
+        "OcclusionMap": {
+          "ID": "28cb4eb9-a35b-4cb5-a0cd-e279890f0420",
+          "Data": null
+        },
+        "Culling": {
+          "ID": "3838f527-ed5a-45dd-b0e1-de941825abfd",
+          "Data": "Off"
+        },
+        "AlphaHandling": {
+          "ID": "1e900ac7-6857-4fbd-9a10-39de5a0f9a34",
+          "Data": "Opaque"
+        },
+        "AlphaClip": {
+          "ID": "311d0001-5e97-4436-afdf-b5989a9c1e62",
+          "Data": 0
+        },
+        "OffsetFactor": {
+          "ID": "19a6fa9a-30e0-44f7-8bbb-8f3f0287c266",
+          "Data": 0
+        },
+        "OffsetUnits": {
+          "ID": "4b259ac7-2ea7-42b7-a9e6-cc4faefcd48e",
+          "Data": 0
+        },
+        "RenderQueue": {
+          "ID": "7c29e67e-a5a1-485d-ab8e-04f02274f79d",
+          "Data": -1
+        },
+        "Metallic": {
+          "ID": "82977300-62bb-411a-9ff6-3c6af71948f3",
+          "Data": 0.8243125677108765
+        },
+        "Smoothness": {
+          "ID": "a275acab-34bd-4193-97f9-57cd07d3f8a2",
+          "Data": 0.6039625406265259
+        },
+        "MetallicMap": {
+          "ID": "08a7b07f-c8b5-4f3c-b065-2f5f0d792b98",
+          "Data": null
+        },
+        "_regular-ID": "d5adbc9a-7b72-42cd-9119-6f2662b6f244",
+        "_transparent-ID": "6a2e2684-90d4-4f17-b350-f13302e24a2c"
+      }
+    },
+    {
+      "Type": 241,
+      "Data": {
+        "ID": "df411b15-ba96-4261-b6e8-fce72909e68a",
+        "persistent": {
+          "ID": "a939f59c-e6c4-4271-a708-b3176d6820cf",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "7d636b90-3d8c-49d0-8c0b-9f10c0c2b066",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "34479313-0965-477a-9ed3-5e29b6b7435e",
+          "Data": true
+        },
+        "URL": {
+          "ID": "c9794ffd-b939-472c-9007-fbdc73bc5abc",
+          "Data": "@resdb:///125b9464e8cddaa2b7790f64451406a3a813eb77431ce502345b600c2e47c939.png"
+        },
+        "FilterMode": {
+          "ID": "1180cc35-8bf4-4fc9-90c0-2a9958f530f8",
+          "Data": null
+        },
+        "AnisotropicLevel": {
+          "ID": "93308cb7-3370-481b-ad52-2a76ea3afc0f",
+          "Data": null
+        },
+        "Uncompressed": {
+          "ID": "070fe3dc-ef7a-4edb-b14c-4a71e37a0398",
+          "Data": false
+        },
+        "DirectLoad": {
+          "ID": "8d0aca8a-7d49-4e17-90b9-0084524dc921",
+          "Data": false
+        },
+        "ForceExactVariant": {
+          "ID": "dfb8c8cc-8271-459c-981b-710144daa469",
+          "Data": false
+        },
+        "PreferredFormat": {
+          "ID": "85726782-6ec2-451d-abb7-6249f2be954b",
+          "Data": null
+        },
+        "PreferredProfile": {
+          "ID": "20cb61b5-1a29-4aaf-b897-ccad541cad0b",
+          "Data": "sRGB"
+        },
+        "MipMapBias": {
+          "ID": "cb70279f-7efb-49da-812d-38d9f0f4c073",
+          "Data": 0
+        },
+        "IsNormalMap": {
+          "ID": "3e3087ab-435f-4417-a7e0-e8153baa4319",
+          "Data": false
+        },
+        "WrapModeU": {
+          "ID": "433d0a59-13b9-4b18-9f8b-e0905d972f62",
+          "Data": "Clamp"
+        },
+        "WrapModeV": {
+          "ID": "43936f2c-f5cd-4bae-94c3-9fe5d6757c71",
+          "Data": "Clamp"
+        },
+        "PowerOfTwoAlignThreshold": {
+          "ID": "b783fb28-261b-463e-b772-153cb3b3e2b2",
+          "Data": 0.05000000074505806
+        },
+        "CrunchCompressed": {
+          "ID": "ef5ef314-aae0-40de-b9b3-d7b756cb2c78",
+          "Data": true
+        },
+        "MinSize": {
+          "ID": "169da634-9d22-4e0d-acbc-8d09774f0510",
+          "Data": null
+        },
+        "MaxSize": {
+          "ID": "96a4fe40-2d43-4126-9d5d-b5a9949c18a2",
+          "Data": null
+        },
+        "MipMaps": {
+          "ID": "521c54b3-4fb5-47a9-9cab-6fcf69ec8efe",
+          "Data": false
+        },
+        "KeepOriginalMipMaps": {
+          "ID": "16db3065-2a22-4dc0-ace9-1a3047d6c6df",
+          "Data": false
+        },
+        "MipMapFilter": {
+          "ID": "1b5f5196-53a5-4440-ac0a-0e7e50f47c9a",
+          "Data": "Box"
+        },
+        "Readable": {
+          "ID": "4d73e1fb-8716-404f-ba8e-908a9260a90d",
+          "Data": false
+        }
+      }
+    },
+    {
+      "Type": 240,
+      "Data": {
+        "ID": "853fac9f-39f8-4192-abb0-bc4d9840f83c",
+        "persistent": {
+          "ID": "6c5e074b-8aac-4a44-a1b0-e49794f94a85",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "de10e793-6c7d-45f7-863e-6efc60099b7b",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "d9504df0-4970-4363-a677-803adc5577f2",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "12385eed-1f7b-4df3-9ee8-b576f9179ac0",
+          "Data": false
+        },
+        "Texture": {
+          "ID": "aee2f29f-3212-4fab-ac4c-64dc33fcf033",
+          "Data": "d4f80b4f-8af7-4bff-b3eb-fd17f8b3061c"
+        },
+        "Rect": {
+          "ID": "1ce08622-d6ae-4c05-8567-30d00fb68dce",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 1,
+            "Height": 1
+          }
+        },
+        "Borders": {
+          "ID": "779b3f10-b700-45cb-96e5-2fefbb18ed8c",
+          "Data": [0, 0, 0, 0]
+        },
+        "Scale": {
+          "ID": "02c7af90-d71f-4146-b407-c9b73a2634e8",
+          "Data": 1
+        },
+        "FixedSize": {
+          "ID": "ca1b4fad-3de7-4d04-95c9-a5f7844cc023",
+          "Data": 8
+        }
+      }
+    },
+    {
+      "Type": 240,
+      "Data": {
+        "ID": "d4032df3-da93-4840-912a-ac339d2447fb",
+        "persistent": {
+          "ID": "e9776599-ef90-4e49-b9ee-a6d044899d3d",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "cef9bf6b-a37c-4ba6-8984-dd9df25dcba1",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "a3ab4c2b-64be-4add-a54e-dc46303d36b7",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "476bad0d-3b1f-4dce-9827-b8e6b82317dc",
+          "Data": false
+        },
+        "Texture": {
+          "ID": "54566559-9391-43f3-babf-3875203bdc16",
+          "Data": "da2fbea1-8231-4c90-87d2-b65b3d7e981b"
+        },
+        "Rect": {
+          "ID": "31e437d6-1bbe-4d26-88de-a11c795edc5a",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 1,
+            "Height": 1
+          }
+        },
+        "Borders": {
+          "ID": "426df2c9-2f61-40ed-9931-853bb3690ff3",
+          "Data": [0, 0, 0, 0]
+        },
+        "Scale": {
+          "ID": "8871626b-1fb7-41a5-89b4-e17678da4387",
+          "Data": 1
+        },
+        "FixedSize": {
+          "ID": "ae2e873b-7fbf-4e6d-8fb1-fe6ab32fd66a",
+          "Data": 8
+        }
+      }
+    },
+    {
+      "Type": 240,
+      "Data": {
+        "ID": "8c5149b3-b76a-46fe-aaa0-af0c091aa5d8",
+        "persistent": {
+          "ID": "b30d5430-78b5-4c99-8594-c2b7e9b3443e",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "e3d22774-1df1-413e-93c6-0c32ad9dfbc5",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "1e10d841-8623-49cf-90a7-5048318276e8",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "4dedfd50-102d-4147-a086-d5310a42b45f",
+          "Data": false
+        },
+        "Texture": {
+          "ID": "e2287db1-d915-4cac-963d-b1549ccf89f0",
+          "Data": "1c4557b8-d357-431a-9fe8-0a3e1d6c1b8e"
+        },
+        "Rect": {
+          "ID": "524dbb44-4cc5-4d76-a9a7-6afc31b323cd",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 1,
+            "Height": 1
+          }
+        },
+        "Borders": {
+          "ID": "0b137766-e0d5-4350-bbe1-8d3bdffa5fbe",
+          "Data": [0, 0, 0, 0]
+        },
+        "Scale": {
+          "ID": "adf7f940-af21-4365-8007-5cc9b3a3f855",
+          "Data": 1
+        },
+        "FixedSize": {
+          "ID": "2647e33c-49e1-4b39-a6fc-e6ce0f4b4693",
+          "Data": 8
+        }
+      }
+    },
+    {
+      "Type": 240,
+      "Data": {
+        "ID": "30296128-d049-4375-bfb3-d21c01909074",
+        "persistent": {
+          "ID": "219ad049-a0f9-4515-8bc3-cb2e31576f49",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "0ebf9236-258f-4151-92ac-55c725470796",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "be923a57-8321-4bf4-951c-8966796b260e",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "bf360751-73c3-49ee-b2f7-594c762a10b3",
+          "Data": false
+        },
+        "Texture": {
+          "ID": "bacc2b48-91c6-453f-89c7-d77fe6e8bc5f",
+          "Data": "abddd33d-b4b3-41d4-ba88-eb02be1b7304"
+        },
+        "Rect": {
+          "ID": "9dd735db-d108-4a59-b571-3a13f2262dea",
+          "Data": {
+            "X": 0,
+            "Y": 0,
+            "Width": 1,
+            "Height": 1
+          }
+        },
+        "Borders": {
+          "ID": "ee7a0ce0-32c9-4ac4-b503-435fbfd73445",
+          "Data": [0, 0, 0, 0]
+        },
+        "Scale": {
+          "ID": "75030ea5-e270-4e96-96f8-708e9f7217d4",
+          "Data": 1
+        },
+        "FixedSize": {
+          "ID": "1dea4d96-10b7-4d26-8ca7-2b6bf90c07f5",
+          "Data": 8
+        }
+      }
+    },
+    {
+      "Type": 233,
+      "Data": {
+        "ID": "02a2ce6b-bdfd-4f59-af59-be77bba3b12c",
+        "persistent": {
+          "ID": "ea792e68-f9dd-4d41-9dad-1bce2158e90d",
+          "Data": true
+        },
+        "UpdateOrder": {
+          "ID": "a6d50a18-e1a5-46af-9e2d-529f648a5b85",
+          "Data": 0
+        },
+        "Enabled": {
+          "ID": "8a78b270-1b25-4383-879e-405023d1fc98",
+          "Data": true
+        },
+        "HighPriorityIntegration": {
+          "ID": "3ead3377-7bc0-45d4-885a-5b4eb6f64400",
+          "Data": false
+        },
+        "MainFont": {
+          "ID": "fd7d3588-2c52-4a99-98f6-d6dab6655f59",
+          "Data": "09cb0c77-77e2-4d36-bdd2-e9354ccf5075"
+        },
+        "FallbackFonts": {
+          "ID": "e03569b6-bef2-409c-ae5e-1986bff03f90",
+          "Data": [
+            {
+              "ID": "a058f7e4-7c3f-4439-a66c-8bf7b4912415",
+              "Data": "770bd5c0-6de9-4282-83c5-79da903c3047"
+            },
+            {
+              "ID": "74194caa-db9f-44bc-9266-cc1a12c20462",
+              "Data": "b175c491-3576-4d7b-832c-7b2403bf56bc"
+            },
+            {
+              "ID": "925b9282-b58c-4c7e-9f9a-8e5872d0a733",
+              "Data": "a5397d00-b690-4bdd-ad3d-4ca847661a11"
+            },
+            {
+              "ID": "c1cf35dc-cf40-47b0-8763-d54df79187c9",
+              "Data": "ce169aa5-44a1-4fdf-a46a-6b2c373a9a62"
+            },
+            {
+              "ID": "b8287704-a005-48a0-8322-a57df076ba4a",
+              "Data": "ba8535fc-8ec6-41f1-9d71-4e71777523c1"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "TypeVersions": {
+    "[FrooxEngine]FrooxEngine.Grabbable": 2,
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ValueEquals<int>": 1,
+    "[FrooxEngine]FrooxEngine.UIX.Canvas": 2,
+    "[FrooxEngine]FrooxEngine.UIX.RectTransform": 1,
+    "[FrooxEngine]FrooxEngine.BoxCollider": 1,
+    "[FrooxEngine]FrooxEngine.UIX.Image": 1,
+    "[FrooxEngine]FrooxEngine.UIX.Text": 1,
+    "[FrooxEngine]FrooxEngine.UI_UnlitMaterial": 2,
+    "[FrooxEngine]FrooxEngine.UIX.ScrollRect": 1,
+    "[FrooxEngine]FrooxEngine.UIX.TextField": 1,
+    "[FrooxEngine]FrooxEngine.MeshCollider": 2,
+    "[FrooxEngine]FrooxEngine.SphereCollider": 1,
+    "[FrooxEngine]FrooxEngine.SphereMesh": 1,
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ValueEquals<HttpStatusCode>": 1,
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ValueEquals<double>": 1
+  },
+  "Types": [
+    "[FrooxEngine]FrooxEngine.Grabbable",
+    "[FrooxEngine]FrooxEngine.DynamicVariableSpace",
+    "[FrooxEngine]FrooxEngine.ObjectRoot",
+    "[FrooxEngine]FrooxEngine.DestroyProxy",
+    "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngine.Slot>",
+    "[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<string>",
+    "[FrooxEngine]FrooxEngine.CloudValueVariableDriver<string>",
+    "[FrooxEngine]FrooxEngine.DynamicValueVariable<string>",
+    "[FrooxEngine]FrooxEngine.CloudValueVariableDriver<bool>",
+    "[FrooxEngine]FrooxEngine.DynamicValueVariable<bool>",
+    "[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<bool>",
+    "[FrooxEngine]FrooxEngine.DynamicValueVariable<Uri>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.DynamicVariableValueInput<bool>",
+    "[FrooxEngine]FrooxEngine.ProtoFlux.GlobalValue<string>",
+    "[ProtoFlux.Nodes.FrooxEngine]ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.DynamicVariableInputProxy<bool>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.DynamicVariableObjectInput<string>",
+    "[ProtoFlux.Nodes.FrooxEngine]ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.DynamicVariableInputProxy<string>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Strings.FormatString",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ObjectConditional<string>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ValueObjectInput<string>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Casts.ObjectCast<string,object>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Utility.Uris.StringToAbsoluteURI",
+    "[ProtoFluxBindings]FrooxEngine.FrooxEngine.ProtoFlux.CoreNodes.ObjectFieldDrive<Uri>",
+    "[FrooxEngine]FrooxEngine.ProtoFlux.CoreNodes.FieldDriveBase<Uri>+Proxy",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ObjectDisplay<Uri>",
+    "[FrooxEngine]FrooxEngine.DynamicField<bool>",
+    "[FrooxEngine]FrooxEngine.DynamicValueVariableReset<bool>",
+    "[FrooxEngine]FrooxEngine.DynamicValueVariableReset<string>",
+    "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngine.User>",
+    "[FrooxEngine]FrooxEngine.DynamicReferenceVariableReset<[FrooxEngine]FrooxEngine.User>",
+    "[FrooxEngine]FrooxEngine.DynamicField<Uri>",
+    "[FrooxEngine]FrooxEngine.ReferenceUserOverride<[FrooxEngine]FrooxEngine.User>",
+    "[FrooxEngine]FrooxEngine.DynamicValueVariable<double>",
+    "[FrooxEngine]FrooxEngine.DynamicValueVariableReset<double>",
+    "[FrooxEngine]FrooxEngine.ValueUserOverride<double>",
+    "[FrooxEngine]FrooxEngine.DynamicValueVariable<int>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Utility.CurrentCulture",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ParsingFormatting.ToString_object",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Casts.ObjectCast<CultureInfo,object>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Utility.IndexOfFirstObjectMatch<string>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Operators.ValueInc<int>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ObjectMultiplex<string>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ContinuouslyChangingValueRelay<int>",
+    "[ProtoFluxBindings]FrooxEngine.FrooxEngine.ProtoFlux.CoreNodes.ValueFieldDrive<int>",
+    "[FrooxEngine]FrooxEngine.ProtoFlux.CoreNodes.FieldDriveBase<int>+Proxy",
+    "[ProtoFluxBindings]FrooxEngine.FrooxEngine.ProtoFlux.CoreNodes.ObjectFieldDrive<string>",
+    "[FrooxEngine]FrooxEngine.ProtoFlux.CoreNodes.FieldDriveBase<string>+Proxy",
+    "[FrooxEngine]FrooxEngine.WebsocketClient",
+    "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngine.WebsocketClient>",
+    "[FrooxEngine]FrooxEngine.ValueCopy<Uri>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.NotNull<string>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Operators.AND_Multi_Bool",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ParsingFormatting.Parse_Long",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Operators.ValueGreaterThan<long>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.DynamicVariableObjectInput<[FrooxEngine]FrooxEngine.Slot>",
+    "[ProtoFlux.Nodes.FrooxEngine]ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.DynamicVariableInputProxy<[FrooxEngine]FrooxEngine.Slot>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.ReadDynamicObjectVariable<string>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.DynamicVariableObjectInput<[FrooxEngine]FrooxEngine.User>",
+    "[ProtoFlux.Nodes.FrooxEngine]ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.DynamicVariableInputProxy<[FrooxEngine]FrooxEngine.User>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.IsNull<[FrooxEngine]FrooxEngine.User>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Operators.NOT_Bool",
+    "[ProtoFluxBindings]FrooxEngine.FrooxEngine.ProtoFlux.CoreNodes.ValueFieldDrive<bool>",
+    "[FrooxEngine]FrooxEngine.ProtoFlux.CoreNodes.FieldDriveBase<bool>+Proxy",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Utility.IndexOfFirstValueMatch<bool>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ValueInput<bool>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.ReadDynamicObjectVariable<[FrooxEngine]FrooxEngine.Slot>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Actions.DynamicImpulseReceiver",
+    "[ProtoFlux.Nodes.FrooxEngine]ProtoFlux.Runtimes.Execution.Nodes.Actions.DynamicImpulseReceiver+Proxy",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Actions.DynamicImpulseTriggerWithObject<[FrooxEngine]FrooxEngine.Slot>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Actions.SecondsTimer",
+    "[FrooxEngine]FrooxEngine.ProtoFlux.GlobalValue<bool>",
+    "[FrooxEngine]FrooxEngine.ProtoFlux.GlobalReference<[FrooxEngine]FrooxEngine.User>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ValueInput<float>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.If",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Users.LocalUser",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Operators.AND_Bool",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Actions.DynamicImpulseTrigger",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Slots.OnLoaded",
+    "[ProtoFlux.Nodes.FrooxEngine]ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Slots.OnLoaded+Proxy",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Users.IsLocalUser",
+    "[ProtoFluxBindings]FrooxEngine.FrooxEngine.ProtoFlux.CoreNodes.ReferenceDrive<[FrooxEngine]FrooxEngine.User>",
+    "[FrooxEngine]FrooxEngine.ProtoFlux.CoreNodes.ReferenceDrive<[FrooxEngine]FrooxEngine.User>+Proxy",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteDynamicObjectVariable<[FrooxEngine]FrooxEngine.User>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.ButtonEvents",
+    "[FrooxEngine]FrooxEngine.ProtoFlux.GlobalReference<[FrooxEngine]FrooxEngine.IButton>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Actions.DynamicImpulseTriggerWithObject<string>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Network.WebsocketConnect",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.DynamicVariableObjectInput<[FrooxEngine]FrooxEngine.WebsocketClient>",
+    "[ProtoFlux.Nodes.FrooxEngine]ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.DynamicVariableInputProxy<[FrooxEngine]FrooxEngine.WebsocketClient>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Network.WebsocketConnectionEvents",
+    "[FrooxEngine]FrooxEngine.ProtoFlux.GlobalReference<[FrooxEngine]FrooxEngine.WebsocketClient>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Network.WebsocketTextMessageReceiver",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ObjectIndirectWrite<[FrooxEngine]FrooxEngine.ProtoFlux.FrooxEngineContext,string>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.DataModelObjectFieldStore<string>",
+    "[ProtoFlux.Nodes.FrooxEngine]ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.DataModelObjectFieldStore<string>+Store",
+    "[ProtoFluxBindings]FrooxEngine.FrooxEngine.ProtoFlux.CoreNodes.ElementSource<[FrooxEngine]FrooxEngine.IValue<string>>",
+    "[FrooxEngine]FrooxEngine.ProtoFlux.GlobalReference<[FrooxEngine]FrooxEngine.IValue<string>>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ObjectRelay<string>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Strings.IndexOfString",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Strings.Substring",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Operators.ValueAdd<int>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Operators.ValueSub<int>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ValueInput<int>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ValueRelay<int>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.For",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ParsingFormatting.Parse_Int",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Strings.ConcatenateString",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteOrCreateDynamicObjectVariable<string>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ContinuationRelay",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteOrCreateDynamicValueVariable<bool>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteOrCreateDynamicValueVariable<float>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ValueRelay<bool>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ObjectRelay<[FrooxEngine]FrooxEngine.Slot>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ParsingFormatting.Parse_Float",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Strings.ReplaceSubstring",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ParsingFormatting.ToString_Int",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ObjectEquals<string>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ValueEquals<int>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Strings.StringLength",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ObjectRelay<[FrooxEngine]FrooxEngine.IValue<string>>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Sequence",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteDynamicObjectVariable<Uri>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Network.WebsocketTextMessageSender",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Async.DelayUpdates",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Operators.ValueGreaterThan<int>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Slots.DestroySlotChildren",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.CallInput",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Operators.ValueGreaterOrEqual<long>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Users.UserUserID",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.DynamicVariableObjectInput<Uri>",
+    "[ProtoFlux.Nodes.FrooxEngine]ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.DynamicVariableInputProxy<Uri>",
+    "[ProtoFluxBindings]FrooxEngine.FrooxEngine.ProtoFlux.CoreNodes.ReferenceDrive<[FrooxEngine]FrooxEngine.WebsocketClient>",
+    "[FrooxEngine]FrooxEngine.ProtoFlux.CoreNodes.ReferenceDrive<[FrooxEngine]FrooxEngine.WebsocketClient>+Proxy",
+    "[ProtoFluxBindings]FrooxEngine.FrooxEngine.ProtoFlux.CoreNodes.FieldAsVariable<string>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Async.StartAsyncTask",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Network.RequestHostAccess",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.ReadDynamicValueVariable<int>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Actions.DynamicImpulseReceiverWithObject<[FrooxEngine]FrooxEngine.Slot>",
+    "[ProtoFlux.Nodes.FrooxEngine]ProtoFlux.Runtimes.Execution.Nodes.Actions.DynamicImpulseReceiverWithObject<[FrooxEngine]FrooxEngine.Slot>+Proxy",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ObjectIndirectWrite<[FrooxEngine]FrooxEngine.ProtoFlux.FrooxEngineContext,[FrooxEngine]FrooxEngine.Slot>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.DataModelObjectRefStore<[FrooxEngine]FrooxEngine.Slot>",
+    "[ProtoFlux.Nodes.FrooxEngine]ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.DataModelObjectRefStore<[FrooxEngine]FrooxEngine.Slot>+Store",
+    "[ProtoFluxBindings]FrooxEngine.FrooxEngine.ProtoFlux.CoreNodes.ElementSource<[FrooxEngine]FrooxEngine.SyncRef<[FrooxEngine]FrooxEngine.Slot>>",
+    "[FrooxEngine]FrooxEngine.ProtoFlux.GlobalReference<[FrooxEngine]FrooxEngine.SyncRef<[FrooxEngine]FrooxEngine.Slot>>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ImpulseMultiplexer",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.ReadDynamicValueVariable<float>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.ReadDynamicValueVariable<bool>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteDynamicObjectVariable<string>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Operators.Pack_Float2",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Operators.Pack_Float3",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Operators.Pack_Float4",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Operators.Pack_ColorX",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ObjectConditional<[FrooxEngine]FrooxEngine.Slot>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Slots.FindChildByName",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.NotNull<[FrooxEngine]FrooxEngine.Slot>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Slots.DuplicateSlot",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Slots.SetParent",
+    "[FrooxEngine]FrooxEngine.ReferenceCopy<[FrooxEngine]FrooxEngine.Slot>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Slots.SetSlotPersistentSelf",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Slots.DestroySlot",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Slots.SetSlotName",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteDynamicValueVariable<float>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteDynamicValueVariable<bool>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteDynamicValueVariable<float2>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteDynamicValueVariable<float3>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteDynamicValueVariable<float4>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteDynamicValueVariable<colorX>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Enums.IntToEnum<[Elements.Assets]Elements.Assets.TextVerticalAlignment>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Enums.IntToEnum<[Elements.Assets]Elements.Assets.TextHorizontalAlignment>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Casts.Cast_float_To_int",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteDynamicValueVariable<[Elements.Assets]Elements.Assets.TextHorizontalAlignment>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteDynamicValueVariable<[Elements.Assets]Elements.Assets.TextVerticalAlignment>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Enums.IntToEnum<[FrooxEngine]FrooxEngine.UIX.LayoutHorizontalAlignment>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Enums.IntToEnum<[FrooxEngine]FrooxEngine.UIX.LayoutVerticalAlignment>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteDynamicValueVariable<[FrooxEngine]FrooxEngine.UIX.LayoutVerticalAlignment>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteDynamicValueVariable<[FrooxEngine]FrooxEngine.UIX.LayoutHorizontalAlignment>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteDynamicValueVariable<Rect>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.RectFromXYWH",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Strings.ConcatenateMultiString",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteDynamicValueVariable<[FrooxEngine]FrooxEngine.UIX.SizeFit>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Enums.IntToEnum<[FrooxEngine]FrooxEngine.UIX.SizeFit>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteDynamicValueVariable<[FrooxEngine]FrooxEngine.TextureFilterMode>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteDynamicValueVariable<[FrooxEngine]FrooxEngine.TextureWrapMode>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Enums.IntToEnum<[FrooxEngine]FrooxEngine.TextureWrapMode>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Enums.IntToEnum<[FrooxEngine]FrooxEngine.TextureFilterMode>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteDynamicValueVariable<[FrooxEngine]FrooxEngine.ZWrite>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Enums.IntToEnum<[FrooxEngine]FrooxEngine.ZWrite>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteDynamicValueVariable<int>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteDynamicValueVariable<long>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Casts.Cast_float_To_long",
+    "FrooxEngine.LogiX.Operators.IntToEnum`1[[FrooxEngine.UIX.InteractionElement+ColorMode, FrooxEngine, Version=2022.1.28.1335, Culture=neutral, PublicKeyToken=null]]",
+    "FrooxEngine.LogiX.Data.WriteDynamicVariable`1[[FrooxEngine.UIX.InteractionElement+ColorMode, FrooxEngine, Version=2022.1.28.1335, Culture=neutral, PublicKeyToken=null]]",
+    "[ProtoFluxBindings]FrooxEngine.FrooxEngine.ProtoFlux.CoreNodes.ReferenceAsVariable<[FrooxEngine]FrooxEngine.Slot>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ValueInput<[Elements.Core]Elements.Core.ColorProfile>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteDynamicValueVariable<[FrooxEngine]FrooxEngine.UIX.InteractionElement+ColorMode>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteDynamicValueVariable<[FrooxEngine]FrooxEngine.UIX.NineSliceSizing>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Enums.IntToEnum<[FrooxEngine]FrooxEngine.UIX.InteractionElement+ColorMode>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Enums.IntToEnum<[FrooxEngine]FrooxEngine.UIX.NineSliceSizing>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Enums.IntToEnum<[Elements.Assets]Elements.Assets.AlignmentMode>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteDynamicValueVariable<[Elements.Assets]Elements.Assets.AlignmentMode>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ObjectWrite<[FrooxEngine]FrooxEngine.ProtoFlux.FrooxEngineContext,string>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteDynamicValueVariable<floatQ>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Operators.Pack_FloatQ",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ImpulseDisplay",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ObjectWrite<[FrooxEngine]FrooxEngine.ProtoFlux.FrooxEngineContext,[FrooxEngine]FrooxEngine.Slot>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Actions.DynamicImpulseReceiverWithObject<string>",
+    "[ProtoFlux.Nodes.FrooxEngine]ProtoFlux.Runtimes.Execution.Nodes.Actions.DynamicImpulseReceiverWithObject<string>+Proxy",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.NullCoalesce<string>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Network.POST_String",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Casts.ObjectCast<Uri,object>",
+    "[FrooxEngine]FrooxEngine.BooleanSwitcher",
+    "[FrooxEngine]FrooxEngine.UIX.Canvas",
+    "[FrooxEngine]FrooxEngine.UIX.RectTransform",
+    "[FrooxEngine]FrooxEngine.BoxCollider",
+    "[FrooxEngine]FrooxEngine.UIX.Image",
+    "[FrooxEngine]FrooxEngine.UIX.VerticalLayout",
+    "[FrooxEngine]FrooxEngine.UIX.LayoutElement",
+    "[FrooxEngine]FrooxEngine.UIX.Text",
+    "[FrooxEngine]FrooxEngine.ValueMultiplexer<string>",
+    "[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<int>",
+    "[FrooxEngine]FrooxEngine.UIX.Button",
+    "[FrooxEngine]FrooxEngine.DynamicField<string>",
+    "[FrooxEngine]FrooxEngine.DynamicField<float3>",
+    "[FrooxEngine]FrooxEngine.DynamicField<floatQ>",
+    "[FrooxEngine]FrooxEngine.DynamicField<float2>",
+    "[FrooxEngine]FrooxEngine.DynamicField<float>",
+    "[FrooxEngine]FrooxEngine.DynamicField<[FrooxEngine]FrooxEngine.UIX.LayoutHorizontalAlignment>",
+    "[FrooxEngine]FrooxEngine.DynamicField<[FrooxEngine]FrooxEngine.UIX.LayoutVerticalAlignment>",
+    "[FrooxEngine]FrooxEngine.UIX.GridLayout",
+    "[FrooxEngine]FrooxEngine.UIX.HorizontalLayout",
+    "[FrooxEngine]FrooxEngine.UIX.IgnoreLayout",
+    "[FrooxEngine]FrooxEngine.DynamicField<colorX>",
+    "[FrooxEngine]FrooxEngine.DynamicValueVariable<colorX>",
+    "[FrooxEngine]FrooxEngine.FontChain",
+    "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngine.IAssetProvider<[FrooxEngine]FrooxEngine.FontSet>>",
+    "[FrooxEngine]FrooxEngine.StaticFont",
+    "[FrooxEngine]FrooxEngine.DynamicField<Rect>",
+    "[FrooxEngine]FrooxEngine.DynamicField<float4>",
+    "[FrooxEngine]FrooxEngine.DynamicField<[FrooxEngine]FrooxEngine.TextureFilterMode>",
+    "[FrooxEngine]FrooxEngine.DynamicField<[FrooxEngine]FrooxEngine.TextureWrapMode>",
+    "[FrooxEngine]FrooxEngine.SpriteProvider",
+    "[FrooxEngine]FrooxEngine.StaticTexture2D",
+    "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngine.IAssetProvider<[FrooxEngine]FrooxEngine.Sprite>>",
+    "[FrooxEngine]FrooxEngine.DynamicField<[FrooxEngine]FrooxEngine.ZWrite>",
+    "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngine.IAssetProvider<[FrooxEngine]FrooxEngine.Material>>",
+    "[FrooxEngine]FrooxEngine.UI_TextUnlitMaterial",
+    "[FrooxEngine]FrooxEngine.UI_UnlitMaterial",
+    "[FrooxEngine]FrooxEngine.DynamicField<[FrooxEngine]FrooxEngine.UIX.InteractionElement+ColorMode>",
+    "[FrooxEngine]FrooxEngine.DynamicField<[FrooxEngine]FrooxEngine.UIX.NineSliceSizing>",
+    "[FrooxEngine]FrooxEngine.ButtonDynamicImpulseTriggerWithValue<string>",
+    "[FrooxEngine]FrooxEngine.DynamicReferenceVariableDriver<[FrooxEngine]FrooxEngine.Slot>",
+    "[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<colorX>",
+    "[FrooxEngine]FrooxEngine.DynamicReferenceVariableDriver<[FrooxEngine]FrooxEngine.IAssetProvider<[FrooxEngine]FrooxEngine.Sprite>>",
+    "[FrooxEngine]FrooxEngine.DynamicReferenceVariableDriver<[FrooxEngine]FrooxEngine.IAssetProvider<[FrooxEngine]FrooxEngine.Material>>",
+    "[FrooxEngine]FrooxEngine.UIX.Mask",
+    "[FrooxEngine]FrooxEngine.UIX.RawImage",
+    "[FrooxEngine]FrooxEngine.DynamicField<[FrooxEngine]FrooxEngine.UIX.SizeFit>",
+    "[FrooxEngine]FrooxEngine.UIX.ScrollRect",
+    "[FrooxEngine]FrooxEngine.UIX.ContentSizeFitter",
+    "[FrooxEngine]FrooxEngine.DynamicField<[Elements.Assets]Elements.Assets.TextHorizontalAlignment>",
+    "[FrooxEngine]FrooxEngine.DynamicField<[Elements.Assets]Elements.Assets.TextVerticalAlignment>",
+    "[FrooxEngine]FrooxEngine.DynamicReferenceVariableDriver<[FrooxEngine]FrooxEngine.IAssetProvider<[FrooxEngine]FrooxEngine.FontSet>>",
+    "[FrooxEngine]FrooxEngine.DynamicField<[Elements.Assets]Elements.Assets.AlignmentMode>",
+    "[FrooxEngine]FrooxEngine.UIX.TextField",
+    "[FrooxEngine]FrooxEngine.TextEditor",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.TextEditorEvents",
+    "[FrooxEngine]FrooxEngine.ProtoFlux.GlobalReference<[FrooxEngine]FrooxEngine.TextEditor>",
+    "[ProtoFluxBindings]FrooxEngine.FrooxEngine.ProtoFlux.CoreNodes.ElementSource<[FrooxEngine]FrooxEngine.TextEditor>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Utility.Uris.EscapeUriDataString",
+    "[ProtoFluxBindings]FrooxEngine.FrooxEngine.ProtoFlux.CoreNodes.ObjectValueSource<string>",
+    "[FrooxEngine]FrooxEngine.ValueField<string>",
+    "[FrooxEngine]FrooxEngine.MeshRenderer",
+    "[FrooxEngine]FrooxEngine.CurvedPlaneMesh",
+    "[FrooxEngine]FrooxEngine.MeshCollider",
+    "[FrooxEngine]FrooxEngine.BoxMesh",
+    "[FrooxEngine]FrooxEngine.SphereCollider",
+    "[FrooxEngine]FrooxEngine.SphereMesh",
+    "[FrooxEngine]FrooxEngine.GizmoLink",
+    "[FrooxEngine]FrooxEngine.SlotGizmo",
+    "[FrooxEngine]FrooxEngine.Hyperlink",
+    "[FrooxEngine]FrooxEngine.ValueMultiplexer<Uri>",
+    "[FrooxEngine]FrooxEngine.LegacyCanvasPanel",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Actions.OnePerFrame",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Slots.RootSlot",
+    "[ProtoFluxBindings]FrooxEngine.FrooxEngine.ProtoFlux.CoreNodes.ElementSource<[FrooxEngine]FrooxEngine.Slot>",
+    "[FrooxEngine]FrooxEngine.ProtoFlux.GlobalReference<[FrooxEngine]FrooxEngine.Slot>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ObjectWrite<[FrooxEngine]FrooxEngine.Slot>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.ReadDynamicObjectVariable<[FrooxEngine]FrooxEngine.User>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.StoredObject<[FrooxEngine]FrooxEngine.Slot>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Users.LocalUserSlot",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.NullCoalesce<[FrooxEngine]FrooxEngine.Slot>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteOrCreateDynamicObjectVariable<[FrooxEngine]FrooxEngine.User>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.ReadDynamicValueVariable<double>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Operators.ValueGreaterThan<double>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ValueInput<long>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Operators.OR_Bool",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Slots.SetSlotActiveSelf",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Slots.GetParentSlot",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Transform.SetLocalTransform",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Transform.LocalTransform",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.WriteDynamicValueVariable<double>",
+    "[ProtoFluxBindings]FrooxEngine.FrooxEngine.ProtoFlux.CoreNodes.SyncMethodProxy_0003<[FrooxEngine]FrooxEngine.IButton,[FrooxEngine]FrooxEngine.ButtonEventData>",
+    "[FrooxEngine]FrooxEngine.ProtoFlux.GlobalDelegate<Action<[FrooxEngine]FrooxEngine.IButton,[FrooxEngine]FrooxEngine.ButtonEventData>>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ObjectWrite<string>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.LocalObject<string>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Network.GET_String",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ValueEquals<HttpStatusCode>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ValueInput<HttpStatusCode>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.WorldTimeDouble",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.DynamicVariableValueInput<double>",
+    "[ProtoFlux.Nodes.FrooxEngine]ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.DynamicVariableInputProxy<double>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ValueEquals<double>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.DynamicVariableValueInput<int>",
+    "[ProtoFlux.Nodes.FrooxEngine]ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Variables.DynamicVariableInputProxy<int>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.MultiNullCoalesce<[FrooxEngine]FrooxEngine.Slot>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Slots.ChildrenCount",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Slots.GetChild",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Slots.GetSlotName",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Operators.OR_Multi_Bool",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.IsNull<[FrooxEngine]FrooxEngine.Slot>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Slots.GetSlotPersistentSelf",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ValueInput<float3>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ValueInput<floatQ>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ValueConditional<int>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Input.Keyboard.KeyPressed",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ValueInput<[FrooxEngine]FrooxEngine.Key>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Actions.FireOnTrue",
+    "[ProtoFlux.Nodes.FrooxEngine]ProtoFlux.Runtimes.Execution.Nodes.Actions.ValueProxy<bool>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ObjectRelay<[FrooxEngine]FrooxEngine.User>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Slots.GetActiveUserSelf",
+    "[ProtoFlux.Nodes.FrooxEngine]ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Slots.GetActiveUserSelf+Proxy",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Slots.GetSlotActiveSelf",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ObjectMultiplex<[FrooxEngine]FrooxEngine.Slot>",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Strings.StartsWith",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Slots.IsChildOf",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Users.LocalUserSpace",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Transform.SetGlobalTransform",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Users.Roots.HeadSlot",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Users.LocalUserRoot",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Transform.GetForward",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Transform.GlobalTransform",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Operators.Mul_Float3_Float",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.Math.Quaternions.LookRotation_floatQ",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Transform.GetUp",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Transform.LocalPointToGlobal",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Users.UserVR_Active",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ValueConditional<float>",
+    "[FrooxEngine]FrooxEngine.StaticBinary",
+    "[FrooxEngine]FrooxEngine.BinaryExportable",
+    "[FrooxEngine]FrooxEngine.FileMetadata",
+    "[FrooxEngine]FrooxEngine.RootContextMenuItem",
+    "[FrooxEngine]FrooxEngine.ContextMenuItemSource",
+    "[FrooxEngine]FrooxEngine.PBS_DualSidedMetallic"
+  ]
+}

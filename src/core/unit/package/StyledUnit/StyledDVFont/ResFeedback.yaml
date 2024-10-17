@@ -34,7 +34,7 @@ OrderOffset:
 Components:
   ID: "?"
   Data:
-    - Type: FrooxEngine.DynamicVariableSpace
+    - Type: "[FrooxEngine]FrooxEngine.DynamicVariableSpace"
       Data:
         ID: "?"
         persistent-ID: "?"
@@ -87,7 +87,8 @@ Children:
     Components:
       ID: "?"
       Data:
-        - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+        - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+            ne.Slot>"
           Data:
             ID: "?"
             persistent-ID: "?"
@@ -143,7 +144,7 @@ Children:
     Components:
       ID: "?"
       Data:
-        - Type: FrooxEngine.DynamicVariableSpace
+        - Type: "[FrooxEngine]FrooxEngine.DynamicVariableSpace"
           Data:
             ID: "?"
             persistent-ID: "?"
@@ -196,7 +197,8 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -215,7 +217,8 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -234,7 +237,8 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -290,7 +294,7 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.DynamicField`1[System.String]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<string>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -305,13 +309,11 @@ Children:
                   Data: Props.name
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledDVFont:Components:FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.IAssetProvider`1],
-                    FrooxEngine, , Culture=neutral,
-                    PublicKeyToken=null]]:VariableName:0
+                  Data: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngine.IAssetProvider<[FrooxEngine]FrooxEngine.FontSet>>:VariableName:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.Uri]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<Uri>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -326,11 +328,11 @@ Children:
                   Data: Props.url0
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:0
+                  Data: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:URL:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.Uri]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<Uri>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -345,11 +347,11 @@ Children:
                   Data: Props.url1
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:1
+                  Data: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:URL:1
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.Uri]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<Uri>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -364,11 +366,11 @@ Children:
                   Data: Props.url2
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:2
+                  Data: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:URL:2
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.Uri]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<Uri>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -383,11 +385,11 @@ Children:
                   Data: Props.url3
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:3
+                  Data: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:URL:3
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.Uri]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<Uri>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -402,11 +404,11 @@ Children:
                   Data: Props.url4
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:4
+                  Data: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:URL:4
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.Uri]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<Uri>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -421,11 +423,11 @@ Children:
                   Data: Props.url5
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:5
+                  Data: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:URL:5
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.Uri]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<Uri>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -440,11 +442,11 @@ Children:
                   Data: Props.url6
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:6
+                  Data: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:URL:6
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.Uri]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<Uri>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -459,11 +461,11 @@ Children:
                   Data: Props.url7
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:7
+                  Data: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:URL:7
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.Uri]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<Uri>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -478,11 +480,11 @@ Children:
                   Data: Props.url8
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:8
+                  Data: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:URL:8
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.Uri]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<Uri>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -497,7 +499,7 @@ Children:
                   Data: Props.url9
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:9
+                  Data: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:URL:9
                 OverrideOnLink:
                   ID: "?"
                   Data: false
@@ -538,9 +540,9 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.FontChain
+            - Type: "[FrooxEngine]FrooxEngine.FontChain"
               Data:
-                ID: ID:StyledDVFont:Components:FrooxEngine.FontChain:0
+                ID: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.FontChain:0
                 persistent-ID: "?"
                 UpdateOrder:
                   ID: "?"
@@ -553,30 +555,30 @@ Children:
                   Data: false
                 MainFont:
                   ID: "?"
-                  Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:0
+                  Data: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:0
                 FallbackFonts:
                   ID: "?"
                   Data:
                     - ID: "?"
-                      Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:1
+                      Data: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:1
                     - ID: "?"
-                      Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:2
+                      Data: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:2
                     - ID: "?"
-                      Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:3
+                      Data: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:3
                     - ID: "?"
-                      Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:4
+                      Data: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:4
                     - ID: "?"
-                      Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:5
+                      Data: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:5
                     - ID: "?"
-                      Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:6
+                      Data: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:6
                     - ID: "?"
-                      Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:7
+                      Data: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:7
                     - ID: "?"
-                      Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:8
+                      Data: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:8
                     - ID: "?"
-                      Data: ID:StyledDVFont:Components:FrooxEngine.StaticFont:9
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.IAssetProvider`1],
-                FrooxEngine, , Culture=neutral, PublicKeyToken=null]]
+                      Data: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:9
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.IAssetProvider<[FrooxEngine]FrooxEngine.FontSet>>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -587,19 +589,17 @@ Children:
                   ID: "?"
                   Data: true
                 VariableName:
-                  ID: ID:StyledDVFont:Components:FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.IAssetProvider`1],
-                    FrooxEngine, , Culture=neutral,
-                    PublicKeyToken=null]]:VariableName:0
+                  ID: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngine.IAssetProvider<[FrooxEngine]FrooxEngine.FontSet>>:VariableName:0
                   Data: Name
                 Reference:
                   ID: "?"
-                  Data: ID:StyledDVFont:Components:FrooxEngine.FontChain:0
+                  Data: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.FontChain:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.StaticFont
+            - Type: "[FrooxEngine]FrooxEngine.StaticFont"
               Data:
-                ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:0
+                ID: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:0
                 persistent-ID: "?"
                 UpdateOrder:
                   ID: "?"
@@ -608,7 +608,7 @@ Children:
                   ID: "?"
                   Data: true
                 URL:
-                  ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:0
+                  ID: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:URL:0
                   Data: null
                 Padding:
                   ID: "?"
@@ -628,9 +628,9 @@ Children:
                 LODBias:
                   ID: "?"
                   Data: -333.3333333333333
-            - Type: FrooxEngine.StaticFont
+            - Type: "[FrooxEngine]FrooxEngine.StaticFont"
               Data:
-                ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:1
+                ID: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:1
                 persistent-ID: "?"
                 UpdateOrder:
                   ID: "?"
@@ -639,7 +639,7 @@ Children:
                   ID: "?"
                   Data: true
                 URL:
-                  ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:1
+                  ID: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:URL:1
                   Data: null
                 Padding:
                   ID: "?"
@@ -659,9 +659,9 @@ Children:
                 LODBias:
                   ID: "?"
                   Data: -333.3333333333333
-            - Type: FrooxEngine.StaticFont
+            - Type: "[FrooxEngine]FrooxEngine.StaticFont"
               Data:
-                ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:2
+                ID: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:2
                 persistent-ID: "?"
                 UpdateOrder:
                   ID: "?"
@@ -670,7 +670,7 @@ Children:
                   ID: "?"
                   Data: true
                 URL:
-                  ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:2
+                  ID: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:URL:2
                   Data: null
                 Padding:
                   ID: "?"
@@ -690,9 +690,9 @@ Children:
                 LODBias:
                   ID: "?"
                   Data: -333.3333333333333
-            - Type: FrooxEngine.StaticFont
+            - Type: "[FrooxEngine]FrooxEngine.StaticFont"
               Data:
-                ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:3
+                ID: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:3
                 persistent-ID: "?"
                 UpdateOrder:
                   ID: "?"
@@ -701,7 +701,7 @@ Children:
                   ID: "?"
                   Data: true
                 URL:
-                  ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:3
+                  ID: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:URL:3
                   Data: null
                 Padding:
                   ID: "?"
@@ -721,9 +721,9 @@ Children:
                 LODBias:
                   ID: "?"
                   Data: -333.3333333333333
-            - Type: FrooxEngine.StaticFont
+            - Type: "[FrooxEngine]FrooxEngine.StaticFont"
               Data:
-                ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:4
+                ID: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:4
                 persistent-ID: "?"
                 UpdateOrder:
                   ID: "?"
@@ -732,7 +732,7 @@ Children:
                   ID: "?"
                   Data: true
                 URL:
-                  ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:4
+                  ID: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:URL:4
                   Data: null
                 Padding:
                   ID: "?"
@@ -752,9 +752,9 @@ Children:
                 LODBias:
                   ID: "?"
                   Data: -333.3333333333333
-            - Type: FrooxEngine.StaticFont
+            - Type: "[FrooxEngine]FrooxEngine.StaticFont"
               Data:
-                ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:5
+                ID: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:5
                 persistent-ID: "?"
                 UpdateOrder:
                   ID: "?"
@@ -763,7 +763,7 @@ Children:
                   ID: "?"
                   Data: true
                 URL:
-                  ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:5
+                  ID: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:URL:5
                   Data: null
                 Padding:
                   ID: "?"
@@ -783,9 +783,9 @@ Children:
                 LODBias:
                   ID: "?"
                   Data: -333.3333333333333
-            - Type: FrooxEngine.StaticFont
+            - Type: "[FrooxEngine]FrooxEngine.StaticFont"
               Data:
-                ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:6
+                ID: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:6
                 persistent-ID: "?"
                 UpdateOrder:
                   ID: "?"
@@ -794,7 +794,7 @@ Children:
                   ID: "?"
                   Data: true
                 URL:
-                  ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:6
+                  ID: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:URL:6
                   Data: null
                 Padding:
                   ID: "?"
@@ -814,9 +814,9 @@ Children:
                 LODBias:
                   ID: "?"
                   Data: -333.3333333333333
-            - Type: FrooxEngine.StaticFont
+            - Type: "[FrooxEngine]FrooxEngine.StaticFont"
               Data:
-                ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:7
+                ID: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:7
                 persistent-ID: "?"
                 UpdateOrder:
                   ID: "?"
@@ -825,7 +825,7 @@ Children:
                   ID: "?"
                   Data: true
                 URL:
-                  ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:7
+                  ID: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:URL:7
                   Data: null
                 Padding:
                   ID: "?"
@@ -845,9 +845,9 @@ Children:
                 LODBias:
                   ID: "?"
                   Data: -333.3333333333333
-            - Type: FrooxEngine.StaticFont
+            - Type: "[FrooxEngine]FrooxEngine.StaticFont"
               Data:
-                ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:8
+                ID: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:8
                 persistent-ID: "?"
                 UpdateOrder:
                   ID: "?"
@@ -856,7 +856,7 @@ Children:
                   ID: "?"
                   Data: true
                 URL:
-                  ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:8
+                  ID: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:URL:8
                   Data: null
                 Padding:
                   ID: "?"
@@ -876,9 +876,9 @@ Children:
                 LODBias:
                   ID: "?"
                   Data: -333.3333333333333
-            - Type: FrooxEngine.StaticFont
+            - Type: "[FrooxEngine]FrooxEngine.StaticFont"
               Data:
-                ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:9
+                ID: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:9
                 persistent-ID: "?"
                 UpdateOrder:
                   ID: "?"
@@ -887,7 +887,7 @@ Children:
                   ID: "?"
                   Data: true
                 URL:
-                  ID: ID:StyledDVFont:Components:FrooxEngine.StaticFont:URL:9
+                  ID: ID:StyledDVFont:Components:[FrooxEngine]FrooxEngine.StaticFont:URL:9
                   Data: null
                 Padding:
                   ID: "?"

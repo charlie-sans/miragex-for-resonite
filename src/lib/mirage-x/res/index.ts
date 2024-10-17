@@ -5,7 +5,7 @@ import { res2yaml } from "../util/res2yaml";
 import { readFileSync } from "../../fileUtil";
 import { Compress } from "brson.js";
 
-const currentVersion = `${new Date().getTime()}`;
+const currentVersion = "1.0.0";
 
 export const res = async (
   config: {
@@ -83,7 +83,7 @@ export const res = async (
   fs.writeFileSync(path.resolve(config.outputPath, "output.yaml"), outputYaml);
 
   fs.writeFileSync(
-    path.resolve(config.outputPath, "output.brson"),
+    path.resolve(config.outputPath, "resonitething.brson"),
     Buffer.from(output7zbson),
     "binary"
   );
