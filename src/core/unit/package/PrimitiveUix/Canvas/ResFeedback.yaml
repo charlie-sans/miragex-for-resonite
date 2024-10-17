@@ -34,7 +34,7 @@ OrderOffset:
 Components:
   ID: "?"
   Data:
-    - Type: FrooxEngine.DynamicVariableSpace
+    - Type: "[FrooxEngine]FrooxEngine.DynamicVariableSpace"
       Data:
         ID: "?"
         persistent-ID: "?"
@@ -87,7 +87,8 @@ Children:
     Components:
       ID: "?"
       Data:
-        - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+        - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+            ne.Slot>"
           Data:
             ID: "?"
             persistent-ID: "?"
@@ -143,7 +144,7 @@ Children:
     Components:
       ID: "?"
       Data:
-        - Type: FrooxEngine.DynamicVariableSpace
+        - Type: "[FrooxEngine]FrooxEngine.DynamicVariableSpace"
           Data:
             ID: "?"
             persistent-ID: "?"
@@ -196,7 +197,8 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -215,7 +217,8 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -234,7 +237,8 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -290,7 +294,7 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.DynamicField`1[Elements.Core.float2]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<float2>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -305,11 +309,11 @@ Children:
                   Data: Props.size
                 TargetField:
                   ID: "?"
-                  Data: ID:Content:Components:FrooxEngine.UIX.Canvas:Size:0
+                  Data: ID:Content:Components:[FrooxEngine]FrooxEngine.UIX.Canvas:Size:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[Elements.Core.float3]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<float3>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -328,7 +332,7 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[Elements.Core.floatQ]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<floatQ>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -347,7 +351,7 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[Elements.Core.float3]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<float3>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -440,7 +444,7 @@ Children:
             Components:
               ID: "?"
               Data:
-                - Type: FrooxEngine.UIX.Canvas
+                - Type: "[FrooxEngine]FrooxEngine.UIX.Canvas"
                   Data:
                     ID: "?"
                     persistent-ID: "?"
@@ -451,7 +455,7 @@ Children:
                       ID: "?"
                       Data: true
                     Size:
-                      ID: ID:Content:Components:FrooxEngine.UIX.Canvas:Size:0
+                      ID: ID:Content:Components:[FrooxEngine]FrooxEngine.UIX.Canvas:Size:0
                       Data:
                         - 333333.3333333333
                         - 333333.3333333333
@@ -487,28 +491,28 @@ Children:
                       Data: 333.3333333333333
                     _rootRect:
                       ID: "?"
-                      Data: ID:Content:Components:FrooxEngine.UIX.RectTransform:0
+                      Data: ID:Content:Components:[FrooxEngine]FrooxEngine.UIX.RectTransform:0
                     Collider:
                       ID: "?"
-                      Data: ID:Content:Components:FrooxEngine.BoxCollider:0
+                      Data: ID:Content:Components:[FrooxEngine]FrooxEngine.BoxCollider:0
                     DefaultCulling:
                       ID: "?"
                       Data: Off
                     _colliderSize:
                       ID: "?"
-                      Data: ID:Content:Components:FrooxEngine.BoxCollider:Size:0
+                      Data: ID:Content:Components:[FrooxEngine]FrooxEngine.BoxCollider:Size:0
                     _colliderOffset:
                       ID: "?"
-                      Data: ID:Content:Components:FrooxEngine.BoxCollider:Offset:0
+                      Data: ID:Content:Components:[FrooxEngine]FrooxEngine.BoxCollider:Offset:0
                     StartingOffset:
                       ID: "?"
                       Data: -10666666.666666666
                     StartingMaskDepth:
                       ID: "?"
                       Data: 0
-                - Type: FrooxEngine.UIX.RectTransform
+                - Type: "[FrooxEngine]FrooxEngine.UIX.RectTransform"
                   Data:
-                    ID: ID:Content:Components:FrooxEngine.UIX.RectTransform:0
+                    ID: ID:Content:Components:[FrooxEngine]FrooxEngine.UIX.RectTransform:0
                     persistent-ID: "?"
                     UpdateOrder:
                       ID: "?"
@@ -541,9 +545,9 @@ Children:
                       Data:
                         - 166.66666666666666
                         - 166.66666666666666
-                - Type: FrooxEngine.BoxCollider
+                - Type: "[FrooxEngine]FrooxEngine.BoxCollider"
                   Data:
-                    ID: ID:Content:Components:FrooxEngine.BoxCollider:0
+                    ID: ID:Content:Components:[FrooxEngine]FrooxEngine.BoxCollider:0
                     persistent-ID: "?"
                     UpdateOrder:
                       ID: "?"
@@ -552,7 +556,7 @@ Children:
                       ID: "?"
                       Data: true
                     Offset:
-                      ID: ID:Content:Components:FrooxEngine.BoxCollider:Offset:0
+                      ID: ID:Content:Components:[FrooxEngine]FrooxEngine.BoxCollider:Offset:0
                       Data:
                         - 0
                         - 0
@@ -570,7 +574,7 @@ Children:
                       ID: "?"
                       Data: false
                     Size:
-                      ID: ID:Content:Components:FrooxEngine.BoxCollider:Size:0
+                      ID: ID:Content:Components:[FrooxEngine]FrooxEngine.BoxCollider:Size:0
                       Data:
                         - 0
                         - 0

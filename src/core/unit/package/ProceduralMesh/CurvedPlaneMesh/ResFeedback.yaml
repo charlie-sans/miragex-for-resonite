@@ -34,7 +34,7 @@ OrderOffset:
 Components:
   ID: "?"
   Data:
-    - Type: FrooxEngine.DynamicVariableSpace
+    - Type: "[FrooxEngine]FrooxEngine.DynamicVariableSpace"
       Data:
         ID: "?"
         persistent-ID: "?"
@@ -87,7 +87,8 @@ Children:
     Components:
       ID: "?"
       Data:
-        - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+        - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+            ne.Slot>"
           Data:
             ID: "?"
             persistent-ID: "?"
@@ -143,7 +144,7 @@ Children:
     Components:
       ID: "?"
       Data:
-        - Type: FrooxEngine.DynamicVariableSpace
+        - Type: "[FrooxEngine]FrooxEngine.DynamicVariableSpace"
           Data:
             ID: "?"
             persistent-ID: "?"
@@ -196,7 +197,8 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -215,7 +217,8 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -234,7 +237,8 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -290,7 +294,7 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.DynamicField`1[Elements.Core.float3]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<float3>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -309,7 +313,7 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[Elements.Core.floatQ]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<floatQ>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -328,7 +332,7 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[Elements.Core.float3]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<float3>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -384,7 +388,7 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.MeshRenderer
+            - Type: "[FrooxEngine]FrooxEngine.MeshRenderer"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -396,12 +400,12 @@ Children:
                   Data: true
                 Mesh:
                   ID: "?"
-                  Data: ID:CurvedPlaneMesh:Components:FrooxEngine.CurvedPlaneMesh:0
+                  Data: ID:CurvedPlaneMesh:Components:[FrooxEngine]FrooxEngine.CurvedPlaneMesh:0
                 Materials:
                   ID: "?"
                   Data:
                     - ID: "?"
-                      Data: ID:Assets:FrooxEngine.PBS_DualSidedMetallic:ID:0
+                      Data: ID:Assets:[FrooxEngine]FrooxEngine.PBS_DualSidedMetallic:ID:0
                 MaterialPropertyBlocks:
                   ID: "?"
                   Data: []
@@ -414,9 +418,9 @@ Children:
                 SortingOrder:
                   ID: "?"
                   Data: 0
-            - Type: FrooxEngine.CurvedPlaneMesh
+            - Type: "[FrooxEngine]FrooxEngine.CurvedPlaneMesh"
               Data:
-                ID: ID:CurvedPlaneMesh:Components:FrooxEngine.CurvedPlaneMesh:0
+                ID: ID:CurvedPlaneMesh:Components:[FrooxEngine]FrooxEngine.CurvedPlaneMesh:0
                 persistent-ID: "?"
                 UpdateOrder:
                   ID: "?"
@@ -474,7 +478,7 @@ Children:
                 FlatShading:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.MeshCollider
+            - Type: "[FrooxEngine]FrooxEngine.MeshCollider"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -504,7 +508,7 @@ Children:
                   Data: false
                 Mesh:
                   ID: "?"
-                  Data: ID:CurvedPlaneMesh:Components:FrooxEngine.CurvedPlaneMesh:0
+                  Data: ID:CurvedPlaneMesh:Components:[FrooxEngine]FrooxEngine.CurvedPlaneMesh:0
                 Sidedness:
                   ID: "?"
                   Data: DualSided

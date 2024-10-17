@@ -55,14 +55,17 @@ const processResSlot = <T>(
     resSlot.Children.map((child) => processResSlot(child, processor))
   );
 };
-
-const convertComponentType = (type: string) =>
-  type
+const convertComponentType = (type: any, types: string[]) => {
+  if (typeof type == "number") {
+    return types[type];
+  }
+  return type
     .replace(/\[([^,\[\]]+)[^\]]*\]/g, "$1")
     .replace(
       /Version=[0-9][0-9][0-9][0-9]\.[0-9][0-9]\.[0-9][0-9]\.[0-9][0-9][0-9]/g,
       ""
     );
+};
 
 const processFieldData = (
   data: unknown,
@@ -106,7 +109,7 @@ const processFieldData = (
   }
 };
 
-const generateFunctions = () => {
+const generateFunctions = (types: string[]) => {
   const idCountMap = new Map<ResID, number>();
   const altNameCountMap = new Map<string, number>();
   const idAltNameMap = new Map<ResID, string>();
@@ -149,7 +152,10 @@ const generateFunctions = () => {
     };
   };
 
-  const toSimpleComponent = (component: ResComponent): ResComponent => {
+  const toSimpleComponent = (
+    component: ResComponent,
+    types: string[]
+  ): ResComponent => {
     const ComponentData: ResComponent["Data"] = Object.entries(
       component.Data
     ).reduce<ResComponent["Data"]>(
@@ -176,7 +182,7 @@ const generateFunctions = () => {
       {} as ResComponent["Data"]
     );
     const simpleComponent: ResComponent = {
-      Type: convertComponentType(component.Type),
+      Type: convertComponentType(component.Type, types),
       Data: ComponentData,
     };
     return simpleComponent;
@@ -194,13 +200,17 @@ const generateFunctions = () => {
 const res2flat = (
   resObject: ResObject
 ): { data: ResObject; _altNameIdMap: Map<string, ResID> } => {
+  // this is tarible
+  var badresobject: any = resObject;
+  const typesbad: string[] = badresobject.Types ? badresobject.Types : [];
+  // setup the functions
   const {
     preSetId,
     getAltName,
     toSimpleField,
     toSimpleComponent,
     states: { _altNameIdMap },
-  } = generateFunctions();
+  } = generateFunctions(typesbad);
 
   const resObjectObject =
     resObject.Object.Name.Data === "Holder"
@@ -222,7 +232,8 @@ const res2flat = (
       preSetId(
         component.Data.ID,
         `ID:${slot.Name.Data}:Components:${convertComponentType(
-          component.Type
+          component.Type,
+          typesbad
         )}`
       );
 
@@ -236,7 +247,8 @@ const res2flat = (
           preSetId(
             id,
             `ID:${slot.Name.Data}:Components:${convertComponentType(
-              component.Type
+              component.Type,
+              typesbad
             )}:${key}`
           );
 
@@ -248,7 +260,8 @@ const res2flat = (
                   value,
                   path[path.length - 1] === "ID"
                     ? `ID:${slot.Name.Data}:Components:${convertComponentType(
-                        component.Type
+                        component.Type,
+                        typesbad
                       )}:${key}.${path.join(".")}`
                     : undefined
                 );
@@ -263,14 +276,17 @@ const res2flat = (
   resObject.Assets.forEach((component) => {
     preSetId(
       component.Data.ID,
-      `ID:Assets:${convertComponentType(component.Type)}`
+      `ID:Assets:${convertComponentType(component.Type, typesbad)}`
     );
     Object.keys(component.Data).forEach((key) => {
       const field = component.Data[key];
       const id = typeof field === "object" ? field.ID : field;
       const data = typeof field === "object" ? field.Data : undefined;
 
-      preSetId(id, `ID:Assets:${convertComponentType(component.Type)}:${key}`);
+      preSetId(
+        id,
+        `ID:Assets:${convertComponentType(component.Type, typesbad)}:${key}`
+      );
 
       if (data) {
         preSetId(data);
@@ -283,7 +299,9 @@ const res2flat = (
     (slot, children) => {
       const simpleComponents = slot.Components.Data.filter(
         (comp) => !["FrooxEngine.InventoryItem"].includes(comp.Type)
-      ).map(toSimpleComponent);
+      ).map((o: any) => {
+        return toSimpleComponent(o, typesbad);
+      });
       const simpleSlot: ResSlot = {
         Name: toSimpleField(slot.Name.ID, slot.Name.Data),
         Active: toSimpleField(slot.Active.ID, slot.Active.Data),
@@ -326,7 +344,9 @@ const res2flat = (
         Rotation: { ID: "?", Data: [0, 0, 0, 1] },
         Scale: { ID: "?", Data: [1, 1, 1] },
       },
-      Assets: resObject.Assets.map(toSimpleComponent),
+      Assets: resObject.Assets.map((o: any) => {
+        return toSimpleComponent(o, typesbad);
+      }),
       TypeVersions: resObject.TypeVersions,
     },
     _altNameIdMap: _altNameIdMap,

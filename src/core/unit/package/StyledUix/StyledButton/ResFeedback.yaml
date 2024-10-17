@@ -34,7 +34,7 @@ OrderOffset:
 Components:
   ID: "?"
   Data:
-    - Type: FrooxEngine.DynamicVariableSpace
+    - Type: "[FrooxEngine]FrooxEngine.DynamicVariableSpace"
       Data:
         ID: "?"
         persistent-ID: "?"
@@ -87,7 +87,8 @@ Children:
     Components:
       ID: "?"
       Data:
-        - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+        - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+            ne.Slot>"
           Data:
             ID: "?"
             persistent-ID: "?"
@@ -143,7 +144,7 @@ Children:
     Components:
       ID: "?"
       Data:
-        - Type: FrooxEngine.DynamicVariableSpace
+        - Type: "[FrooxEngine]FrooxEngine.DynamicVariableSpace"
           Data:
             ID: "?"
             persistent-ID: "?"
@@ -196,7 +197,8 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -215,7 +217,8 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -234,7 +237,8 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -290,7 +294,7 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.DynamicField`1[System.Boolean]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<bool>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -305,11 +309,11 @@ Children:
                   Data: Props.enabled
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledButton:Components:FrooxEngine.UIX.Button:Enabled:0
+                  Data: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Button:Enabled:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.String]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<string>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -324,13 +328,11 @@ Children:
                   Data: Props.styledSprite
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledButton:Components:FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
-                    FrooxEngine, 5, Culture=neutral,
-                    PublicKeyToken=null]]:VariableName:0
+                  Data: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.DynamicReferenceVariableDriver<[FrooxEngine]FrooxEngine.IAssetProvider<[FrooxEngine]FrooxEngine.Sprite>>:VariableName:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.String]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<string>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -345,11 +347,11 @@ Children:
                   Data: Props.styledColor
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledButton:Components:FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]:VariableName:0
+                  Data: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<colorX>:VariableName:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.String]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<string>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -364,13 +366,11 @@ Children:
                   Data: Props.styledMaterial
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledButton:Components:FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
-                    FrooxEngine, 5, Culture=neutral,
-                    PublicKeyToken=null]]:VariableName:1
+                  Data: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.DynamicReferenceVariableDriver<[FrooxEngine]FrooxEngine.IAssetProvider<[FrooxEngine]FrooxEngine.Material>>:VariableName:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[Elements.Core.colorX]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<colorX>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -385,11 +385,12 @@ Children:
                   Data: Props.defaultColor
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledButton:Components:FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]:DefaultValue:0
+                  Data: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<colorX>:DefaultValue:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[FrooxEngine.UIX.InteractionElement+ColorMode]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<[FrooxEngine]FrooxEngine.UIX.Inter\
+                actionElement+ColorMode>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -404,11 +405,11 @@ Children:
                   Data: Props.tintColorMode
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledButton:Components:FrooxEngine.UIX.Button:ColorDrivers.0.TintColorMode.ID:0
+                  Data: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Button:ColorDrivers.0.TintColorMode.ID:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.String]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<string>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -423,11 +424,11 @@ Children:
                   Data: Props.styledNormalColor
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledButton:Components:FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]:VariableName:1
+                  Data: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<colorX>:VariableName:1
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.String]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<string>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -442,11 +443,11 @@ Children:
                   Data: Props.styledHighlightColor
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledButton:Components:FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]:VariableName:2
+                  Data: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<colorX>:VariableName:2
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.String]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<string>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -461,11 +462,11 @@ Children:
                   Data: Props.styledPressColor
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledButton:Components:FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]:VariableName:3
+                  Data: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<colorX>:VariableName:3
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.String]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<string>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -480,11 +481,11 @@ Children:
                   Data: Props.styledDisableColor
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledButton:Components:FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]:VariableName:4
+                  Data: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<colorX>:VariableName:4
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.String]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<string>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -503,7 +504,7 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.Boolean]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<bool>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -518,11 +519,12 @@ Children:
                   Data: Props.requireLockInToPress
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledButton:Components:FrooxEngine.UIX.Button:RequireLockInToPress:0
+                  Data: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Button:RequireLockInToPress:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[FrooxEngine.UIX.NineSliceSizing]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<[FrooxEngine]FrooxEngine.UIX.NineS\
+                liceSizing>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -537,11 +539,11 @@ Children:
                   Data: Props.nineSliceSizing
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledButton:Components:FrooxEngine.UIX.Image:NineSliceSizing:0
+                  Data: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Image:NineSliceSizing:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.Boolean]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<bool>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -556,7 +558,7 @@ Children:
                   Data: Props.preserveAspect
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledButton:Components:FrooxEngine.UIX.Image:PreserveAspect:0
+                  Data: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Image:PreserveAspect:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
@@ -597,7 +599,7 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.UIX.Image
+            - Type: "[FrooxEngine]FrooxEngine.UIX.Image"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -608,16 +610,16 @@ Children:
                   ID: "?"
                   Data: true
                 Sprite:
-                  ID: ID:StyledButton:Components:FrooxEngine.UIX.Image:Sprite:0
+                  ID: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Image:Sprite:0
                   Data: null
                 Material:
-                  ID: ID:StyledButton:Components:FrooxEngine.UIX.Image:Material:0
+                  ID: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Image:Material:0
                   Data: null
                 PreserveAspect:
-                  ID: ID:StyledButton:Components:FrooxEngine.UIX.Image:PreserveAspect:0
+                  ID: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Image:PreserveAspect:0
                   Data: true
                 NineSliceSizing:
-                  ID: ID:StyledButton:Components:FrooxEngine.UIX.Image:NineSliceSizing:0
+                  ID: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Image:NineSliceSizing:0
                   Data: TextureSize
                 FlipHorizontally:
                   ID: "?"
@@ -637,14 +639,14 @@ Children:
                     Height: 333.3333333333333
                 __legacyZWrite-ID: "?"
                 Tint:
-                  ID: ID:StyledButton:Components:FrooxEngine.UIX.Image:Tint:0
+                  ID: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Image:Tint:0
                   Data:
                     - 333.3333333333333
                     - 333.3333333333333
                     - 333.3333333333333
                     - 333.3333333333333
                     - sRGBAlpha
-            - Type: FrooxEngine.UIX.RectTransform
+            - Type: "[FrooxEngine]FrooxEngine.UIX.RectTransform"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -679,7 +681,7 @@ Children:
                   Data:
                     - 166.66666666666666
                     - 166.66666666666666
-            - Type: FrooxEngine.UIX.Button
+            - Type: "[FrooxEngine]FrooxEngine.UIX.Button"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -687,10 +689,10 @@ Children:
                   ID: "?"
                   Data: 0
                 Enabled:
-                  ID: ID:StyledButton:Components:FrooxEngine.UIX.Button:Enabled:0
+                  ID: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Button:Enabled:0
                   Data: true
                 BaseColor:
-                  ID: ID:StyledButton:Components:FrooxEngine.UIX.Button:BaseColor:0
+                  ID: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Button:BaseColor:0
                   Data:
                     - 333.3333333333333
                     - 333.3333333333333
@@ -703,12 +705,12 @@ Children:
                     - ID: "?"
                       ColorDrive:
                         ID: "?"
-                        Data: ID:StyledButton:Components:FrooxEngine.UIX.Image:Tint:0
+                        Data: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Image:Tint:0
                       TintColorMode:
-                        ID: ID:StyledButton:Components:FrooxEngine.UIX.Button:ColorDrivers.0.TintColorMode.ID:0
+                        ID: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Button:ColorDrivers.0.TintColorMode.ID:0
                         Data: Explicit
                       NormalColor:
-                        ID: ID:StyledButton:Components:FrooxEngine.UIX.Button:ColorDrivers.0.NormalColor.ID:0
+                        ID: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Button:ColorDrivers.0.NormalColor.ID:0
                         Data:
                           - 333.3333333333333
                           - 333.3333333333333
@@ -716,7 +718,7 @@ Children:
                           - 333.3333333333333
                           - sRGBAlpha
                       HighlightColor:
-                        ID: ID:StyledButton:Components:FrooxEngine.UIX.Button:ColorDrivers.0.HighlightColor.ID:0
+                        ID: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Button:ColorDrivers.0.HighlightColor.ID:0
                         Data:
                           - 250
                           - 250
@@ -724,7 +726,7 @@ Children:
                           - 333.3333333333333
                           - sRGBAlpha
                       PressColor:
-                        ID: ID:StyledButton:Components:FrooxEngine.UIX.Button:ColorDrivers.0.PressColor.ID:0
+                        ID: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Button:ColorDrivers.0.PressColor.ID:0
                         Data:
                           - 166.66666666666666
                           - 166.66666666666666
@@ -732,7 +734,7 @@ Children:
                           - 333.3333333333333
                           - sRGBAlpha
                       DisabledColor:
-                        ID: ID:StyledButton:Components:FrooxEngine.UIX.Button:ColorDrivers.0.DisabledColor.ID:0
+                        ID: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Button:ColorDrivers.0.DisabledColor.ID:0
                         Data:
                           - 216.66666666666666
                           - 216.66666666666666
@@ -749,7 +751,7 @@ Children:
                   ID: "?"
                   Data: false
                 IsHovering:
-                  ID: ID:StyledButton:Components:FrooxEngine.UIX.Button:IsHovering:0
+                  ID: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Button:IsHovering:0
                   Data: false
                 HoverVibrate:
                   ID: "?"
@@ -767,7 +769,7 @@ Children:
                   ID: "?"
                   Data: true
                 RequireLockInToPress:
-                  ID: ID:StyledButton:Components:FrooxEngine.UIX.Button:RequireLockInToPress:0
+                  ID: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Button:RequireLockInToPress:0
                   Data: false
                 RequireInitialPress:
                   ID: "?"
@@ -804,7 +806,7 @@ Children:
                   ID: "?"
                   Data:
                     Target: null
-            - Type: FrooxEngine.ButtonDynamicImpulseTriggerWithValue`1[System.String]
+            - Type: "[FrooxEngine]FrooxEngine.ButtonDynamicImpulseTriggerWithValue<string>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -815,7 +817,7 @@ Children:
                   ID: "?"
                   Data: true
                 Target:
-                  ID: ID:StyledButton:Components:FrooxEngine.ButtonDynamicImpulseTriggerWithValue`1[System.String]:Target:0
+                  ID: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.ButtonDynamicImpulseTriggerWithValue<string>:Target:0
                   Data: "?"
                 ExcludeDisabled:
                   ID: "?"
@@ -838,7 +840,8 @@ Children:
                 HoverLeaveData:
                   ID: "?"
                   Data: {}
-            - Type: FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariableDriver<[FrooxEngine]Fro\
+                oxEngine.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -853,11 +856,11 @@ Children:
                   Data: AppRoot/Static.System.Func.EmitInteractionEvent
                 Target:
                   ID: "?"
-                  Data: ID:StyledButton:Components:FrooxEngine.ButtonDynamicImpulseTriggerWithValue`1[System.String]:Target:0
+                  Data: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.ButtonDynamicImpulseTriggerWithValue<string>:Target:0
                 DefaultTarget:
                   ID: "?"
                   Data: null
-            - Type: FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<colorX>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -868,21 +871,21 @@ Children:
                   ID: "?"
                   Data: true
                 VariableName:
-                  ID: ID:StyledButton:Components:FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]:VariableName:0
+                  ID: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<colorX>:VariableName:0
                   Data: ""
                 Target:
                   ID: "?"
-                  Data: ID:StyledButton:Components:FrooxEngine.UIX.Button:BaseColor:0
+                  Data: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Button:BaseColor:0
                 DefaultValue:
-                  ID: ID:StyledButton:Components:FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]:DefaultValue:0
+                  ID: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<colorX>:DefaultValue:0
                   Data:
                     - 333.3333333333333
                     - 333.3333333333333
                     - 333.3333333333333
                     - 333.3333333333333
                     - sRGBAlpha
-            - Type: FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
-                FrooxEngine, 5, Culture=neutral, PublicKeyToken=null]]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariableDriver<[FrooxEngine]Fro\
+                oxEngine.IAssetProvider<[FrooxEngine]FrooxEngine.Sprite>>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -893,18 +896,16 @@ Children:
                   ID: "?"
                   Data: true
                 VariableName:
-                  ID: ID:StyledButton:Components:FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
-                    FrooxEngine, 5, Culture=neutral,
-                    PublicKeyToken=null]]:VariableName:0
+                  ID: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.DynamicReferenceVariableDriver<[FrooxEngine]FrooxEngine.IAssetProvider<[FrooxEngine]FrooxEngine.Sprite>>:VariableName:0
                   Data: ""
                 Target:
                   ID: "?"
-                  Data: ID:StyledButton:Components:FrooxEngine.UIX.Image:Sprite:0
+                  Data: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Image:Sprite:0
                 DefaultTarget:
                   ID: "?"
                   Data: null
-            - Type: FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
-                FrooxEngine, 5, Culture=neutral, PublicKeyToken=null]]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariableDriver<[FrooxEngine]Fro\
+                oxEngine.IAssetProvider<[FrooxEngine]FrooxEngine.Material>>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -915,17 +916,15 @@ Children:
                   ID: "?"
                   Data: true
                 VariableName:
-                  ID: ID:StyledButton:Components:FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
-                    FrooxEngine, 5, Culture=neutral,
-                    PublicKeyToken=null]]:VariableName:1
+                  ID: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.DynamicReferenceVariableDriver<[FrooxEngine]FrooxEngine.IAssetProvider<[FrooxEngine]FrooxEngine.Material>>:VariableName:0
                   Data: ""
                 Target:
                   ID: "?"
-                  Data: ID:StyledButton:Components:FrooxEngine.UIX.Image:Material:0
+                  Data: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Image:Material:0
                 DefaultTarget:
                   ID: "?"
                   Data: null
-            - Type: FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<colorX>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -936,11 +935,11 @@ Children:
                   ID: "?"
                   Data: true
                 VariableName:
-                  ID: ID:StyledButton:Components:FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]:VariableName:1
+                  ID: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<colorX>:VariableName:1
                   Data: ""
                 Target:
                   ID: "?"
-                  Data: ID:StyledButton:Components:FrooxEngine.UIX.Button:ColorDrivers.0.NormalColor.ID:0
+                  Data: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Button:ColorDrivers.0.NormalColor.ID:0
                 DefaultValue:
                   ID: "?"
                   Data:
@@ -949,7 +948,7 @@ Children:
                     - 333.3333333333333
                     - 333.3333333333333
                     - sRGBAlpha
-            - Type: FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<colorX>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -960,11 +959,11 @@ Children:
                   ID: "?"
                   Data: true
                 VariableName:
-                  ID: ID:StyledButton:Components:FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]:VariableName:2
+                  ID: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<colorX>:VariableName:2
                   Data: ""
                 Target:
                   ID: "?"
-                  Data: ID:StyledButton:Components:FrooxEngine.UIX.Button:ColorDrivers.0.HighlightColor.ID:0
+                  Data: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Button:ColorDrivers.0.HighlightColor.ID:0
                 DefaultValue:
                   ID: "?"
                   Data:
@@ -973,7 +972,7 @@ Children:
                     - 250
                     - 333.3333333333333
                     - sRGBAlpha
-            - Type: FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<colorX>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -984,11 +983,11 @@ Children:
                   ID: "?"
                   Data: true
                 VariableName:
-                  ID: ID:StyledButton:Components:FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]:VariableName:3
+                  ID: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<colorX>:VariableName:3
                   Data: ""
                 Target:
                   ID: "?"
-                  Data: ID:StyledButton:Components:FrooxEngine.UIX.Button:ColorDrivers.0.PressColor.ID:0
+                  Data: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Button:ColorDrivers.0.PressColor.ID:0
                 DefaultValue:
                   ID: "?"
                   Data:
@@ -997,7 +996,7 @@ Children:
                     - 166.66666666666666
                     - 333.3333333333333
                     - sRGBAlpha
-            - Type: FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<colorX>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -1008,11 +1007,11 @@ Children:
                   ID: "?"
                   Data: true
                 VariableName:
-                  ID: ID:StyledButton:Components:FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]:VariableName:4
+                  ID: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<colorX>:VariableName:4
                   Data: ""
                 Target:
                   ID: "?"
-                  Data: ID:StyledButton:Components:FrooxEngine.UIX.Button:ColorDrivers.0.DisabledColor.ID:0
+                  Data: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Button:ColorDrivers.0.DisabledColor.ID:0
                 DefaultValue:
                   ID: "?"
                   Data:
@@ -1021,7 +1020,7 @@ Children:
                     - 216.66666666666666
                     - 333.3333333333333
                     - sRGBAlpha
-            - Type: FrooxEngine.DynamicField`1[System.Boolean]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<bool>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -1036,7 +1035,7 @@ Children:
                   Data: null
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledButton:Components:FrooxEngine.UIX.Button:IsHovering:0
+                  Data: ID:StyledButton:Components:[FrooxEngine]FrooxEngine.UIX.Button:IsHovering:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false

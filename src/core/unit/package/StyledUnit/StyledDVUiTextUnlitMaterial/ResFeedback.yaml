@@ -34,7 +34,7 @@ OrderOffset:
 Components:
   ID: "?"
   Data:
-    - Type: FrooxEngine.DynamicVariableSpace
+    - Type: "[FrooxEngine]FrooxEngine.DynamicVariableSpace"
       Data:
         ID: "?"
         persistent-ID: "?"
@@ -87,7 +87,8 @@ Children:
     Components:
       ID: "?"
       Data:
-        - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+        - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+            ne.Slot>"
           Data:
             ID: "?"
             persistent-ID: "?"
@@ -143,7 +144,7 @@ Children:
     Components:
       ID: "?"
       Data:
-        - Type: FrooxEngine.DynamicVariableSpace
+        - Type: "[FrooxEngine]FrooxEngine.DynamicVariableSpace"
           Data:
             ID: "?"
             persistent-ID: "?"
@@ -196,7 +197,8 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -215,7 +217,8 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -234,7 +237,8 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -290,7 +294,7 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.DynamicField`1[System.String]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<string>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -305,13 +309,11 @@ Children:
                   Data: Props.name
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledUiTextUnlitMaterial:Components:FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.IAssetProvider`1],
-                    FrooxEngine, , Culture=neutral,
-                    PublicKeyToken=null]]:VariableName:0
+                  Data: ID:StyledUiTextUnlitMaterial:Components:[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngine.IAssetProvider<[FrooxEngine]FrooxEngine.Material>>:VariableName:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[FrooxEngine.ZWrite]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<[FrooxEngine]FrooxEngine.ZWrite>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -326,11 +328,11 @@ Children:
                   Data: Props.zWrite
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledUiTextUnlitMaterial:Components:FrooxEngine.UI_TextUnlitMaterial:ZWrite:0
+                  Data: ID:StyledUiTextUnlitMaterial:Components:[FrooxEngine]FrooxEngine.UI_TextUnlitMaterial:ZWrite:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.Single]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<float>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -345,11 +347,11 @@ Children:
                   Data: Props.offsetFactor
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledUiTextUnlitMaterial:Components:FrooxEngine.UI_TextUnlitMaterial:OffsetFactor:0
+                  Data: ID:StyledUiTextUnlitMaterial:Components:[FrooxEngine]FrooxEngine.UI_TextUnlitMaterial:OffsetFactor:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.Single]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<float>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -364,7 +366,7 @@ Children:
                   Data: Props.offsetUnits
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledUiTextUnlitMaterial:Components:FrooxEngine.UI_TextUnlitMaterial:OffsetUnits:0
+                  Data: ID:StyledUiTextUnlitMaterial:Components:[FrooxEngine]FrooxEngine.UI_TextUnlitMaterial:OffsetUnits:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
@@ -405,8 +407,8 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.IAssetProvider`1],
-                FrooxEngine, , Culture=neutral, PublicKeyToken=null]]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.IAssetProvider<[FrooxEngine]FrooxEngine.Material>>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -417,19 +419,17 @@ Children:
                   ID: "?"
                   Data: true
                 VariableName:
-                  ID: ID:StyledUiTextUnlitMaterial:Components:FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.IAssetProvider`1],
-                    FrooxEngine, , Culture=neutral,
-                    PublicKeyToken=null]]:VariableName:0
+                  ID: ID:StyledUiTextUnlitMaterial:Components:[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngine.IAssetProvider<[FrooxEngine]FrooxEngine.Material>>:VariableName:0
                   Data: Name
                 Reference:
                   ID: "?"
-                  Data: ID:StyledUiTextUnlitMaterial:Components:FrooxEngine.UI_TextUnlitMaterial:0
+                  Data: ID:StyledUiTextUnlitMaterial:Components:[FrooxEngine]FrooxEngine.UI_TextUnlitMaterial:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.UI_TextUnlitMaterial
+            - Type: "[FrooxEngine]FrooxEngine.UI_TextUnlitMaterial"
               Data:
-                ID: ID:StyledUiTextUnlitMaterial:Components:FrooxEngine.UI_TextUnlitMaterial:0
+                ID: ID:StyledUiTextUnlitMaterial:Components:[FrooxEngine]FrooxEngine.UI_TextUnlitMaterial:0
                 persistent-ID: "?"
                 UpdateOrder:
                   ID: "?"
@@ -493,16 +493,16 @@ Children:
                   ID: "?"
                   Data: Double
                 ZWrite:
-                  ID: ID:StyledUiTextUnlitMaterial:Components:FrooxEngine.UI_TextUnlitMaterial:ZWrite:0
+                  ID: ID:StyledUiTextUnlitMaterial:Components:[FrooxEngine]FrooxEngine.UI_TextUnlitMaterial:ZWrite:0
                   Data: Auto
                 ZTest:
                   ID: "?"
                   Data: LessOrEqual
                 OffsetFactor:
-                  ID: ID:StyledUiTextUnlitMaterial:Components:FrooxEngine.UI_TextUnlitMaterial:OffsetFactor:0
+                  ID: ID:StyledUiTextUnlitMaterial:Components:[FrooxEngine]FrooxEngine.UI_TextUnlitMaterial:OffsetFactor:0
                   Data: 0
                 OffsetUnits:
-                  ID: ID:StyledUiTextUnlitMaterial:Components:FrooxEngine.UI_TextUnlitMaterial:OffsetUnits:0
+                  ID: ID:StyledUiTextUnlitMaterial:Components:[FrooxEngine]FrooxEngine.UI_TextUnlitMaterial:OffsetUnits:0
                   Data: 0
                 RenderQueue:
                   ID: "?"

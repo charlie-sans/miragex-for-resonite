@@ -34,7 +34,7 @@ OrderOffset:
 Components:
   ID: "?"
   Data:
-    - Type: FrooxEngine.DynamicVariableSpace
+    - Type: "[FrooxEngine]FrooxEngine.DynamicVariableSpace"
       Data:
         ID: "?"
         persistent-ID: "?"
@@ -87,7 +87,8 @@ Children:
     Components:
       ID: "?"
       Data:
-        - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+        - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+            ne.Slot>"
           Data:
             ID: "?"
             persistent-ID: "?"
@@ -143,7 +144,7 @@ Children:
     Components:
       ID: "?"
       Data:
-        - Type: FrooxEngine.DynamicVariableSpace
+        - Type: "[FrooxEngine]FrooxEngine.DynamicVariableSpace"
           Data:
             ID: "?"
             persistent-ID: "?"
@@ -196,7 +197,8 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -215,7 +217,8 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -234,7 +237,8 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -260,7 +264,7 @@ Children:
         Active:
           ID: "?"
           Data: true
-        ID: ID:DV/Props:0
+        ID: "?"
         Persistent-Id: "?"
         Position:
           ID: "?"
@@ -290,7 +294,7 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.DynamicField`1[System.String]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<string>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -309,7 +313,7 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.String]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<string>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -328,7 +332,7 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.Boolean]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<bool>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -347,7 +351,7 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[Elements.Core.float3]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<float3>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -366,7 +370,7 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[Elements.Core.float4]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<floatQ>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -385,7 +389,7 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[Elements.Core.float3]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<float3>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -404,25 +408,6 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.GizmoLink
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                _worker:
-                  ID: "?"
-                  Data: ID:DV/Props:0
-                _gizmo:
-                  ID: "?"
-                  Data: null
-                _type:
-                  ID: "?"
-                  Data: FrooxEngine.SlotGizmo
         Children: []
       - Name:
           ID: "?"
@@ -459,24 +444,5 @@ Children:
           Data: 0
         Components:
           ID: "?"
-          Data:
-            - Type: FrooxEngine.GizmoLink
-              Data:
-                ID: "?"
-                persistent-ID: "?"
-                UpdateOrder:
-                  ID: "?"
-                  Data: 0
-                Enabled:
-                  ID: "?"
-                  Data: true
-                _worker:
-                  ID: "?"
-                  Data: ID:Main:0
-                _gizmo:
-                  ID: "?"
-                  Data: null
-                _type:
-                  ID: "?"
-                  Data: FrooxEngine.SlotGizmo
+          Data: []
         Children: []

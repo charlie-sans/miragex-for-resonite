@@ -34,7 +34,7 @@ OrderOffset:
 Components:
   ID: "?"
   Data:
-    - Type: FrooxEngine.DynamicVariableSpace
+    - Type: "[FrooxEngine]FrooxEngine.DynamicVariableSpace"
       Data:
         ID: "?"
         persistent-ID: "?"
@@ -87,7 +87,8 @@ Children:
     Components:
       ID: "?"
       Data:
-        - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+        - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+            ne.Slot>"
           Data:
             ID: "?"
             persistent-ID: "?"
@@ -143,7 +144,7 @@ Children:
     Components:
       ID: "?"
       Data:
-        - Type: FrooxEngine.DynamicVariableSpace
+        - Type: "[FrooxEngine]FrooxEngine.DynamicVariableSpace"
           Data:
             ID: "?"
             persistent-ID: "?"
@@ -196,7 +197,8 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -215,7 +217,8 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -234,7 +237,8 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -290,7 +294,7 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.DynamicField`1[System.Boolean]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<bool>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -309,7 +313,7 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[Elements.Core.float2]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<float2>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -324,11 +328,11 @@ Children:
                   Data: Props.anchorMin
                 TargetField:
                   ID: "?"
-                  Data: ID:RectTransform:Components:FrooxEngine.UIX.RectTransform:AnchorMin:0
+                  Data: ID:RectTransform:Components:[FrooxEngine]FrooxEngine.UIX.RectTransform:AnchorMin:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[Elements.Core.float2]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<float2>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -343,11 +347,11 @@ Children:
                   Data: Props.anchorMax
                 TargetField:
                   ID: "?"
-                  Data: ID:RectTransform:Components:FrooxEngine.UIX.RectTransform:AnchorMax:0
+                  Data: ID:RectTransform:Components:[FrooxEngine]FrooxEngine.UIX.RectTransform:AnchorMax:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[Elements.Core.float2]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<float2>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -362,11 +366,11 @@ Children:
                   Data: Props.offsetMin
                 TargetField:
                   ID: "?"
-                  Data: ID:RectTransform:Components:FrooxEngine.UIX.RectTransform:OffsetMin:0
+                  Data: ID:RectTransform:Components:[FrooxEngine]FrooxEngine.UIX.RectTransform:OffsetMin:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[Elements.Core.float2]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<float2>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -381,7 +385,7 @@ Children:
                   Data: Props.offsetMax
                 TargetField:
                   ID: "?"
-                  Data: ID:RectTransform:Components:FrooxEngine.UIX.RectTransform:OffsetMax:0
+                  Data: ID:RectTransform:Components:[FrooxEngine]FrooxEngine.UIX.RectTransform:OffsetMax:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
@@ -422,7 +426,7 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.UIX.RectTransform
+            - Type: "[FrooxEngine]FrooxEngine.UIX.RectTransform"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -433,22 +437,22 @@ Children:
                   ID: "?"
                   Data: true
                 AnchorMin:
-                  ID: ID:RectTransform:Components:FrooxEngine.UIX.RectTransform:AnchorMin:0
+                  ID: ID:RectTransform:Components:[FrooxEngine]FrooxEngine.UIX.RectTransform:AnchorMin:0
                   Data:
                     - 0
                     - 0
                 AnchorMax:
-                  ID: ID:RectTransform:Components:FrooxEngine.UIX.RectTransform:AnchorMax:0
+                  ID: ID:RectTransform:Components:[FrooxEngine]FrooxEngine.UIX.RectTransform:AnchorMax:0
                   Data:
                     - 333.3333333333333
                     - 333.3333333333333
                 OffsetMin:
-                  ID: ID:RectTransform:Components:FrooxEngine.UIX.RectTransform:OffsetMin:0
+                  ID: ID:RectTransform:Components:[FrooxEngine]FrooxEngine.UIX.RectTransform:OffsetMin:0
                   Data:
                     - 0
                     - 0
                 OffsetMax:
-                  ID: ID:RectTransform:Components:FrooxEngine.UIX.RectTransform:OffsetMax:0
+                  ID: ID:RectTransform:Components:[FrooxEngine]FrooxEngine.UIX.RectTransform:OffsetMax:0
                   Data:
                     - 0
                     - 0

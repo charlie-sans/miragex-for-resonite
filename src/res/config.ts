@@ -13,14 +13,13 @@ const {
   MIRAGE_HOST_CV_PATH,
   MIRAGE_USE_SSL_CV_PATH,
   MIRAGE_URL,
-  MIRAGE_PORT,
+
   CV_OWNER_ID,
 } = process.env;
 
 const appCode = "Cat_Viewer";
-const rawFallbackUrl = MIRAGE_URL ?? `http://localhost:${MIRAGE_PORT ?? 3001}/`;
-const fallbackHost =
-  rawFallbackUrl.split("/")[2] ?? `localhost:${MIRAGE_PORT ?? 3001}/`;
+const rawFallbackUrl = `http://localhost:${3000}/`;
+const fallbackHost = rawFallbackUrl.split("/")[2] ?? `localhost:${3000}/`;
 const fallbackUseSSL = rawFallbackUrl.startsWith("https");
 
 console.log(fallbackHost, fallbackUseSSL);

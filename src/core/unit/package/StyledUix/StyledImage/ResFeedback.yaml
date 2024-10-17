@@ -34,7 +34,7 @@ OrderOffset:
 Components:
   ID: "?"
   Data:
-    - Type: FrooxEngine.DynamicVariableSpace
+    - Type: "[FrooxEngine]FrooxEngine.DynamicVariableSpace"
       Data:
         ID: "?"
         persistent-ID: "?"
@@ -87,7 +87,8 @@ Children:
     Components:
       ID: "?"
       Data:
-        - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+        - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+            ne.Slot>"
           Data:
             ID: "?"
             persistent-ID: "?"
@@ -143,7 +144,7 @@ Children:
     Components:
       ID: "?"
       Data:
-        - Type: FrooxEngine.DynamicVariableSpace
+        - Type: "[FrooxEngine]FrooxEngine.DynamicVariableSpace"
           Data:
             ID: "?"
             persistent-ID: "?"
@@ -196,7 +197,8 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -215,7 +217,8 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -234,7 +237,8 @@ Children:
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicReferenceVariable`1[FrooxEngine.Slot]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngi\
+                ne.Slot>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -290,7 +294,7 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.DynamicField`1[System.String]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<string>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -305,13 +309,11 @@ Children:
                   Data: Props.styledSprite
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledImage:Components:FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
-                    FrooxEngine, 5, Culture=neutral,
-                    PublicKeyToken=null]]:VariableName:0
+                  Data: ID:StyledImage:Components:[FrooxEngine]FrooxEngine.DynamicReferenceVariableDriver<[FrooxEngine]FrooxEngine.IAssetProvider<[FrooxEngine]FrooxEngine.Sprite>>:VariableName:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.String]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<string>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -326,11 +328,11 @@ Children:
                   Data: Props.styledColor
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledImage:Components:FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]:VariableName:0
+                  Data: ID:StyledImage:Components:[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<colorX>:VariableName:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.String]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<string>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -345,13 +347,11 @@ Children:
                   Data: Props.styledMaterial
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledImage:Components:FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
-                    FrooxEngine, 5, Culture=neutral,
-                    PublicKeyToken=null]]:VariableName:1
+                  Data: ID:StyledImage:Components:[FrooxEngine]FrooxEngine.DynamicReferenceVariableDriver<[FrooxEngine]FrooxEngine.IAssetProvider<[FrooxEngine]FrooxEngine.Material>>:VariableName:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[Elements.Core.colorX]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<colorX>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -366,11 +366,12 @@ Children:
                   Data: Props.defaultColor
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledImage:Components:FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]:DefaultValue:0
+                  Data: ID:StyledImage:Components:[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<colorX>:DefaultValue:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[FrooxEngine.UIX.NineSliceSizing]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<[FrooxEngine]FrooxEngine.UIX.NineS\
+                liceSizing>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -385,11 +386,11 @@ Children:
                   Data: Props.nineSliceSizing
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledImage:Components:FrooxEngine.UIX.Image:NineSliceSizing:0
+                  Data: ID:StyledImage:Components:[FrooxEngine]FrooxEngine.UIX.Image:NineSliceSizing:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
-            - Type: FrooxEngine.DynamicField`1[System.Boolean]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicField<bool>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -404,7 +405,7 @@ Children:
                   Data: Props.preserveAspect
                 TargetField:
                   ID: "?"
-                  Data: ID:StyledImage:Components:FrooxEngine.UIX.Image:PreserveAspect:0
+                  Data: ID:StyledImage:Components:[FrooxEngine]FrooxEngine.UIX.Image:PreserveAspect:0
                 OverrideOnLink:
                   ID: "?"
                   Data: false
@@ -445,7 +446,7 @@ Children:
         Components:
           ID: "?"
           Data:
-            - Type: FrooxEngine.UIX.Image
+            - Type: "[FrooxEngine]FrooxEngine.UIX.Image"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -456,16 +457,16 @@ Children:
                   ID: "?"
                   Data: true
                 Sprite:
-                  ID: ID:StyledImage:Components:FrooxEngine.UIX.Image:Sprite:0
+                  ID: ID:StyledImage:Components:[FrooxEngine]FrooxEngine.UIX.Image:Sprite:0
                   Data: null
                 Material:
-                  ID: ID:StyledImage:Components:FrooxEngine.UIX.Image:Material:0
+                  ID: ID:StyledImage:Components:[FrooxEngine]FrooxEngine.UIX.Image:Material:0
                   Data: null
                 PreserveAspect:
-                  ID: ID:StyledImage:Components:FrooxEngine.UIX.Image:PreserveAspect:0
+                  ID: ID:StyledImage:Components:[FrooxEngine]FrooxEngine.UIX.Image:PreserveAspect:0
                   Data: true
                 NineSliceSizing:
-                  ID: ID:StyledImage:Components:FrooxEngine.UIX.Image:NineSliceSizing:0
+                  ID: ID:StyledImage:Components:[FrooxEngine]FrooxEngine.UIX.Image:NineSliceSizing:0
                   Data: TextureSize
                 FlipHorizontally:
                   ID: "?"
@@ -485,14 +486,14 @@ Children:
                     Height: 333.3333333333333
                 __legacyZWrite-ID: "?"
                 Tint:
-                  ID: ID:StyledImage:Components:FrooxEngine.UIX.Image:Tint:0
+                  ID: ID:StyledImage:Components:[FrooxEngine]FrooxEngine.UIX.Image:Tint:0
                   Data:
                     - 333.3333333333333
                     - 333.3333333333333
                     - 333.3333333333333
                     - 333.3333333333333
                     - sRGBAlpha
-            - Type: FrooxEngine.UIX.RectTransform
+            - Type: "[FrooxEngine]FrooxEngine.UIX.RectTransform"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -527,7 +528,7 @@ Children:
                   Data:
                     - 166.66666666666666
                     - 166.66666666666666
-            - Type: FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<colorX>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -538,21 +539,21 @@ Children:
                   ID: "?"
                   Data: true
                 VariableName:
-                  ID: ID:StyledImage:Components:FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]:VariableName:0
+                  ID: ID:StyledImage:Components:[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<colorX>:VariableName:0
                   Data: ""
                 Target:
                   ID: "?"
-                  Data: ID:StyledImage:Components:FrooxEngine.UIX.Image:Tint:0
+                  Data: ID:StyledImage:Components:[FrooxEngine]FrooxEngine.UIX.Image:Tint:0
                 DefaultValue:
-                  ID: ID:StyledImage:Components:FrooxEngine.DynamicValueVariableDriver`1[Elements.Core.colorX]:DefaultValue:0
+                  ID: ID:StyledImage:Components:[FrooxEngine]FrooxEngine.DynamicValueVariableDriver<colorX>:DefaultValue:0
                   Data:
                     - 333.3333333333333
                     - 333.3333333333333
                     - 333.3333333333333
                     - 333.3333333333333
                     - sRGBAlpha
-            - Type: FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
-                FrooxEngine, 5, Culture=neutral, PublicKeyToken=null]]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariableDriver<[FrooxEngine]Fro\
+                oxEngine.IAssetProvider<[FrooxEngine]FrooxEngine.Sprite>>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -563,18 +564,16 @@ Children:
                   ID: "?"
                   Data: true
                 VariableName:
-                  ID: ID:StyledImage:Components:FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
-                    FrooxEngine, 5, Culture=neutral,
-                    PublicKeyToken=null]]:VariableName:0
+                  ID: ID:StyledImage:Components:[FrooxEngine]FrooxEngine.DynamicReferenceVariableDriver<[FrooxEngine]FrooxEngine.IAssetProvider<[FrooxEngine]FrooxEngine.Sprite>>:VariableName:0
                   Data: ""
                 Target:
                   ID: "?"
-                  Data: ID:StyledImage:Components:FrooxEngine.UIX.Image:Sprite:0
+                  Data: ID:StyledImage:Components:[FrooxEngine]FrooxEngine.UIX.Image:Sprite:0
                 DefaultTarget:
                   ID: "?"
                   Data: null
-            - Type: FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
-                FrooxEngine, 5, Culture=neutral, PublicKeyToken=null]]
+            - Type: "[FrooxEngine]FrooxEngine.DynamicReferenceVariableDriver<[FrooxEngine]Fro\
+                oxEngine.IAssetProvider<[FrooxEngine]FrooxEngine.Material>>"
               Data:
                 ID: "?"
                 persistent-ID: "?"
@@ -585,13 +584,11 @@ Children:
                   ID: "?"
                   Data: true
                 VariableName:
-                  ID: ID:StyledImage:Components:FrooxEngine.DynamicReferenceVariableDriver`1[FrooxEngine.IAssetProvider`1],
-                    FrooxEngine, 5, Culture=neutral,
-                    PublicKeyToken=null]]:VariableName:1
+                  ID: ID:StyledImage:Components:[FrooxEngine]FrooxEngine.DynamicReferenceVariableDriver<[FrooxEngine]FrooxEngine.IAssetProvider<[FrooxEngine]FrooxEngine.Material>>:VariableName:0
                   Data: ""
                 Target:
                   ID: "?"
-                  Data: ID:StyledImage:Components:FrooxEngine.UIX.Image:Material:0
+                  Data: ID:StyledImage:Components:[FrooxEngine]FrooxEngine.UIX.Image:Material:0
                 DefaultTarget:
                   ID: "?"
                   Data: null

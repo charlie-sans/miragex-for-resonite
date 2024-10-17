@@ -26,7 +26,6 @@ const main = () => {
 
   if (prevResFeedbackYaml === resFeedbackYaml) {
     console.info("no change in base");
-    return;
   }
 
   fs.writeFileSync(

@@ -30,6 +30,10 @@ const ResFeedbackMetaOriginal = fs.readFileSync(
 const targets = fs
   .readdirSync(path.resolve(__dirname, "../../core/unit/package"))
   .flatMap((packageName) => {
+    const dir = path.resolve(
+      __dirname,
+      `../../core/unit/package/${packageName}`
+    );
     if (
       fs
         .statSync(
@@ -37,41 +41,70 @@ const targets = fs
         )
         .isDirectory()
     ) {
-      const units = fs
-        .readdirSync(
-          path.resolve(__dirname, `../../core/unit/package/${packageName}`)
-        )
-        .flatMap((fileName) =>
-          fs
-            .statSync(
-              path.resolve(
-                __dirname,
-                `../../core/unit/package/${packageName}/${fileName}`
-              )
-            )
-            .isDirectory()
-            ? [fileName]
-            : []
-        );
-      return [{ packageName, units }];
+      try {
+        const units = fs.readdirSync(dir).flatMap((fileName) => {
+          const filePath = path.resolve(
+            __dirname,
+            `../../core/unit/package/${packageName}/${fileName}`
+          );
+          try {
+            console.log(filePath);
+            return fs.statSync(filePath).isDirectory() ? [fileName] : [];
+          } catch (e) {
+            console.error(`Error reading file stats for ${filePath}`, e);
+            return [];
+          }
+        });
+
+        return [{ packageName, units }];
+      } catch (e) {
+        console.error(`error in ${packageName}`);
+        console.error(e);
+      }
     } else {
       return [];
     }
   });
 
-const PackageParentObject = getObject(ResFeedbackOriginal.Object)
-  .Children.find((o: any) => o.Name.Data === appCode)
-  .Children.find((o: any) => o.Name.Data === "Package");
+const PackageParentObject = getObject(ResFeedbackOriginal.Object);
 
-const filteredTargets = targets.map(({ packageName, units }) => ({
-  packageName,
-  units: units.filter(
-    (unit) => `${packageName}/${unit}`.match(unitFilterRegex) !== null
-  ),
-}));
+if (!PackageParentObject || !PackageParentObject.Children) {
+  throw new Error("PackageParentObject or its Children property is undefined");
+}
+/*
+const PackageObject = PackageParentObject.Children.find((o: any) => o.Name.Data == "Package"); // https://www.geeksforgeeks.org/typescript-array-find-method/
+if (!PackageObject || !PackageObject.Children) {
+  throw new Error("PackageObject or its Children property is undefined");
+}
+
+const Package = PackageObject.Children.find((o: any) => o.Name.Data == "Package");
+console.log(Package)
+if (!Package) {
+  throw new Error("Package is undefined");
+}
+*/
+
+const appcore = PackageParentObject.Children.find(
+  (o: any) => o.Name.Data == appCode
+);
+const Packages = appcore.Children.find((o: any) => o.Name.Data == "Package");
+if (!Packages || !Packages.Children) {
+  throw new Error("Package is undefined");
+}
+const filteredTargets = targets
+  .filter(
+    (target): target is { packageName: string; units: string[] } =>
+      target !== undefined
+  )
+  .map(({ packageName, units }) => ({
+    packageName,
+    units: units.filter(
+      (unit) => `${packageName}/${unit}`.match(unitFilterRegex) !== null
+    ),
+  }));
 
 filteredTargets.forEach(({ packageName, units }) => {
-  const packageObject = PackageParentObject.Children.find(
+  const packageObject = Packages.Children.find(
     (o: any) => o.Name.Data === packageName
   );
   if (packageObject) {
@@ -84,8 +117,11 @@ filteredTargets.forEach(({ packageName, units }) => {
         Object: unitSlot,
         Assets: ResFeedbackOriginal.Assets,
         TypeVersions: ResFeedbackOriginal.TypeVersions,
+        Types: ResFeedbackOriginal.Types,
       };
-
+      if (unit === "SphereMesh") {
+        console.log("the thing is a sphere"); // please run goddammit :sadface:
+      }
       if (unitSlot) {
         const unitObjectYaml = res2yaml(unitObject);
         const prevUnitObjectYaml = readFileSync({
