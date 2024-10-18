@@ -7,7 +7,7 @@ import {
 } from "../../../../../lib/mirage-x/unit/common";
 
 const detail = {
-  code: "ProceduralMesh/BoxMesh",
+  code: "ProceduralMesh/grass",
   propsConfig: {
     name: UnitProp.String("Empty"),
     position: UnitProp.Float3([0, 0, 0]),
